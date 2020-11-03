@@ -1,0 +1,121 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.mein_summary {
+    background-color: #EEF6FE;
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.mein_summary span b {
+    color: #2857A9;
+    font-weight: 800;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.mein_summary .text-right i.fa.fa-pencil-square-o {
+    color: #F47E16;
+    font-size: 16px;
+}
+.mein_summary .text-right i.fa.fa-chevron-up {
+    color: #2857A9;
+    font-size: 13px;
+}
+
+/************* tab css *******/
+
+.mein_summary .nav-tabs {
+    border-bottom: 1px solid #2857A9 !important;
+}
+.mein_summary .with-nav-tabs a {
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 111px !important;
+}
+.tab_all p {
+    color: #2857A9;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.timezone {
+    background-color: #EEF6FE;
+    border: 0.5px solid #2857A9;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.timezone h4{
+	color: #2857A9;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px;
+}
+.timezone p{
+	color: #2857A9;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.timezone_one {
+    background-color: #2857A9;
+    border: 0.5px solid #2857A9;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.timezone_one h4{
+	color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px;
+}
+.timezone_one p{
+	color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+
+}
+.summaryset {
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+}
+.tabmeinsection {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.tab_all {
+    padding-top: 15px;
+}
+.panel-body{
+	    background-color: #F8FBFF;
+       padding: 20px 30px;
+}
+.panel-heading {
+    padding-bottom: 0px;
+}
+li.active {
+    position: relative;
+    border-bottom: 0.5px solid #2857A9;
+}
+.nav-tabs p {
+    background: rgba(40, 87, 169, 0.1);
+    padding: 3px 5px 4px 4px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.nav-tabs>li.active>a:after{
+	 width: 16px;
+    content: " ";
+    background-image: url(../image/Union.png);
+    position: absolute;
+    left: -16px;
+    top: -6px;
+}

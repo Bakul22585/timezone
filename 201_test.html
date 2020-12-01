@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="keywords" content="key, words" />
+  <meta name="description" content="Website description" />
+  <meta name="robots" content="noindex, nofollow" />
+  <!-- change into index, follow -->
+
+  <link href="css/custom.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="node_modules/lato-font/css/lato-font.css" />
+</head>
+
+<body>
+ 
+
+
+  <div class="createClassPopup-section test-popup">
+
+    <div class="test-list">
+
+      <span class="close"></span>
+        <header>
+            <h2>Create Test</h2>
+        </header>  
+        <div class="align-items-stretch d-flex test-block">
+            <div class="col-sm-7">
+                <form action="">
+
+                    <ul>    
+                        <li>
+                            <img src="images/svg/pad.svg" class="file">
+                            <input class="form-control Title" type="text" id="testname" placeholder="Bi-Weekly Test" required>
+                            <label class="form-control-placeholder file2" for="testname">Test Title</label>
+                        </li>
+                        <li>
+                            <img src="images/svg/tag.svg" class="file">
+                            
+                            <input class="form-control Topic" type="text" id="topicname" placeholder="Force and Work" required>
+                            <label class="form-control-placeholder file2" for="topicname">Topic</label>
+                        </li>
+                        <li>
+                            <img src="images/svg/file1.svg" class="file1">
+                            <textarea class="form-control Test"  id="testdescription" placeholder=" All questions are mandatory. There are 30 questions in this paper. Total marks for this test are 100. Student have to score at least 40% to pass this test. Time duration is 3 hours."></textarea>
+                            <label class="form-control-placeholder file2" for="testdescription">Test Instructions</label>
+                        </li>
+                        <li>
+                            <span class="button questions button-outer">Create questions</span>
+                            <span class="button button-outer">Attach Files</span>
+
+                            <ul class="fileuploads201">
+                              <li class="upload">Upload from Device (5 MB max)</li>
+                              <li class="linkpaste">Paste a link</li>
+                              <li class="voicenote">Voice Note</li>
+                              <li class="googlelink">Google Drive</li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </form>
+                 <span class="CREATE1"></span>
+                 <span class="button CREATE button-outer">CREATE TEST</span>
+            </div>
+        
+        <div class="col-sm-5 line">
+            <form action="">
+             
+                <ul class="dateline">
+                    <li class="Start_Date">
+                        <input class="form-control duedate" type="text" id="duedate" placeholder="15, September 2020" required>
+                        <label class="form-control-placeholder" for="duedate"> Test Start Date</label>
+                    </li>
+                    <li class="Start_Date">
+                      <input class="form-control time" type="text" id="time" placeholder=" 02:00 PM" required>
+                      <label class="form-control-placeholder" for="time">Test Start Time</label>
+                  </li>
+                  
+                  <li >
+                      <input class="form-control Duration" type="text" id="maximumMarks" placeholder="90" required>
+                      <label class="form-control-placeholder" for="maximumMarks">Test Duration (in  minutes) </label>
+                  </li>
+
+                    <li class="Start_Date1"> 
+                        <select name="" id="">
+                            <img src="images/svg/Badge.svg" class="Badge">  <option value="">Marks</option>
+                        </select>
+                    </li>
+                 
+                   
+                    <li class="Start_Date1">
+                      <input class="form-control Maximum" type="text" id="maximumMarks1" placeholder="Maximum Marks" required>
+                      <label class="form-control-placeholder" for="maximumMarks1">Maximum Marks</label>
+                  </li>
+                   
+                </ul>
+
+            </form>
+                        
+        </div>
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>

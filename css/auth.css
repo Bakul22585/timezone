@@ -1,0 +1,22 @@
+span.as-link{
+  text-decoration: none;
+  color: #FF7700;
+  cursor: pointer;
+}
+
+span.as-link:active {
+  text-decoration: none;
+  color: #FF7700;
+}
+  
+span.as-link:hover {
+  text-decoration: underline;
+  color: #b35300;
+}
+
+.classDashboard-section .rightSide .userProfile li.login button {
+  background: url(../images/svg/student-login.svg) center no-repeat;
+  padding: 30px 0px 10px 0px;
+  display: block;
+  cursor: pointer;
+}

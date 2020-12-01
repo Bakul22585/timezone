@@ -1,0 +1,230 @@
+span.button {
+  cursor: pointer;
+}
+
+div.customCreateClass {
+  background-color: #0D352D;
+  opacity: 1 !important;
+}
+
+.rc-time-picker-input {
+  font-size: 1rem !important;
+  background-image: none !important;
+  margin-bottom: 0px;
+  padding: 0px 4px 0px 7px;
+  width: 100%;
+  cursor: auto;
+  font-family: 'Lato';
+  border: 1px solid white;
+  -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+div.col-sm-3>div.form-select>span.rc-time-picker {
+  padding-bottom: 0px !important;
+  margin-bottom: 1.75rem;
+}
+
+button.react-datepicker__navigation {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+button.react-datepicker__navigation :hover {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.classDashboard-section .leftSide .classList li .a .dropdown {
+  width: 0.4375rem;
+  height: 1.6875rem;
+  background: url('../images/svg/dot.svg') center no-repeat;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.assignment-time-picker {
+  border: .063rem solid #a5e0da !important;
+  margin-bottom: 1.75rem !important;
+  border-radius: 0.9375rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  background-position: 0.5rem center !important;
+  background-image: url(../images/svg/icon4.svg) !important;
+  background-repeat: no-repeat;
+}
+
+footer.customz {
+  z-index: 9999;
+}
+
+.quickEdit>li:hover {
+  background-color: #E0F2F1;
+}
+
+input[type=checkbox]:checked+label::after {
+  background-size: 100%;
+  background: url(../images/svg/check.svg) center no-repeat;
+  opacity: 1;
+}
+
+ul.fitHeight {
+  height: 81% !important;
+}
+
+.accordion-panel {
+  transition: min-height 300ms;
+}
+
+.scroll-popup {
+  overflow-y: scroll;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.form-control.duedate {
+  font-size: .70rem !important;
+}
+
+.rightSide header {
+  z-index: 10 !important;
+  width: calc(100vw - 20.02rem) !important;
+}
+
+li.leftItem {
+  flex-grow: 8;
+  text-indent: 0 !important;
+  padding: 1% 0 1% 1% !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+li.rightItem {
+  flex-grow: 1;
+}
+
+li.rightItem a {
+  float: right;
+}
+
+div.loader {
+  margin: 0 auto;
+  width: 64px;
+  min-height: 170px;
+}
+
+.detailLink {
+  z-index: 10 !important;
+}
+
+span.download:hover {
+  color: #b35300;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+span.download {
+  color: #FF7700;
+  cursor: pointer;
+}
+
+div.no-attendance-container {
+  width: 394px;
+  margin: 10% auto;
+}
+
+p.no-attendance-text {
+  position: absolute;
+  width: 390px;
+  height: 24px;
+  margin-top: 2rem;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #0D352D;
+}
+
+div.grading-type {
+  padding-left: 5%;
+  font-size: 75%;
+  color: #4DB6AC;
+}
+
+.userType-section .userType .block span:hover, .userType-section .userType .block span:focus {
+  text-decoration: none;
+  border-color: #80cbc4;
+  color: #FF7700 !important;
+}
+
+span.modifySelection {
+  border-color: #80cbc4 !important;
+  color: #FF7700 !important;
+}
+
+.createNewClass {
+  overflow: unset;
+}
+
+.createClassPopup-section .filelist li span {
+  color: #009688 !important;
+  padding: 1rem 2.75rem;
+  padding-left: 0;
+}
+
+.createClassPopup-section .filelist li span.file-download {
+  background: url(../images/svg/download24.svg) left center no-repeat;
+}
+
+/* .createNewClass {
+  overflow: unset !important;
+} */
+
+button.disableVideoCall, button.disableVideoCall:hover {
+  background-color: #C6CFCE;
+  box-shadow: none !important;
+  cursor: not-allowed;
+  background-image: url(/static/media/chat-video.9b7fd6b8.svg);
+  background-position: 90% center;
+  text-transform: none;
+  font-weight: 400;
+  min-width: 0;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 2rem;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+div.downloadApp {
+  width: 480px !important;
+  height: 531px !important;
+  overflow: unset !important;
+}
+
+h2.downloadApp {
+  padding-top: 2.5rem;
+}
+
+button.download-btn {
+  margin-top: 1.3rem;
+}
+
+span.time-spaced {
+  padding: 1rem 0 0.2rem 0 !important;
+}
+
+label.focused {
+  transform: translate(0.8rem, -100%);
+  padding: 0 0.3rem;
+}

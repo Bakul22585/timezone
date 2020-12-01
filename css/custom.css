@@ -3633,7 +3633,229 @@ img.Group_9 {
 
 /**************** 409 screen *************/
 
+.student_manager .header{
+    z-index: 1;
+}
+.student_manager img.Dropdown {
+    top: 26px;
+    left: 200px;
+    position: absolute;
+}
+.student_manager input {
+    margin: 15px 0px;
+}
+.student_manager .All_Classes {
+    padding: 20px 40px;
+}
+.student_manager .Subject_name {
+    width: 100%;
+    display: flex;
+}
+.student_manager .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 10% 14% 13% 20%;
+    padding-left: 15px;
+}
+.student_manager .Classsreen ul {
+    display: grid;
+    border-bottom: 0.5px solid #80CBC4;
+    padding: 15px 0px;
+    grid-template-columns: 20% 10% 14% 13% 20%;
+}
+.student_manager .All_Classes h4 {
+ padding-top: 20px;
+}
+.student_manager .Classsreen1 span {
+    position: absolute;
+    left: 180px;
+}
+.student_manager span.delete_icons {
+    position: absolute;
+    left: 240px;
+}
 /****************************************/
+
+/**************** 441 screen *************/
+.foursonescreen .close {
+    height: 1rem;
+    width: 1rem;
+}
+.foursonescreen h2 {
+    padding-bottom: 2rem;
+    font-size: 24px;
+}
+.foursonescreen h2 {
+      font-size: 16px;
+}
+.foursonescreen .add-question-section1 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    left: 46px;
+}
+.foursonescreen .lasttest p {
+    margin-bottom: 20px;
+}
+.foursonescreen .lasttest span.button.CREATE.button-outer {
+    min-width: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.foursonescreen .createNewClass {
+    padding: 20px 25px 30px 25px;
+      width: 560px;
+      max-height: 540px;
+}
+/****************************************/
+
+/**************** 442 screen *************/
+.foursonescreentwo .add-question-section1 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    left: 46px;
+}
+.foursonescreentwo form {
+    margin: 30px 0px 0px;
+}
+.foursonescreentwo input {
+    margin: 0px;
+}
+ .foursonescreentwo .form-control:focus+.form-control-placeholder {
+    opacity: 1;
+}
+.foursonescreentwo label.form-control-placeholder {
+    opacity: 0;
+}
+.foursonescreentwo .CREATE {
+    margin-top: 50px;
+}
+.foursonescreentwo .createNewClass {
+    padding: 14px 25px 0px 25px;
+    width: 560px;
+    max-height: 540px;
+}
+/****************************************/
+
+/* page: 408 */
+.createClassPopup-section408screen {
+    background-color: #0D352D;
+    z-index: 999;
+    padding: 3.25rem 0;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.createClassPopup-section408screen .createNewClass {
+    background-color: #fff;
+    padding: 14px 25px 40px 25px;
+    width: 600px;
+    position: relative;
+    border-radius: 0.9375rem;
+    overflow: auto;
+    max-height: 540px;
+    text-align: center;
+}
+
+.createClassPopup-section408screen .close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: url(../images/svg/Vector_2.svg) center no-repeat;
+    text-indent: -62499.9375rem;
+    background-size: 100%;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 99;
+    color: #014E3F;
+}
+
+.margin-top-35px {
+    margin-top: 35px;
+}
+
+.margin-top-15px {
+    margin-top: 15px;
+}
+
+.margin-left--15px {
+    margin-left: -15px;
+}
+
+.without-icon-fullbox {
+    background-image: none !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.createClassPopup-section408screen .margin-left--15px label.type {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    text-align: left;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100% !important;
+    position: relative;
+    text-align: left;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group {
+    display: grid;
+    grid-template-columns: 120px 160px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label {
+    padding-left: 0;
+    color: #333;
+    margin-left: 10px;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton input[type=radio]:checked+label {
+    font-weight: 400 !important;
+}
+
+/* page: 408 */
+
 @media only screen and (max-width: 1099px) {
     .meinsection {
         width: 60%;

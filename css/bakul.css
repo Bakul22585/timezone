@@ -1,103 +1,32 @@
-/* page: 408 */
-.createClassPopup-section408screen {
-    background-color: #0D352D;
-    z-index: 999;
-    padding: 3.25rem 0;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-.createClassPopup-section408screen .createNewClass {
-    background-color: #fff;
-    padding: 14px 25px 40px 25px;
-    width: 600px;
-    position: relative;
-    border-radius: 0.9375rem;
-    overflow: auto;
-    max-height: 540px;
-    text-align: center;
-}
-.createClassPopup-section408screen .close {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    background: url(../images/svg/Vector_2.svg) center no-repeat;
-    text-indent: -62499.9375rem;
-    background-size: 100%;
-    cursor: pointer;
-    height: 1.5rem;
-    width: 1.5rem;
-    z-index: 99;
-    color: #014E3F;
-}
-.margin-top-35px {
-    margin-top: 35px;
-}
-.margin-top-15px {
-    margin-top: 15px;
-}
-.margin-left--15px {
-    margin-left: -15px;
-}
-.without-icon-fullbox {
-    background-image: none !important;
-    width: 100%;
-    display: inline-block;
-}
-.createClassPopup-section408screen .margin-left--15px label.type {
-    font-size: 75% !important;
-    transform: translate(0.8rem, -100%);
-    opacity: 1;
-    padding: 0 0.3rem;
-    color: #4DB6AC;
-    text-align: left;
-}
-.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton {
-    background: #ffffff !important;
-    border-radius: 10px;
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
-    max-width: 100% !important;
-    position: relative;
-    text-align: left;
-}
-.createClassPopup-section408screen .margin-left--15px .radio-group {
-    display: grid;
-    grid-template-columns: 120px 160px;
-    margin-left: 15px;
-    margin-top: -15px;
-}
-.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label {
-    padding-left: 0;
+/* page: 440 */
+.Start_Date select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    appearance: none;
+    font-size: 0.875rem;
+    display: block;
+    width: 200px;
     color: #333;
-    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+    border: 0.063rem solid #a5e0da;
+    border-radius: 0.9375rem;
+    padding: 0.75rem 1rem;
 }
-.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label::before {
-    content: "";
+.dateline .Start_Date {
+    width: auto;
+}
+.dateline {
+    margin-top: 45px;
+}
+.sidebarscreen300 label.form-control-placeholder {
+    visibility: visible !important;
+}
+.form-control-placeholder {
     position: absolute;
-    top: calc(50% - 0.6rem);
-    left: 0px;
-    width: 1.125rem;
-    height: 1.125rem;
-    border: 0.063rem solid #DDE5EB;
-    transition: background-size 0.2s ease;
-    border-radius: 100px !important;
+    top: -35px;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    left: -30px;
 }
-.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton label::after {
-    content: "";
-    position: absolute;
-    top: calc(50% - 0.6rem);
-    left: 0;
-    width: 1.125rem;
-    height: 1.125rem;
-    opacity: 0;
-    transition: background-size 0.2s ease;
-    border-radius: 100px !important;
-}
-.createClassPopup-section408screen .margin-left--15px .radio-group .radiobutton input[type=radio]:checked+label {
-    font-weight: 400 !important;
-}
-/* page: 408 */
+/* page: 440 */

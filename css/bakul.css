@@ -1,32 +1,86 @@
-/* page: 440 */
-.Start_Date select {
-    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
-    appearance: none;
-    font-size: 0.875rem;
-    display: block;
-    width: 200px;
-    color: #333;
+/* page: 411 */
+.Delete-Mathematics411 .text-align-center {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+.Delete-Mathematics411 .delete-yes,
+.Delete-Mathematics411 .delete-yes:hover {
+    color: #EB4747 !important;
+    border: 2px solid #EB4747;
+    margin-top: 10px;
+    box-shadow: 0px 0px 0.625rem rgba(237, 108, 13, 0.3);
+    background: #fff;
+}
+.Delete-Mathematics411 .delete-no {
+    color: #fff !important;
+    margin-top: 10px;
+    background: #EB4747;
+    box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
+    border-radius: 15px;
+    border: none;
+}
+.Delete-Mathematics411 .button {
+    box-shadow: 0px 0px 0.625rem rgba(237, 108, 13, 0.3);
+    display: inline-block;
+    max-width: 25rem;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 12rem;
     font-family: "Lato";
     font-size: 1rem;
     margin-bottom: 1.75rem;
-    border: 0.063rem solid #a5e0da;
-    border-radius: 0.9375rem;
-    padding: 0.75rem 1rem;
 }
-.dateline .Start_Date {
-    width: auto;
+/* page: 411 */
+
+/* page: 404 */
+.DeleteClass404 h2 {
+    font-size: 24px;
 }
-.dateline {
-    margin-top: 45px;
+.DeleteClass404 .margin-top-20px {
+    margin-top: 20px;
 }
-.sidebarscreen300 label.form-control-placeholder {
-    visibility: visible !important;
+.DeleteClass404 img.margin-top-30px {
+    margin-top: 30px;
 }
-.form-control-placeholder {
-    position: absolute;
-    top: -35px;
-    padding: 0.75rem 0 0 2.5rem;
-    transition: all 200ms;
-    left: -30px;
+.DeleteClass404 .text-align-center {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
 }
-/* page: 440 */
+.DeleteClass404 .text-align-center.small {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.DeleteClass404 .delete-yes,
+.DeleteClass404 .delete-yes:hover {
+    color: #EB4747 !important;
+    border: 2px solid #EB4747;
+    margin-top: 10px;
+    box-shadow: 0px 0px 0.625rem rgba(237, 108, 13, 0.3);
+    background: #fff;
+}
+.DeleteClass404 .delete-no {
+    color: #fff !important;
+    margin-top: 10px;
+    background: #EB4747;
+    box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
+    border-radius: 15px;
+    border: none;
+}
+.DeleteClass404 .button {
+    box-shadow: 0px 0px 0.625rem rgba(237, 108, 13, 0.3);
+    display: inline-block;
+    max-width: 25rem;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 12rem;
+    font-family: "Lato";
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+}
+/* page: 404 */

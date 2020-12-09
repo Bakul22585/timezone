@@ -3041,6 +3041,21 @@ img.Group_9 {
     top: 5px;
 }
 
+.rightbutton1 button {
+    background: #F47E16;
+    box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
+    border-radius: 10px;
+    padding: 10px 20px 10px 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+}
+
 .rightbutton1 img {
     position: absolute;
     left: 10px;
@@ -3144,6 +3159,21 @@ img.Group_9 {
 }
 
 .rightbutton span {
+    background: #F47E16;
+    box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
+    border-radius: 10px;
+    padding: 10px 20px 10px 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    top: 5px;
+}
+
+.rightbutton button {
     background: #F47E16;
     box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
     border-radius: 10px;
@@ -3708,6 +3738,11 @@ img.Group_9 {
     margin-top: 50px;
     margin-bottom: 0px;
 }
+.foursonescreen .lasttest button.button.CREATE.button-outer {
+    min-width: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
 .foursonescreen .createNewClass {
     padding: 20px 25px 30px 25px;
       width: 560px;
@@ -4224,6 +4259,10 @@ li.redcolor1 {
     flex: 1.4;
 }
 .fivefivetwoscreen .SAve span.button.CREATE.button-outer {
+   flex: 1 1;
+   margin: 0px;
+}
+.fivefivetwoscreen .SAve button.button.CREATE.button-outer {
    flex: 1 1;
    margin: 0px;
 }

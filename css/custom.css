@@ -337,6 +337,7 @@ input[type=checkbox]:checked+label::after {
 button {
     display: inline-block;
     width: auto;
+    cursor: pointer;
 }
 
 button,
@@ -650,6 +651,7 @@ li {
 li {
     padding-bottom: 1.25rem;
     position: relative;
+    cursor: pointer;
 }
 
 .close {
@@ -3315,6 +3317,7 @@ img.Group_9 {
     color: #F47E16;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .buttonCreate {
@@ -4325,6 +4328,7 @@ li.redcolor1 {
       line-height: 24px;
       color: #F47E16;
       padding-left: 20px;
+      cursor: pointer;
 }
 .Periodsection1 img{
      position: absolute;

@@ -218,6 +218,8 @@
 /* page: 414 */
 .screen414 .createNewClass {
     width: 1000px !important;
+    max-height: calc(100vh - 50px);
+    height: calc(100vh - 50px);
 }
 .screen414 .createNewClass h2 {
     text-align: left;

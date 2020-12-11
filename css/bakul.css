@@ -58,10 +58,18 @@
 }
 .screen412 .row .input-div select {
     background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
-    padding-left: 40px;
+    padding-left: 20px;
     color: #0D352D;
     margin: 0px;
     width: 230px;
+}
+.screen412 .row .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.screen412 .row .input-div.select.prefix select {
+    padding-left: 40px;
 }
 .screen412 .row .input-div.radio-div {
     margin-top: -20px;
@@ -138,3 +146,66 @@
     border: 1px solid #ED6B00;
 }
 /* page: 412 */
+/* page: 413 */
+.screen413 .sidebarscreen413 .row ul {
+    margin: 15px 0 0 15px;
+    text-indent: -8px;
+    margin-left: 20px;
+    width: 790px;
+}
+.screen413 .sidebarscreen413 .row ul li::before {
+    content: "";
+    background-color: #009688;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-right: 15px;
+}
+.screen413 .sidebarscreen413 .row ul li .highlight,
+.screen413 .sidebarscreen413 .row p .highlight {
+    color: #FF7700;
+    font-weight: bold;
+    font-size: 18px;
+}
+.screen413 .sidebarscreen413 .row p.Download-Student-Template {
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.screen413 .sidebarscreen413 .row p.Download-Student-Template img {
+    margin-left: 20px;
+    position: absolute;
+}
+.screen413 .sidebarscreen413 .row .input-div {
+    margin-left: 20px;
+}
+
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input {
+    background-color: rgba(255, 119, 0, 0.15);
+    border: none;
+    cursor: pointer;
+    color: transparent;
+}
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::before {
+    content: 'Choose File';
+    color: #FF7700;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    margin-left: 0px;
+}
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::after {
+    content: 'No File chosen';
+    color: #00352D;
+    position: absolute;
+    margin-left: -70px;
+    top: 15px;
+}
+/* page: 413 */

@@ -215,3 +215,36 @@
     margin-top: 0;
 }
 /* page: 413 */
+/* page: 414 */
+.screen414 .createNewClass {
+    width: 1000px !important;
+}
+.screen414 .createNewClass h2 {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.screen414 .createNewClass {
+    padding: 14px 25px 40px 0;
+    border-radius: 0;
+}
+.screen414 .createNewClass table {
+    width: 100%;
+    text-align: left;
+}
+.screen414 .createNewClass table thead tr th {
+    color: #004D40;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #B2DFDB;
+    padding: 15px;
+}
+.screen414 .createNewClass table tbody tr td {
+    color: #00352D;
+    padding: 15px;
+}
+.screen414 .createNewClass table tbody tr:nth-child(even) {
+    background: #EFF8F8;
+}
+/* page: 414 */

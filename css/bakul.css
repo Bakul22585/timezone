@@ -208,4 +208,10 @@
     margin-left: -70px;
     top: 15px;
 }
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.screen413 .sidebarscreen413 .row .upload {
+    margin-top: 0;
+}
 /* page: 413 */

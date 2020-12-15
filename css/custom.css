@@ -2141,15 +2141,18 @@ p.correct {
 
 .createClassPopup-section207screen .createNewClass {
     background-color: #fff;
-    padding: 14px 25px 40px 25px;
+    padding: 24px 25px 0px 25px;
     width: 402px;
     position: relative;
     border-radius: 0.9375rem;
     overflow: auto;
-    max-height: 540px;
+    overflow-y: auto;
+    height: calc(100vh - 426px);
     text-align: center;
 }
-
+.createClassPopup-section207screen .CREATE {
+    margin-bottom: 0px;
+}
 .createClassPopup-section207screen .close {
     position: absolute;
     right: 1rem;
@@ -2263,7 +2266,10 @@ img.Group_9 {
 
 /******************************************************/
 /****************** sreen 208 css ***********************/
-
+ .stopsignalones .createNewClass {
+    overflow-y: auto;
+    height: calc(100vh - 506px);
+}
 .stopsignal {
     width: 57%;
     display: inline-block;
@@ -3220,6 +3226,9 @@ img.Group_9 {
     padding: 0px;
     flex: 1;
 }
+.Classsreen ul li p {
+    margin: 0px;
+}
 
 .Classsreen1 {
     padding-left: 70px !important;
@@ -3283,15 +3292,18 @@ img.Group_9 {
 
 .screen301 .createNewClass {
     background-color: #fff;
-    padding: 14px 70px 40px 70px;
+    padding: 14px 70px 20px 70px;
     width: 396px;
     position: relative;
     border-radius: 0.9375rem;
     overflow: auto;
-    max-height: 540px;
     text-align: center;
+    overflow-y: auto;
+    height: calc(100vh - 345px);
 }
-
+.screen301 .add-question-section1 {
+    bottom: auto;
+}
 .teal301 span {
     position: absolute;
     top: 13px;
@@ -3320,11 +3332,11 @@ img.Group_9 {
     cursor: pointer;
 }
 
-.buttonCreate {
+.screen301 .buttonCreate {
     text-align: center;
     position: relative;
-    top: 110px;
-    margin-bottom: 40px;
+    top: 50px;
+    margin-bottom: 0px;
 }
 
 .buttonCreate span {
@@ -3569,7 +3581,7 @@ img.Group_9 {
 .date-indicetor-1:before {
     content: '';
     position: absolute;
-    background-image: url('../images/svg/Ellipse 64.svg');
+    background-image: url('../images/svg/Ellipse_64.svg');
     width: 7px;
     height: 7px;
     background-repeat: no-repeat;
@@ -3580,7 +3592,7 @@ img.Group_9 {
 .date-indicetor-1:after {
     content: '';
     position: absolute;
-    background-image: url('../images/svg/vector 12.svg');
+    background-image: url('../images/svg/Vector_12.svg');
     width: 7px;
     height: 20px;
     background-repeat: no-repeat;
@@ -3591,7 +3603,7 @@ img.Group_9 {
 .date-indicetor-2:before {
     content: '';
     position: absolute;
-    background-image: url('../images/svg/Ellipse 64.svg');
+    background-image: url('../images/svg/Ellipse_64.svg');
     width: 7px;
     height: 7px;
     background-repeat: no-repeat;
@@ -3602,7 +3614,7 @@ img.Group_9 {
 .date-indicetor-2:after {
     content: '';
     position: absolute;
-    background-image: url('../images/svg/vector 12.svg');
+    background-image: url('../images/svg/Vector_12.svg');
     width: 7px;
     height: 20px;
     background-repeat: no-repeat;
@@ -3748,8 +3760,9 @@ img.Group_9 {
 }
 .foursonescreen .createNewClass {
     padding: 20px 25px 30px 25px;
-      width: 560px;
-      max-height: 540px;
+    width: 560px;
+    height: calc(100vh - 676px);
+    text-align: center;
 }
 /****************************************/
 
@@ -3778,7 +3791,8 @@ img.Group_9 {
 .foursonescreentwo .createNewClass {
     padding: 14px 25px 0px 25px;
     width: 560px;
-    max-height: 540px;
+       height: calc(100vh - 566px);
+       text-align: center;
 }
 .foursonescreentwo label{
         font-family: Lato;
@@ -3975,9 +3989,186 @@ img.Group_9 {
 
 /* page: 411 */
 
+/* page: 412 */
+.screensidebar412 {
+    padding-top: 61px !important;
+}
+
+.screen412 .screenedutinker {
+    overflow-y: auto;
+    height: calc(100vh - 50px);
+}
+
+.screen412 .sidebarscreen412 {
+    padding-left: 30px;
+    border-top: 0.063rem solid #009688;
+}
+
+.screen412 .sidebarscreen412 .indicator {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+
+.screensidebar412 .Modify_Class {
+    color: #00352D;
+    font-weight: bold;
+}
+
+.screen412 .Header {
+    color: #00352D;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 46px;
+}
+
+.screen412 .Header.margin-top-50px {
+    margin-top: 50px;
+}
+
+.screen412 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+    /* justify-content: space-between; */
+    /* width: calc(50vw - -78px); */
+}
+
+.screen412 .row .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.screen412 .row .input-div.email {
+    width: 450px;
+}
+
+.screen412 .row .input-div.address {
+    width: 750px;
+}
+
+.screen412 .row .input-div.select {
+    margin-top: -25px;
+}
+
+.screen412 .row .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.screen412 .row .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    padding-left: 40px;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.screen412 .row .input-div.radio-div {
+    margin-top: -20px;
+    width: 230px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100% !important;
+    position: relative;
+    text-align: left;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label {
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen412 .row .input-div input {
+    padding: 0.75rem 1rem;
+}
+
+.sidebarscreen412 label.form-control-placeholder {
+    visibility: visible;
+}
+
+.screen412 .row .radio-header {
+    color: #4DB6AC;
+    line-height: 16px;
+    width: 100%;
+}
+
+.screen412 .row .radio-btn-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.screen412 .row .radio-btn-group .radio-btn {
+    width: 80px;
+    padding: 5px 20px;
+    border: 1px solid #E0F2F1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.screen412 .row .radio-btn-group .radio-btn.active {
+    background: rgba(237, 107, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ED6B00;
+}
+
+/* page: 412 */
+
+
 /* page: 404 */
 .DeleteClass404 h2 {
     font-size: 24px;
+}
+.DeleteClass404 .createNewClass {
+    overflow-y: auto;
+    height: calc(100vh - 396px);
 }
 
 .DeleteClass404 .margin-top-20px {
@@ -4030,7 +4221,7 @@ img.Group_9 {
     min-width: 12rem;
     font-family: "Lato";
     font-size: 1rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 0px;
     cursor: pointer;
 }
 
@@ -4162,12 +4353,6 @@ li.redcolor1 {
     margin: 0 auto;
     padding-top: 9px;
 }
-.fivefivezeroscreen{
-  height: 3.0rem !important;
-}
-.fivefivezeroscreenone {
-    padding-top: 65px !important;
-}
 /*******************************************/
 .fivefiveonescreen .dateline {
     text-align: left;
@@ -4215,7 +4400,7 @@ li.redcolor1 {
 .Academic_yearsbutton {
     padding: 0px;
     overflow-y: auto;
-    height: calc(82vh - 53px);
+    height: calc(78vh - 53px);
     text-align: center;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -4253,6 +4438,7 @@ li.redcolor1 {
 }
  .fivefivetwoscreen .dateline .Start_Date1 {
      padding: 0px;
+     width: 33%;
 
  }
 .fivefivetwoscreen .SAve p:nth-of-type(1) {
@@ -4292,25 +4478,57 @@ li.redcolor1 {
     background: #EFF8F8;
     border-radius: 10px;
     width: 880px;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
+    display: inline-block;
    
 }
 .Period{
    display: flex;
    flex-wrap: wrap;
 }
-.Period123 ul{
+.fivefivetwoscreen .Period123 ul {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+}
+.fivefivetwoscreen .Period123 ul li input {
+    width: 30%;
+    background-image: unset;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.fivefivetwoscreen .form-control-placeholder {
+    padding: 12px 18px;
+ 
+}
+.fivefivetwoscreen .form-control:focus+.form-control-placeholder,
+.fivefivetwoscreen .form-control:valid+.form-control-placeholder {
+    font-size: 1rem;
+    transform: unset;
+    padding: 12px 18px;
+    color: #00352D;
+    opacity: 0;
+}
+.fivefivetwoscreen .Period123 img.Dropdown {
+    top: 17px;
+    left: 66px;
+    position: absolute;
+}
+.fivefivetwoscreen ul li span {
+    padding-left: 15px;
+    font-weight: 700;
 }
 .Period123 ul li{
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.5px;
- color: #00352D;
- flex: 1;
- font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    font-weight: bold;
+    padding: 0px;
+    width: 50%;
+    float: left;
 }
 .Periodsection h6{
    font-size: 16px;
@@ -4322,6 +4540,7 @@ li.redcolor1 {
 .Periodsection1 {
     padding: 20px 0px;
     position: relative;
+    margin: 30px 0px;
 }
 .Periodsection1 span{
       font-size: 16px;
@@ -4329,6 +4548,8 @@ li.redcolor1 {
       color: #F47E16;
       padding-left: 20px;
       cursor: pointer;
+      float: left;
+      font-weight: 700;
 }
 .Periodsection1 img{
      position: absolute;
@@ -4336,9 +4557,411 @@ li.redcolor1 {
      top: 25px;
      left: -5px;
 }
-
+.fivefivetwoscreen .struture {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.fivefivetwoscreen .struture p {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fivefivetwoscreen .Fee_Components123 .form-control-placeholder {
+    padding: 16px 18px;
+}
+.fivefivetwoscreen .Fee_Components123 .Period123 ul li input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fivefivetwoscreen .perday img.Dropdown {
+       position: unset;
+       padding-left: 7px;
+}
+.fivefivetwoscreen .perday {
+    color: #F47E16;
+}
+.subsectionsPeriod li {
+    margin-top: 15px;
+}
+.subsectionsPeriod li span {
+    font-weight: 400 !important;
+    padding-left: 0px !important;
+    position: relative;
+    width: 130px;
+}
+.Periods span {
+    color: #F47E16;
+    position: relative;
+    font-weight: 700;
+    padding-left: 25px;
+}
+.Periods span img {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+.subsectionsPeriod li span img {
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 0px;
+}
   
 /**********************************************/
+
+/******************415****************************/
+
+.fourdonefivescrenn h2 {
+    font-size: 24px;
+}
+.fourdonefivescrenn .createNewClass {
+    width: 400px;
+    padding: 14px 50px;
+}
+.fourdonefivescrenn .Test_Title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.fourdonefivescrenn .Test_Topic {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #EB5757;
+    letter-spacing: 0.5px;
+}
+.fourdonefivescrenn .stopsignal {
+    width: auto;
+    margin: 10px 0px 0px;
+}
+.fourdonefivescrenn .Clock1 {
+    top: 4px;
+    right: 8px;
+}
+.Bi_Weekly_Test132 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 10px;
+}
+.fourdonefivescrenn .Bi_Weekly_Test,
+.fourdonefivescrenn .Bi_Weekly_Topic {
+    padding: 0px !important;
+}
+.fourdonefivescrenn .thress {
+    width: 100%;
+    text-align: left;
+}
+.fourdonefivescrenn .thress p {
+    margin-bottom: 15px;
+}
+/************************************************/
+
+/* page: 412 */
+.screen412 .screenedutinker {
+    overflow-y: auto;
+    height: calc(100vh - 50px);
+}
+
+.screen412 .sidebarscreen412 {
+    padding-left: 30px;
+}
+
+.screen412 .sidebarscreen412 .indicator {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screensidebar412 .Modify_Class {
+    color: #00352D;
+    font-weight: bold;
+}
+
+.screen412 .Header {
+    color: #00352D;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 46px;
+}
+
+.screen412 .Header.margin-top-50px {
+    margin-top: 25px;
+}
+
+.screen412 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+}
+/* .screen412 .justifycontent{
+    justify-content: space-between;
+    width: calc(50vw - -78px);
+} */
+
+.screen412 .row .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.screen412 .row .input-div.email {
+    width: 450px;
+}
+
+.screen412 .row .input-div.address {
+    width: 750px;
+}
+
+.screen412 .row .input-div.select {
+    margin-top: -25px;
+}
+
+.screen412 .row .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.screen412 .row .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    padding-left: 20px;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.screen412 .row .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen412 .row .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.screen412 .row .input-div.radio-div {
+    margin-top: -20px;
+    width: 230px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100% !important;
+    position: relative;
+    text-align: left;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label {
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen412 .row .input-div.radio-div .radio-group-btn .radiobutton label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen412 .row .input-div input {
+    padding: 0.75rem 1rem;
+}
+
+.sidebarscreen412 label.form-control-placeholder {
+    visibility: visible;
+}
+
+.screen412 .row .radio-header {
+    color: #4DB6AC;
+    line-height: 16px;
+    width: 100%;
+}
+
+.screen412 .row .radio-btn-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.screen412 .row .radio-btn-group .radio-btn {
+    width: 80px;
+    padding: 5px 20px;
+    border: 1px solid #E0F2F1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.screen412 .row .radio-btn-group .radio-btn.active {
+    background: rgba(237, 107, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ED6B00;
+}
+
+/* page: 412 */
+/* page: 413 */
+.screen413 .sidebarscreen413 .row ul {
+    margin: 15px 0 0 15px;
+    text-indent: -8px;
+    margin-left: 20px;
+    width: 790px;
+}
+
+.screen413 .sidebarscreen413 .row ul li::before {
+    content: "";
+    background-color: #009688;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-right: 15px;
+}
+
+.screen413 .sidebarscreen413 .row ul li .highlight,
+.screen413 .sidebarscreen413 .row p .highlight {
+    color: #FF7700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.screen413 .sidebarscreen413 .row p.Download-Student-Template {
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.screen413 .sidebarscreen413 .row p.Download-Student-Template img {
+    margin-left: 20px;
+    position: absolute;
+}
+
+.screen413 .sidebarscreen413 .row .input-div {
+    margin-left: 20px;
+}
+
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input {
+    background-color: rgba(255, 119, 0, 0.15);
+    border: none;
+    cursor: pointer;
+    color: transparent;
+}
+
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::before {
+    content: 'Choose File';
+    color: #FF7700;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    margin-left: 0px;
+}
+
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::after {
+    content: 'No File chosen';
+    color: #00352D;
+    position: absolute;
+    margin-left: -70px;
+    top: 15px;
+}
+
+.screen413 .sidebarscreen413 .row .input-div .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.screen413 .sidebarscreen413 .row .upload {
+    margin-top: 0;
+}
+
+/* page: 413 */
+/* page: 414 */
+.screen414 .createNewClass {
+    width: 1000px !important;
+    max-height: calc(100vh - 50px);
+    height: calc(100vh - 50px);
+}
+
+.screen414 .createNewClass h2 {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.screen414 .createNewClass {
+    padding: 14px 25px 40px 0;
+    border-radius: 0;
+}
+
+.screen414 .createNewClass table {
+    width: 100%;
+    text-align: left;
+}
+
+.screen414 .createNewClass table thead tr th {
+    color: #004D40;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #B2DFDB;
+    padding: 15px;
+}
+
+.screen414 .createNewClass table tbody tr td {
+    color: #00352D;
+    padding: 15px;
+}
+
+.screen414 .createNewClass table tbody tr:nth-child(even) {
+    background: #EFF8F8;
+}
+
+/* page: 414 */
+
+/* page: 416 */
+
+.scrennno416 ul li {
+    font-weight: 500;
+}
 
 /****************************************.fivefiveonescreen .dateline {
     text-align: left;

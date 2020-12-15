@@ -1,0 +1,130 @@
+/************ page 553 *****************/
+.screen553 .Fee-Structure .contant-body .Btn-Save {
+    display: flex;
+    justify-content: center;
+}
+.screen553 {
+    padding-left: 0px;
+}
+.screen553 .SAve {
+    padding-left: 30px;
+}
+.screen553 .Fee-Structure .contant-body {
+    margin-top: 42px;
+}
+.screen553 .Fee-Structure .contant-body .row {
+    margin-left: 0px;
+    padding-left: 30px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div.select select[name="academicyear"] {
+    width: 170px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div select,
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue .input-div.select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    padding-left: 20px;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div.select.prefix select {
+    padding-left: 40px;
+}
+.screen553 .Fee-Structure .contant-body .row .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.screen553 .Fee-Structure .contant-body .full-width {
+    background: #E0F2F1;
+    width: 100%;
+    margin-top: 22px;
+}
+.screen553 .Fee-Structure .contant-body .full-width.value {
+    background: #EFF8F8;
+    width: 100%;
+    margin-top: 0px;
+}
+.screen553 .Fee-Structure .contant-body .full-width label {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding: 16px 0 0 30px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    margin-left: 15px;
+    padding-bottom: 16px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    margin-left: 45px;
+    padding-bottom: 16px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue {
+    padding-top: 16px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction {
+    display: inherit;
+    position: relative;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .switch {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: 5px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .switch.on {
+    margin-left: 10px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .text {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .delete {
+    position: absolute;
+    left: 130px;
+    top: 10px;
+    cursor: pointer;
+}
+.screen553 .Fee-Structure .contant-body .full-width .fields-value::before {
+    content: '';
+    border-bottom: 0.5px solid #80CBC4;
+    position: absolute;
+    width: 58%;
+    margin-top: 54px;
+}
+/* .screen553 .Fee-Structure .contant-body .full-width .fields-value:last-child::before {
+    content: '';
+    border-bottom: 0.5px solid #80CBC4;
+    position: absolute;
+    width: 58%;
+    margin-top: 54px;
+} */
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue .input-div input[type="text"] {
+    width: 150px;
+    margin-top: -10px;
+    padding-left: 15px;
+}
+.screen553 .Fee-Structure .contant-body .Periodsection1 {
+    margin-left: 45px;
+}
+/************ page 553 *****************/

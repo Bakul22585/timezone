@@ -4351,7 +4351,7 @@ li.redcolor1 {
     line-height: 28px;
     color: #00352D;
     margin: 0 auto;
-    padding-top: 9px;
+    padding-top: 15px;
 }
 /*******************************************/
 .fivefiveonescreen .dateline {
@@ -4478,7 +4478,7 @@ li.redcolor1 {
     background: #EFF8F8;
     border-radius: 10px;
     width: 880px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px;
     display: inline-block;
    
 }
@@ -4499,7 +4499,7 @@ li.redcolor1 {
     padding-right: 0px;
     display: inline-block;
 }
-.fivefivetwoscreen .form-control-placeholder {
+.fivefivetwoscreen .Dropdowninputbox .form-control-placeholder {
     padding: 12px 18px;
  
 }
@@ -4512,20 +4512,27 @@ li.redcolor1 {
     opacity: 0;
 }
 .fivefivetwoscreen .Period123 img.Dropdown {
-    top: 17px;
-    left: 66px;
+    top: 13px;
+    left: 96px;
     position: absolute;
+}
+.fivefivetwoscreen .form-control-placeholder {
+    padding: 0px 15px;
+}
+.fivefivetwoscreen .inputesvalue input {
+    padding-top: 6px !important;
+    padding-bottom: 12px !important;
 }
 .fivefivetwoscreen ul li span {
     padding-left: 15px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .Period123 ul li{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #00352D;
-    font-weight: bold;
+    font-weight: 500;
     padding: 0px;
     width: 50%;
     float: left;
@@ -4594,17 +4601,24 @@ li.redcolor1 {
     position: relative;
     font-weight: 700;
     padding-left: 25px;
+    top: 10px;
+    cursor: pointer;
 }
 .Periods span img {
     position: absolute;
     top: 2px;
     left: 0px;
 }
-.subsectionsPeriod li span img {
+.subsectionsPeriod .Period span img {
     position: absolute;
     top: auto;
     left: auto;
     right: 0px;
+}
+.Period123 .Period select {
+    width: 30%;
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    background: #fff !important;
 }
   
 /**********************************************/
@@ -4962,17 +4976,312 @@ li.redcolor1 {
 .scrennno416 ul li {
     font-weight: 500;
 }
+/******************504 screen****************************/
+.screenno504 .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 20% 15% 15% 15% 15%;
+    padding-left: 15px;
+}
+.screenno504 .Classsreen ul {
+    grid-template-columns: 15% 21% 16% 15% 15% 10%;
+}
+.screenno504 ul .view {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screenno504 form ul li .allClasses {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+     padding-left: 40px;
+}
+.screenno504 form ul li select {
+   background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+    
+}
+.screenno504 .dateline .Start_Date {
+    width: 23.80%;
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0px;
+       
+}
+.screenno504 .dateline .Start_Date label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.screenno504 .form-control:focus+.form-control-placeholder {
+        padding: 0px !important;
+}
+.screenno504 .Modify_Class {
+    color: #00352D;
+    font-weight: 700;
+}
+.screenno504 span.groupedimages {
+    position: absolute;
+    left: -190px;
+    top: 15px;
+}
+.screenno504 input[type=text].duedate {
+    background-image: url(../images/svg/Combined_Shape.svg) !important;
+}
+.screenno504 .CREATE{
+    float: right;
+    margin: 0px;
+}
+.screenno504 .sidebarscreen300 p {
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+.screenno504 input#duedate {
+    margin-top: 14px;
+}
+/********************************************************/
 
-/****************************************.fivefiveonescreen .dateline {
+/******************558 screen****************************/
+
+.screenmein558 .createNewClass {
+    padding: 14px 50px 0px 25px;
+    width: 560px;
+    height: calc(100vh - 626px);
+}
+.screenmein558 .dateline .Start_Date1 {
+    width: 33%;
+    display: inline-block;
+    margin-right: 16px;
+}
+.screenmein558 select {
+    padding-left: 20px;
+    
+}
+.screenmein558 form {
+    margin: 15px 0px 0px;
+}
+
+/********************************************************/
+
+/************ page 553 *****************/
+.screen553 .Fee-Structure .contant-body .Btn-Save {
+    display: flex;
+    justify-content: center;
+}
+
+.screen553 {
+    padding-left: 0px;
+}
+
+.screen553 .SAve {
+    padding-left: 30px;
+}
+
+.screen553 .Fee-Structure .contant-body {
+    margin-top: 42px;
+}
+
+.screen553 .Fee-Structure .contant-body .row {
+    margin-left: 0px;
+    padding-left: 30px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div.select select[name="academicyear"] {
+    width: 170px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
     text-align: left;
-}******/
+    padding: 5px 8px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div select,
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue .input-div.select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    padding-left: 20px;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.screen553 .Fee-Structure .contant-body .row .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width {
+    background: #E0F2F1;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width.value {
+    background: #EFF8F8;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width label {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding: 16px 0 0 30px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 15px;
+    padding-bottom: 16px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 45px;
+    padding-bottom: 16px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue {
+    padding-top: 16px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction {
+    display: inherit;
+    position: relative;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .switch {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: 5px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .switch.on {
+    margin-left: 10px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .text {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    font-weight: 800;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue.MandatoryAction .delete {
+    position: absolute;
+    left: 130px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value::before {
+    content: '';
+    border-bottom: 0.5px solid #80CBC4;
+    position: absolute;
+    width: 59%;
+    margin-top: 54px;
+}
+
+.screen553 .Fee-Structure .contant-body .full-width .fields-value .FieldValue .input-div input[type="text"] {
+    width: 150px;
+    
+    padding-left: 15px;
+}
+
+.screen553 .Fee-Structure .contant-body .Periodsection1 {
+    margin-left: 45px;
+}
+.screen553 .FieldValue .input-div.select select#fee-type {
+        background-color:#fff !important;
+        background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+}
+.inputfiledsvalues::before {
+    content: '';
+    border-bottom: 0px solid #80CBC4 !important;
+}
+.inputfiledsvalues .input-div.select{
+        padding-left: 0px !important;
+}
+/************ page 553 *****************/
+.screen553{
+    box-shadow: unset !important;
+}
+.Studentdeliver {
+    margin-top: 30px;
+    width: calc(100vw - 41rem);
+}
+.Studentdeliver p {
+    text-align: right;
+}
+/**************************************/
+
+/************ page 556 *****************/
+.screen556 ul li .add-question-section1 span {
+    padding-left: 0px;
+    font-weight: 700;
+}
+.screen556 ul li .perday,
+.screen556 ul li .perdayones {
+    padding-left: 15px;
+    font-weight: 500;
+}
+.screen556 .Period123 img.Dropdownones {
+    top: 6px;
+    left: 31px;
+    position: absolute;
+}
+.screen556 .persantage {
+    font-weight: bold !important;
+}
+ img.dollersinge {
+    position: absolute;
+    top: 22px;
+    left: 4px;
+}
+.screen556 .struture {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.screen556 .Period123 ul li {
+  
+    font-weight: 400;
+   
+}
+/**************************************/
+/************ page 553 *****************/
 @media only screen and (max-width: 1099px) {
     .meinsection {
         width: 60%;
     }
 
 }
-
 @media only screen and (max-width: 991px) {
     .account-section214 .account--form {
         padding: 30px 30px;

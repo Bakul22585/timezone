@@ -1,0 +1,157 @@
+/*************** page 475  ********************/
+.teal301 label.form-control {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    position: absolute;
+    top: 0;
+}
+.create-class {
+    top: 30px !important;
+}
+/*************** page 475  ********************/
+
+/*************** page 416  ********************/
+.Student-Course-Allocation .filter-form {
+    display: flex;
+    margin-top: 45px;
+}
+.Student-Course-Allocation .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+.Student-Course-Allocation .filter-form .input-div.select {
+    margin-top: -25px;
+}
+.Student-Course-Allocation .filter-form .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.Student-Course-Allocation .filter-form .input-div.select.prefix select {
+    padding-left: 40px;
+}
+.Student-Course-Allocation .filter-form .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+.Student-Course-Allocation .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.Student-Course-Allocation .contant-body {
+    margin-top: 42px;
+    margin-left: -30px;
+}
+.Student-Course-Allocation .contant-body .full-width {
+    background: #E0F2F1;
+    width: 100%;
+    margin-top: 22px;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section {
+    padding: 0 40px;
+    position: relative;
+}
+.Student-Course-Allocation .contant-body .full-width label {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding: 16px 0 0 0;
+}
+.Student-Course-Allocation .contant-body .full-width .top-title-btn {
+    display: flex;
+    position: relative;
+}
+.Student-Course-Allocation .contant-body .full-width .top-title-btn button {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .headers {
+    display: grid;
+    grid-template-columns: 22% 48% 30%;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .headers .header {
+    color: #00352D;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 0;
+    border: 0.5px solid #80CBC4;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .headers .header:last-child {
+    border-left: none;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers {
+    display: grid;
+    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10%;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border {
+    border-left: 0.5px solid #80CBC4;
+    font-weight: normal;
+    font-size: 14px;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border:last-child {
+    border-right: 0.5px solid #80CBC4;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header:nth-child(1),
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header:nth-child(2) {
+    padding: 15px;
+}
+.Student-Course-Allocation .contant-body .value-full-width {
+    background: #F7FBFB;
+    width: 100%;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section {
+    padding: 0 40px;
+    position: relative;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers {
+    display: grid;
+    grid-template-columns: 11% 11.1% 12% 12% 12% 11.9% 10% 10% 10%;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data {
+    padding: 15px;
+    position: relative;
+    border-bottom: 0.5px solid #80CBC4;
+    border-right: 0.5px solid #80CBC4;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 40px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5rem);
+    left: 41px;
+    width: 1.125rem;
+    height: 1.125rem;
+    transition: background-size 0.2s ease;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control input[type=checkbox]:checked+label::after {
+    background-size: 100%;
+    background: url(../images/svg/check.svg) center no-repeat;
+}
+/*************** page 416  ********************/

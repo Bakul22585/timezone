@@ -52,6 +52,7 @@
 .Student-Course-Allocation .contant-body {
     margin-top: 42px;
     margin-left: -30px;
+    margin-bottom: 30px;
 }
 .Student-Course-Allocation .contant-body .full-width {
     background: #E0F2F1;
@@ -76,7 +77,12 @@
 .Student-Course-Allocation .contant-body .full-width .top-title-btn button {
     position: absolute;
     right: 0px;
-    top: 10px;
+}
+.Student-Course-Allocation .contant-body .full-width .top-title-btn button.custom-btn {
+    width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    padding-left: 15px;
 }
 .Student-Course-Allocation .contant-body .full-width .padding-section .headers {
     display: grid;
@@ -99,12 +105,26 @@
 }
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers {
     display: grid;
-    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10%;
+    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10.1%;
 }
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border {
     border-left: 0.5px solid #80CBC4;
     font-weight: normal;
     font-size: 14px;
+    overflow: auto;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control {
+    position: relative;
+    padding: 10px;
+    margin: 0 10px;
+}
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control label {
+    /* border-left: 0.5px solid #80CBC4; */
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -15px;
+    line-height: 18px;
 }
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border:last-child {
     border-right: 0.5px solid #80CBC4;
@@ -131,6 +151,10 @@
     border-bottom: 0.5px solid #80CBC4;
     border-right: 0.5px solid #80CBC4;
 }
+.Student-Course-Allocation .contant-body .sub-headers .sub-header.border .control label::after { 
+    top: calc(50% - 0.5rem);
+    left: 1px;
+}
 .Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::before {
     content: "";
     position: absolute;
@@ -153,5 +177,27 @@
 .Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control input[type=checkbox]:checked+label::after {
     background-size: 100%;
     background: url(../images/svg/check.svg) center no-repeat;
+}
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data:nth-child(1) {
+    text-align: center;
+}
+.Student-Course-Allocation .contant-body .loader-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.Student-Course-Allocation .contant-body .loader-div .loader {
+    width: 24px;
+    height: 24px;
+    border: 2px dashed #009688;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.Student-Course-Allocation .contant-body .loader-div .loader-text {
+    color: #000000;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 }
 /*************** page 416  ********************/

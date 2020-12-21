@@ -720,6 +720,7 @@ img {
 }
 
 .form-control:focus+.form-control-placeholder,
+.form-control:active+.form-control-placeholder,
 .form-control:valid+.form-control-placeholder {
     font-size: 75% !important;
     transform: translate(0.8rem, -100%);
@@ -5214,7 +5215,6 @@ li.redcolor1 {
     position: absolute;
     top: 0;
 }
-
 .create-class {
     top: 30px !important;
 }
@@ -5270,6 +5270,7 @@ li.redcolor1 {
 .Student-Course-Allocation .contant-body {
     margin-top: 42px;
     margin-left: -30px;
+    margin-bottom: 30px;
 }
 
 .Student-Course-Allocation .contant-body .full-width {
@@ -5299,7 +5300,13 @@ li.redcolor1 {
 .Student-Course-Allocation .contant-body .full-width .top-title-btn button {
     position: absolute;
     right: 0px;
-    top: 10px;
+}
+
+.Student-Course-Allocation .contant-body .full-width .top-title-btn button.custom-btn {
+    width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    padding-left: 15px;
 }
 
 .Student-Course-Allocation .contant-body .full-width .padding-section .headers {
@@ -5326,13 +5333,29 @@ li.redcolor1 {
 
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers {
     display: grid;
-    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10%;
+    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10.1%;
 }
 
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border {
     border-left: 0.5px solid #80CBC4;
     font-weight: normal;
     font-size: 14px;
+    overflow: auto;
+}
+
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control {
+    position: relative;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control label {
+    /* border-left: 0.5px solid #80CBC4; */
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -15px;
+    line-height: 18px;
 }
 
 .Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border:last-child {
@@ -5364,13 +5387,19 @@ li.redcolor1 {
     position: relative;
     border-bottom: 0.5px solid #80CBC4;
     border-right: 0.5px solid #80CBC4;
+    overflow: auto;
+}
+
+.Student-Course-Allocation .contant-body .sub-headers .sub-header.border .control label::after {
+    top: calc(50% - 0.5rem);
+    left: 1px;
 }
 
 .Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::before {
     content: "";
     position: absolute;
     top: calc(50% - 0.5625rem);
-    left: 40px;
+    left: 40.5%;
     width: 1.125rem;
     height: 1.125rem;
     border: 0.063rem solid #DDE5EB;
@@ -5381,7 +5410,7 @@ li.redcolor1 {
     content: "";
     position: absolute;
     top: calc(50% - 0.5rem);
-    left: 41px;
+    left: 40.5%;
     width: 1.125rem;
     height: 1.125rem;
     transition: background-size 0.2s ease;
@@ -5392,7 +5421,53 @@ li.redcolor1 {
     background: url(../images/svg/check.svg) center no-repeat;
 }
 
+.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data:nth-child(1) {
+    text-align: center;
+}
+
+.Student-Course-Allocation .contant-body .loader-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.Student-Course-Allocation .contant-body .loader-div .loader {
+    width: 24px;
+    height: 24px;
+    border: 2px dashed #009688;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Student-Course-Allocation .contant-body .loader-div .loader-text {
+    color: #000000;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 /*************** page 416  ********************/
+/*************** page 506  ********************/
+
+.screen506 form {
+    margin-top: 0px;
+}
+.screen506 .CREATE {
+    margin-top: 100px;
+}
+.screen506 .teal301 label.form-control{
+    padding: 5px 0px !important;
+}
+.screen506 input {
+    background-image: url(../images/svg/dollersinge.svg) !important;
+    background-position: 1rem center;
+}
+.screen506 .add-question-section1 span {
+    font-weight: 700;
+}
+
+/***********************************/
 
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {

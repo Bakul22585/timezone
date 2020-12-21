@@ -201,3 +201,130 @@
     line-height: 24px;
 }
 /*************** page 416  ********************/
+/*************** page 469  ********************/
+.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
+    grid-template-columns: 10% 40% 40%;
+}
+.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
+    border-right: none;
+}
+.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header:last-child {
+    border-right: 0.5px solid #80CBC4;
+}
+.Student-Course-Allocation.empty-table .contant-body .empty-table-note {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+}
+.Student-Course-Allocation.empty-table .contant-body .empty-table-note label {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+
+/*************** page 469  ********************/
+
+/*************** page 417  ********************/
+.screen417 .gender-margin-bottom {
+    margin-bottom: 60px;
+}
+.screen417 .row.radio-margin-bottom {
+    margin-bottom: 30px;
+}
+.screen417 .row .input-div.radio-div p {
+    color: #009688;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+.screen417 .row .input-div.radio-div .radio-group-btn {
+    grid-template-columns: 120px 160px;
+}
+/*************** page 417  ********************/
+/*************** page 470  ********************/
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
+    grid-template-columns: 15% 30% 20% 25% 10%;
+    width: 75%;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
+    color: #0D352D;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn {
+    margin-bottom: 50px;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn {
+    display: grid;
+    grid-template-columns: 130px 230px;
+    position: absolute;
+    top: 20px;
+    left: -40px;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton {
+    background: transparent;
+    position: relative;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label {
+    padding: 16px 0 0 10px;
+    font-weight: normal;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label::before {
+    top: calc(50% - 0rem);
+    background-color: #fff !important;
+}
+.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label::after {
+    top: calc(50% - 0rem);
+}
+/*************** page 470  ********************/
+/*************** page 419  ********************/
+.screen419 .contant-body .value-full-width .padding-section .values {
+    display: grid;
+    grid-template-columns: 15% 30% 20% 25% 10%;
+    width: 75%;
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen419 .contant-body .value-full-width .padding-section .values .value-data .table-view {
+    color: #F47E16;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+/*************** page 419  ********************/
+/*************** page 421  ********************/
+.screen421 .margin-bottom {
+    margin-bottom: 15px;
+}
+.screen421 .input-div.select.prefix {
+    position: relative;
+}
+.screen421 .input-div.select.prefix label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.screen421 .input-div.select.prefix select {
+    padding-left: 40px;
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+}
+.screen421 .input-div.select.prefix .prefix-icon {
+    position: absolute;
+    top: 38px;
+    right: 220px;
+}
+/*************** page 421  ********************/

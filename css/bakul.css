@@ -328,3 +328,138 @@
     right: 220px;
 }
 /*************** page 421  ********************/
+/*************** page 420  ********************/
+.screen420 .indicator {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.screen420 .indicator p {
+    color: #F47E16;
+}
+.screen420 .addstaff {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen420 .contant-body .full-width .padding-section {
+    padding-left: 30px;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn {
+    margin: 15px 0 20px 0;
+    display: flex;
+    padding-left: 40px;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn img {
+    margin-top: -15px;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn .circal {
+    margin-left: 25px;
+    width: 36px;
+    height: 36px;
+    background: #26A69A;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn .name {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 30px;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn .phone-number {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #00352D;
+}
+.screen420 .contant-body .full-width .padding-section .top-title-btn .view-edit-profile-link {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    margin-left: 20px;
+}
+.screen420 .contant-body .full-width .hr-color {
+    margin-bottom: 20px;
+    border: 0.5px solid #009688;
+}
+.screen420 .contant-body .full-width .padding-section .tabs {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen420 .contant-body .full-width .padding-section .tabs span {
+    position: relative;
+    padding: 40px;
+    cursor: pointer;
+}
+.screen420 .contant-body .full-width .padding-section .tabs span::after {
+    content: '';
+    width: 110%;
+    height: 5px;
+    background: #EAEAEA;
+    position: absolute;
+    left: 0;
+    top: 65px;
+}
+.screen420 .contant-body .full-width .padding-section .tabs span.active::after {
+    background: #F47E16;
+    
+}
+.screen420 .contant-body .full-width .table-header {
+    display: grid;
+    grid-template-columns: 10% 20% 15% 30%;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.screen420 .contant-body .full-width .table-header .fields {
+    padding: 15px 0;
+}
+.screen420 .contant-body .full-width .table-header .fields:last-child {
+    padding: 0px;
+}
+.screen420 .contant-body .full-width .table-header .fields:last-child button {
+    display: flex;
+    align-items: center;
+}
+.screen420 .contant-body .full-width .table-header .fields:last-child button img {
+    margin-right: 10px;
+}
+.screen420 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 10% 20% 15% 30%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    background: rgba(239, 248, 248, 0.5);
+}
+.screen420 .contant-body .full-width .table-value .value {
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen420 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+}
+.screen420 .contant-body .full-width .table-value .value:last-child img {
+    cursor: pointer;
+}
+.screen420 .contant-body .full-width .table-value .value:last-child img:last-child {
+    margin-left: 25px;
+}
+/*************** page 420  ********************/

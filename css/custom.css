@@ -4762,6 +4762,7 @@ li.redcolor1 {
     padding-bottom: 20px;
     font-size: 20px;
     padding-left: 20px;
+    border-bottom: 1px solid #B2DFDB;
 }
 
 .screen414 .createNewClass {
@@ -5962,6 +5963,452 @@ li.redcolor1 {
 }
 
 /*************** page 420  ********************/
+
+/*************** page 505  ********************/
+.screen505 .indicator {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+    flex: 2;
+}
+
+.screen505 .indicator p {
+    color: #F47E16;
+}
+
+.screen505 .addstaff {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.screen505 .contant-body .full-width .padding-section {
+    padding-left: 30px;
+}
+
+.screen505 .topmeinsection .padding-section .top-title-btn {
+    margin: 15px 0 20px 0;
+    display: flex;
+    padding-left: 40px;
+}
+
+.screen505 .topmeinsection .padding-section .top-title-btn img {
+    margin-top: -15px;
+}
+
+.screen505 .topmeinsection .padding-section .top-title-btn .circal {
+    margin-left: 25px;
+    width: 36px;
+    height: 36px;
+    background: #26A69A;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.screen505 .topmeinsection .padding-section .top-title-btn .name {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 30px;
+}
+
+.screen505 .contant-body .full-width .padding-section .top-title-btn .phone-number {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #00352D;
+}
+.screen505 .middelsection .contant-body .full-width .table-value .value:last-child {
+    cursor: inherit;
+}
+
+.screen505 .topmeinsection .padding-section .top-title-btn .view-edit-profile-link {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #009688;
+    margin-left: 20px;
+}
+.screen505 .topmeinsection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen505 .topmeinsection .siblings_including12 {
+    background: #E0F2F1;
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin-right: 15px;
+    flex: 1;
+}
+.screen505 .topmeinsection .siblings_including {
+    border-bottom: 1px solid #009688;
+}
+.screen505 .topmeinsection .siblings_including .siblings_includingones {
+    padding: 15px;
+}
+.screen505 .Sibling_1 ul li:nth-child(even) {
+    text-align: right;
+}
+.screen505 .Sibling_1 ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+}
+.screen505 .Sibling_1 ul li {
+    font-weight: 700;
+}
+.screen505 .topmeinsection .siblings_including p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.screen505 .middelsection .contant-body .full-width .table-header {
+    border-radius: 15px 15px 0px 0px;
+    background: #B2DFDB;
+}
+.screen505 .middelsection {
+    width: calc(28vw);
+    margin-left: 150px;
+    margin-top: -230px;
+    background: #EFF8F8;
+    border-radius: 15px;
+}
+.screen505 .middelsection .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.screen505 .middelsection .freerecords button {
+    flex: 0;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 1px;
+    min-width: 140px !important;
+    letter-spacing: 0.5px;
+}
+.screen505 .middelsection .contant-body .full-width .table-value {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background:rgba(239, 248, 248, 1);
+}
+.screen505 .middelsection .contant-body .full-width .table-value:last-child .value {
+    border-bottom: none;
+}
+.screen505 .topmeinsection .siblings_including h6{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: #00352D;
+     text-align: right;
+}
+.screen505 .contant-body .full-width .hr-color {
+    margin-bottom: 20px;
+    border: 0.5px solid #009688;
+}
+
+.screen505 .contant-body .full-width .padding-section .tabs {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.screen505 .contant-body .full-width .padding-section .tabs span {
+    position: relative;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.screen505 .contant-body .full-width .padding-section .tabs span::after {
+    content: '';
+    width: 110%;
+    height: 5px;
+    background: #EAEAEA;
+    position: absolute;
+    left: 0;
+    top: 65px;
+}
+
+.screen505 .contant-body .full-width .padding-section .tabs span.active::after {
+    background: #F47E16;
+
+}
+
+.screen505 .contant-body .full-width .table-header {
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.screen505 .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+}
+.screen505 .middelsection .freerecords h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding-bottom: 10px;
+    flex: 1;
+}
+.screen505 .middelsection .freerecords {
+    display: flex;
+}
+.screen505 .middelsection .discountsection .table-header {
+    padding: 15px 0px 0px !important;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+.screen505 .middelsection .discountsection .freerecords h2 {
+    padding-left: 30px;
+}
+
+.screen505 .contant-body .full-width .table-header .fields {
+    padding: 15px 0;
+}
+
+.screen505 .contant-body .full-width .table-value .value:last-child {
+  cursor: pointer;
+}
+
+.screen505 .contant-body .full-width .table-header .fields:last-child button {
+    display: flex;
+    align-items: center;
+}
+.screen505 span.Pendingones {
+    color: #EB5757;
+    padding-left: 35px;
+}
+.screen505 span.Pendingones1 {
+    color: #009688;
+    padding-left: 35px;
+}
+.screen505 span.Mark_Paid {
+    padding-left: 10px;
+    color: #F47E16;
+    font-weight: 700;
+}
+.screen505 img.Edit_2ones {
+    position: absolute;
+}
+
+.screen505 .contant-body .full-width .table-header .fields:last-child button img {
+    margin-right: 10px;
+}
+
+.screen505 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    background: rgba(239, 248, 248, 0.5);
+}
+
+.screen505 .contant-body .full-width .table-value .value {
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen505 .middelsection .contant-body .full-width .table-value .value {
+    padding: 15px 0;
+    border-bottom: none;
+}
+.screen505 .middelsection .discountsection .table-value {
+    border-bottom: none !important;
+}
+.screen505 .middelsection .contant-body .full-width .table-value {
+    border-bottom: 0.5px solid #80CBC4;
+}
+
+.screen505 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+}
+
+.screen505 .contant-body .full-width .table-value .value:last-child img {
+    cursor: pointer;
+}
+
+.screen505 .contant-body .full-width .table-value .value:last-child img:last-child {
+    margin-left: 25px;
+}
+
+/*************** page 505  ********************/
+
+/*************** page Add Specific Discount Percentage  ********************/
+.AddSpecificDiscountPercentage .createNewClass {
+    width: 400px;
+}
+
+.AddSpecificDiscountPercentage .createNewClass .header-title {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.AddSpecificDiscountPercentage .radio-group .radiobutton input[type=radio]:checked+label.DiscountType {
+    font-weight: 700 !important;
+}
+
+.AddSpecificDiscountPercentage .radio-group .radiobutton.DiscountType {
+    padding: 10px 20px;
+}
+
+.AddSpecificDiscountPercentage .margin-left-0 {
+    margin-left: 0px;
+}
+
+.AddSpecificDiscountPercentage .without-icon-fullbox {
+    padding-left: 15px;
+}
+
+.AddSpecificDiscountPercentage .form-control-placeholder {
+    left: 0;
+}
+
+.AddSpecificDiscountPercentage .suffix-img-div {
+    position: relative;
+}
+
+.AddSpecificDiscountPercentage .suffix-img-div.fix-width {
+    max-width: 115px;
+    margin-top: 20px;
+}
+
+.AddSpecificDiscountPercentage .suffix-img {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+/*************** page AddSpecificDiscountPercentage  ********************/
+/*************** page Add Specific Discount Absolute  ********************/
+.AddSpecificDiscountAbsolute .createNewClass {
+    width: 400px;
+}
+
+.AddSpecificDiscountAbsolute .createNewClass .header-title {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.AddSpecificDiscountAbsolute .radio-group .radiobutton input[type=radio]:checked+label.DiscountType {
+    font-weight: 700 !important;
+}
+
+.AddSpecificDiscountAbsolute .radio-group .radiobutton.DiscountType {
+    padding: 10px 20px;
+}
+
+.AddSpecificDiscountAbsolute .margin-left-0 {
+    margin-left: 0px;
+}
+
+.AddSpecificDiscountAbsolute .form-control-placeholder {
+    left: 0;
+}
+
+.AddSpecificDiscountAbsolute .suffix-img-div .with-icon-fullbox {
+    background-image: url(../images/svg/dollersinge.svg);
+    background-position: 1rem center;
+}
+
+/*************** page AddSpecificDiscountAbsolute  ********************/
+
+/*************** page 412  ********************/
+.sidebarscreen412 .row .input-div.select {
+    margin-bottom: 30px;
+}
+
+/*************** page 412  ********************/
+
+/*************** page 422  ********************/
+.screen422.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
+    grid-template-columns: 25% 15% 20% 40%;
+    width: 100%;
+}
+
+.screen422.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn {
+    margin-bottom: 0px;
+}
+
+.screen422.Student-Course-Allocation .contant-body .full-width .padding-section .headers {
+    margin-top: 10px;
+}
+
+.screen422.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
+    color: #0D352D;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values {
+    display: grid;
+    grid-template-columns: 25% 15% 20% 40%;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view {
+    position: relative;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view div {
+    position: relative;
+    flex: 1;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.switch-on {
+    position: absolute;
+    top: -8px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.switch-off {
+    position: absolute;
+    top: -8px;
+    left: 120px;
+    cursor: pointer;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.teacher-error {
+    top: 0px;
+    left: 0;
+}
+
+.screen422 .contant-body .value-full-width .padding-section .values .value-data .full-view div span {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #EB4747;
+}
+
+/*************** page 422  ********************/
+
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {
     .meinsection {
@@ -5972,6 +6419,11 @@ li.redcolor1 {
 @media only screen and (max-width: 991px) {
     .account-section214 .account--form {
         padding: 30px 30px;
+    }
+    .screen505 .middelsection {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
     }
 
 }

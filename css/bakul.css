@@ -1,465 +1,82 @@
-/*************** page 475  ********************/
-.teal301 label.form-control {
-    font-size: 75% !important;
-    transform: translate(0.8rem, -100%);
-    opacity: 1;
-    padding: 0 0.3rem;
-    color: #4DB6AC;
-    position: absolute;
-    top: 0;
-}
-.create-class {
-    top: 30px !important;
-}
-/*************** page 475  ********************/
-
-/*************** page 416  ********************/
-.Student-Course-Allocation .filter-form {
+/*************** page 505 1  ********************/
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount {
     display: flex;
-    margin-top: 45px;
-}
-.Student-Course-Allocation .filter-form .input-div {
-    position: relative;
-    margin-right: 30px;
-}
-.Student-Course-Allocation .filter-form .input-div.select {
-    margin-top: -25px;
-}
-.Student-Course-Allocation .filter-form .input-div.select label {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    color: #4DB6AC;
-    text-align: left;
-    padding: 5px 8px;
-}
-.Student-Course-Allocation .filter-form .input-div.select.prefix select {
-    padding-left: 40px;
-}
-.Student-Course-Allocation .filter-form .input-div select {
-    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
-    color: #0D352D;
-    margin: 0px;
-    width: 230px;
-}
-.Student-Course-Allocation .filter-form .input-div.select .prefix-icon {
-    position: absolute;
-    top: 38px;
-    left: 10px;
-}
-.Student-Course-Allocation .contant-body {
-    margin-top: 42px;
-    margin-left: -30px;
-    margin-bottom: 30px;
-}
-.Student-Course-Allocation .contant-body .full-width {
-    background: #E0F2F1;
-    width: 100%;
-    margin-top: 22px;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section {
-    padding: 0 40px;
-    position: relative;
-}
-.Student-Course-Allocation .contant-body .full-width label {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    color: #00352D;
-    padding: 16px 0 0 0;
-}
-.Student-Course-Allocation .contant-body .full-width .top-title-btn {
-    display: flex;
-    position: relative;
-}
-.Student-Course-Allocation .contant-body .full-width .top-title-btn button {
-    position: absolute;
-    right: 0px;
-}
-.Student-Course-Allocation .contant-body .full-width .top-title-btn button.custom-btn {
-    width: 90px;
-    max-width: 90px;
-    min-width: 90px;
-    padding-left: 15px;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .headers {
-    display: grid;
-    grid-template-columns: 22% 48% 30%;
-    width: 100%;
-    position: relative;
-    margin-top: 30px;
-    text-align: center;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .headers .header {
-    color: #00352D;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 13px 0;
-    border: 0.5px solid #80CBC4;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .headers .header:last-child {
-    border-left: none;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers {
-    display: grid;
-    grid-template-columns: 11% 11% 12% 12% 12% 11.9% 10% 10% 10.1%;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border {
-    border-left: 0.5px solid #80CBC4;
-    font-weight: normal;
-    font-size: 14px;
-    overflow: auto;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control {
-    position: relative;
-    padding: 10px;
-    margin: 0 10px;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border .control label {
-    /* border-left: 0.5px solid #80CBC4; */
-    font-weight: normal;
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: -15px;
-    line-height: 18px;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header.border:last-child {
-    border-right: 0.5px solid #80CBC4;
-}
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header:nth-child(1),
-.Student-Course-Allocation .contant-body .full-width .padding-section .sub-headers .sub-header:nth-child(2) {
-    padding: 15px;
-}
-.Student-Course-Allocation .contant-body .value-full-width {
-    background: #F7FBFB;
-    width: 100%;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section {
-    padding: 0 40px;
-    position: relative;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers {
-    display: grid;
-    grid-template-columns: 11% 11.1% 12% 12% 12% 11.9% 10% 10% 10%;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data {
-    padding: 15px;
-    position: relative;
-    border-bottom: 0.5px solid #80CBC4;
-    border-right: 0.5px solid #80CBC4;
-}
-.Student-Course-Allocation .contant-body .sub-headers .sub-header.border .control label::after { 
-    top: calc(50% - 0.5rem);
-    left: 1px;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::before {
-    content: "";
-    position: absolute;
-    top: calc(50% - 0.5625rem);
-    left: 40px;
-    width: 1.125rem;
-    height: 1.125rem;
-    border: 0.063rem solid #DDE5EB;
-    transition: background-size 0.2s ease;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control label::after {
-    content: "";
-    position: absolute;
-    top: calc(50% - 0.5rem);
-    left: 41px;
-    width: 1.125rem;
-    height: 1.125rem;
-    transition: background-size 0.2s ease;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data .control input[type=checkbox]:checked+label::after {
-    background-size: 100%;
-    background: url(../images/svg/check.svg) center no-repeat;
-}
-.Student-Course-Allocation .contant-body .value-full-width .padding-section .sub-headers .value-data:nth-child(1) {
-    text-align: center;
-}
-.Student-Course-Allocation .contant-body .loader-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-}
-.Student-Course-Allocation .contant-body .loader-div .loader {
-    width: 24px;
-    height: 24px;
-    border: 2px dashed #009688;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-.Student-Course-Allocation .contant-body .loader-div .loader-text {
-    color: #000000;
-    letter-spacing: 0.5px;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-}
-/*************** page 416  ********************/
-/*************** page 469  ********************/
-.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
-    grid-template-columns: 10% 40% 40%;
-}
-.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
-    border-right: none;
-}
-.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header:last-child {
-    border-right: 0.5px solid #80CBC4;
-}
-.Student-Course-Allocation.empty-table .contant-body .empty-table-note {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    align-items: center;
-    text-align: center;
-}
-.Student-Course-Allocation.empty-table .contant-body .empty-table-note label {
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.5px;
-    color: #00352D;
-}
-
-/*************** page 469  ********************/
-
-/*************** page 417  ********************/
-.screen417 .gender-margin-bottom {
-    margin-bottom: 60px;
-}
-.screen417 .row.radio-margin-bottom {
-    margin-bottom: 30px;
-}
-.screen417 .row .input-div.radio-div p {
-    color: #009688;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-}
-.screen417 .row .input-div.radio-div .radio-group-btn {
-    grid-template-columns: 120px 160px;
-}
-/*************** page 417  ********************/
-/*************** page 470  ********************/
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
-    grid-template-columns: 15% 30% 20% 25% 10%;
-    width: 75%;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
-    color: #0D352D;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    border: none;
-    text-align: left;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn {
-    margin-bottom: 50px;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn {
-    display: grid;
-    grid-template-columns: 130px 230px;
-    position: absolute;
-    top: 20px;
-    left: -40px;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton {
-    background: transparent;
-    position: relative;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label {
-    padding: 16px 0 0 10px;
-    font-weight: normal;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label::before {
-    top: calc(50% - 0rem);
-    background-color: #fff !important;
-}
-.screen470.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn .radio-group-btn .radiobutton label::after {
-    top: calc(50% - 0rem);
-}
-/*************** page 470  ********************/
-/*************** page 419  ********************/
-.screen419 .contant-body .value-full-width .padding-section .values {
-    display: grid;
-    grid-template-columns: 15% 30% 20% 25% 10%;
-    width: 75%;
-    padding: 15px 0;
-    border-bottom: 0.5px solid #80CBC4;
-}
-.screen419 .contant-body .value-full-width .padding-section .values .value-data .table-view {
-    color: #F47E16;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-}
-/*************** page 419  ********************/
-/*************** page 421  ********************/
-.screen421 .margin-bottom {
-    margin-bottom: 15px;
-}
-.screen421 .input-div.select.prefix {
-    position: relative;
-}
-.screen421 .input-div.select.prefix label {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    color: #4DB6AC;
-    text-align: left;
-    padding: 5px 8px;
-}
-.screen421 .input-div.select.prefix select {
-    padding-left: 40px;
-    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
-    color: #0D352D;
-    margin: 0px;
-}
-.screen421 .input-div.select.prefix .prefix-icon {
-    position: absolute;
-    top: 38px;
-    right: 220px;
-}
-/*************** page 421  ********************/
-/*************** page 420  ********************/
-.screen420 .indicator {
-    color: #00352D;
-    font-weight: bold;
-    font-size: 16px;
-    padding-left: 30px;
-}
-.screen420 .indicator p {
-    color: #F47E16;
-}
-.screen420 .addstaff {
-    color: #00352D;
-    font-weight: bold;
-    font-size: 16px;
-}
-.screen420 .contant-body .full-width .padding-section {
-    padding-left: 30px;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn {
-    margin: 15px 0 20px 0;
-    display: flex;
-    padding-left: 40px;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn img {
-    margin-top: -15px;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn .circal {
-    margin-left: 25px;
-    width: 36px;
-    height: 36px;
-    background: #26A69A;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 18px;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn .name {
-    color: #00352D;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    margin-left: 30px;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn .phone-number {
-    margin-left: 30px;
-    font-weight: normal;
-    font-size: 14px;
-    color: #00352D;
-}
-.screen420 .contant-body .full-width .padding-section .top-title-btn .view-edit-profile-link {
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #F47E16;
-    margin-left: 20px;
-}
-.screen420 .contant-body .full-width .hr-color {
-    margin-bottom: 20px;
-    border: 0.5px solid #009688;
-}
-.screen420 .contant-body .full-width .padding-section .tabs {
-    color: #00352D;
-    font-weight: bold;
-    font-size: 16px;
-}
-.screen420 .contant-body .full-width .padding-section .tabs span {
-    position: relative;
-    padding: 40px;
-    cursor: pointer;
-}
-.screen420 .contant-body .full-width .padding-section .tabs span::after {
-    content: '';
-    width: 110%;
-    height: 5px;
-    background: #EAEAEA;
-    position: absolute;
-    left: 0;
-    top: 65px;
-}
-.screen420 .contant-body .full-width .padding-section .tabs span.active::after {
-    background: #F47E16;
+    padding-bottom: 25px;
     
 }
-.screen420 .contant-body .full-width .table-header {
-    display: grid;
-    grid-template-columns: 10% 20% 15% 30%;
-    background: #E0F2F1;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #0D352D;
-    padding-left: 30px;
-    margin-top: 30px;
-}
-.screen420 .contant-body .full-width .table-header .fields {
-    padding: 15px 0;
-}
-.screen420 .contant-body .full-width .table-header .fields:last-child {
-    padding: 0px;
-}
-.screen420 .contant-body .full-width .table-header .fields:last-child button {
-    display: flex;
-    align-items: center;
-}
-.screen420 .contant-body .full-width .table-header .fields:last-child button img {
-    margin-right: 10px;
-}
-.screen420 .contant-body .full-width .table-value {
-    display: grid;
-    grid-template-columns: 10% 20% 15% 30%;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #0D352D;
-    padding-left: 30px;
-    background: rgba(239, 248, 248, 0.5);
-}
-.screen420 .contant-body .full-width .table-value .value {
-    padding: 15px 0;
-    border-bottom: 0.5px solid #80CBC4;
-}
-.screen420 .contant-body .full-width .table-value .value:last-child {
-    display: flex;
-}
-.screen420 .contant-body .full-width .table-value .value:last-child img {
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount span {
+    padding-left: 10px;
     cursor: pointer;
 }
-.screen420 .contant-body .full-width .table-value .value:last-child img:last-child {
-    margin-left: 25px;
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount img {
+    cursor: pointer;
 }
-/*************** page 420  ********************/
+.screen505-1 .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 14% 20% 15% 15% 18% 18%;
+}
+.screen505-1 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 14% 20% 15% 15% 18% 18%;
+}
+.screen505-1 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+.screen505-1 .contant-body .full-width .table-value.no-border-bottom .value {
+    border-bottom: none;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .dropbox-div {
+    display: flex;
+    position: relative;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex img {
+    padding-left: 70px;
+    position: absolute;
+    cursor: pointer;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00695C;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput {
+    display: flex;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput .done {
+    color: #F47E16;
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput .with-icon-fullbox {
+    width: 80px;
+    padding: 0;
+    height: 26px;
+    padding-left: 20px;
+    border-radius: 6px;
+    margin-bottom: 0;
+    background-image: url(../images/svg/dollersinge.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+}
+.screen505-1 .viewsiblingfee {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    position: relative;
+}
+.screen505-1 .viewsiblingfee span {
+    color: #F47E16;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.screen505-1 .viewsiblingfee img {
+    padding-left: 15px;
+    cursor: pointer;
+}
+/*************** page 505 1  ********************/

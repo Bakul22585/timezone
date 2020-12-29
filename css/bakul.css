@@ -80,3 +80,190 @@
     cursor: pointer;
 }
 /*************** page 505 1  ********************/
+
+/*************** page 562  ********************/
+.screen562 .indicator {
+    padding-left: 30px;
+}
+.screen562 .indicator .backtohome {
+   display: flex;
+}
+.screen562 .indicator .backtohome img {
+    height: 15px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+.screen562 .indicator .backtohome span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F47E16;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.screen562 .contant-body .full-width .table-header {
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.screen562 .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+}
+.screen562 .contant-body .full-width .table-header .fields {
+    padding: 15px 0;
+}
+.screen562 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    background: rgba(239, 248, 248, 0.5);
+}
+.screen562 .contant-body .full-width .table-value.no-border-bottom .value {
+    border-bottom: none;
+}
+.screen562 .contant-body .full-width .table-value .value {
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen562 img.Edit_2ones {
+    position: absolute;
+}
+.screen562 span.Pendingones {
+    color: #EB5757;
+    padding-left: 35px;
+}
+.screen562 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+.screen562 .contant-body .full-width .table-value .value:last-child,
+.screen562 .contant-body .full-width .table-value .value:last-child img {
+    cursor: pointer;
+}
+.screen562 .contant-body .full-width .table-value .value:last-child button {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.screen562 .contant-body .full-width .table-value .value:last-child span.Mark_Paid {
+    padding-left: 10px;
+    color: #F47E16;
+    font-weight: 700;
+}
+.screen562 span.Pendingones1 {
+    color: #009688;
+    padding-left: 35px;
+}
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-header,
+.screen562 .contant-body .full-width .Fee-Structure .table-header {
+    padding-bottom: 20px;
+}
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value {
+    grid-template-columns: 15% 60% 25%;
+}
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value .value:last-child {
+    display: flex;
+}
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value .value:last-child img {
+    padding-left: 10px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value {
+    grid-template-columns: 15% 85%;
+    background: #fff;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value .title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value .fee-structure-value {
+    font-weight: normal;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child {
+    display: unset;
+    cursor: inherit;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid,
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure {
+    display: flex;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure {
+    margin-left: 25px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure span {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    cursor: pointer;
+}
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure img {
+    padding-left: 15px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection {
+    width: calc(28vw);
+    margin-left: 30px;
+    background: #EFF8F8;
+    border-radius: 15px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords {
+    display: flex;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding-bottom: 10px;
+    flex: 1;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords h2:nth-child(1) {
+    flex: 2;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-header {
+    border-radius: 15px 15px 0px 0px;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+        padding-right: 30px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-value {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background: #E0F2F1;
+    padding-right: 30px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .table-header {
+    padding: 15px 0px 0px !important;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .freerecords h2 {
+    padding-left: 30px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .table-value .padding-left-35 {
+    padding-left: 35%;
+}
+/*************** page 562  ********************/

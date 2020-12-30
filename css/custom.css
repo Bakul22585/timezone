@@ -6409,6 +6409,564 @@ li.redcolor1 {
 
 /*************** page 422  ********************/
 
+/*************** page 505 1  ********************/
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount {
+    display: flex;
+    padding-bottom: 25px;
+
+}
+
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount span {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.screen505-1 .middelsection .contant-body .full-width .discountsection .add-discount img {
+    cursor: pointer;
+}
+
+.screen505-1 .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 14% 20% 15% 15% 18% 18%;
+}
+
+.screen505-1 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 14% 20% 15% 15% 18% 18%;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+
+.screen505-1 .contant-body .full-width .table-value.no-border-bottom .value {
+    border-bottom: none;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .dropbox-div {
+    display: flex;
+    position: relative;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex img {
+    padding-left: 70px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00695C;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput {
+    display: flex;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput .done {
+    color: #F47E16;
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.screen505-1 .contant-body .full-width .table-value .value.display-flex .text.withinput .with-icon-fullbox {
+    width: 80px;
+    padding: 0;
+    height: 26px;
+    padding-left: 20px;
+    border-radius: 6px;
+    margin-bottom: 0;
+    background-image: url(../images/svg/dollersinge.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+}
+
+.screen505-1 .viewsiblingfee {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    position: relative;
+}
+
+.screen505-1 .viewsiblingfee span {
+    color: #F47E16;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.screen505-1 .viewsiblingfee img {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/*************** page 505 1  ********************/
+
+/*************** page 560  ********************/
+.screen560 .lasttest button.button.CREATE.button-outer {
+    margin-top: 10px;
+}
+.screen560 .icons p {
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #26A69A;
+        font-weight: bold;
+}
+.screen560 .createNewClass {
+    height: calc(100vh - 600px);
+}
+.screen560 .close {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+/***********************************/
+
+/*************** page 561  ********************/
+.screen561 .lasttest button.button.CREATE.button-outer {
+    margin-top: 40px;
+}
+.screen561 .icons p {
+       font-weight: 900;
+       font-size: 16px;
+       line-height: 24px;
+       letter-spacing: 0.5px;
+       color: #EB5757;
+}
+.screen561 .createNewClass {
+    height: calc(100vh - 440px);
+    width: 440px;
+}
+.screen561 .close {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.screen561 h2 {
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+.screen561 .icons .technical_support{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-align: justify;
+    padding: 0px 50px;
+}
+.screen561 .icons img {
+    padding: 15px 0px;
+}
+/***********************************/
+
+/**************** screen 563*******************/
+.screen563 .middelsection .contant-body .full-width .table-value .value:last-child {
+    cursor: inherit;
+}
+.screen563 .lasttest button.button.CREATE.button-outer {
+    margin-top: 40px;
+}
+
+.screen563 .icons p {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+}
+
+.screen563 .createNewClass {
+    height: calc(100vh - 360px);
+    width: 440px;
+    padding: 0px;
+}
+.screen563 .contant-body .full-width .table-value {
+    display: grid;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+}
+.screen563 .close {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.screen563 h2 {
+    font-size: 24px;
+    padding: 20px 0px;
+}
+
+.screen563 .icons .technical_support {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-align: justify;
+    padding: 0px 0px 0px 40px;
+}
+
+.screen563 .icons img {
+    padding: 15px 0px;
+}
+.screen563 .PROCEED_PAY {
+    padding: 15px 0px;
+}
+.screen563 .middelsection .contant-body .full-width .table-header {
+    border-radius: 15px 15px 0px 0px;
+    background: #B2DFDB;
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+}
+
+.screen563 .middelsection {
+    width: 440px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #EFF8F8;
+    border-radius: 15px;
+}
+
+.screen563 .middelsection .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 66% auto;
+        padding: 0px 0px 20px;
+}
+
+.screen563 .middelsection .freerecords button {
+    flex: 0;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 1px;
+    min-width: 140px !important;
+    letter-spacing: 0.5px;
+}
+
+.screen563 .middelsection .contant-body .full-width .table-value {
+    grid-template-columns: 66% auto;
+    background: rgba(239, 248, 248, 1);
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+}
+
+.screen563 .middelsection .freerecords h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    flex: 1;
+}
+
+.screen563 .middelsection .freerecords {
+    display: flex;
+}
+
+.screen563 .middelsection .discountsection .table-header {
+    padding: 15px 0px 0px !important;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+
+.screen563 .middelsection .discountsection .freerecords h2 {
+    padding-left: 30px;
+}
+
+.screen563 .middelsection .contant-body .full-width .table-value .value {
+    padding: 10px 0;
+    border-bottom: none;
+}
+.screen563 .middelsection .contant-body .full-width .Total_payable {
+    padding: 15px 0px 15px 40px;
+    text-align: left;
+}
+
+.screen563 .middelsection .discountsection .table-value {
+    border-bottom: none !important;
+}
+.screen563 .table-headerones .fields {
+    font-weight: 900;
+}
+.screen563 .Discounts p {
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    color: #00352D;
+    margin-bottom: 5px;
+}
+/***********************************/
+
+/*************** page 562  ********************/
+.screen562 .indicator {
+    padding-left: 30px;
+}
+
+.screen562 .indicator .backtohome {
+    display: flex;
+}
+
+.screen562 .indicator .backtohome img {
+    height: 15px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.screen562 .indicator .backtohome span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F47E16;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.screen562 .contant-body .full-width .table-header {
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.screen562 .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+}
+
+.screen562 .contant-body .full-width .table-header .fields {
+    padding: 15px 0;
+}
+
+.screen562 .contant-body .full-width .table-value {
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    background: rgba(239, 248, 248, 0.5);
+}
+
+.screen562 .contant-body .full-width .table-value.no-border-bottom .value {
+    border-bottom: none;
+}
+
+.screen562 .contant-body .full-width .table-value .value {
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+
+.screen562 img.Edit_2ones {
+    position: absolute;
+}
+
+.screen562 span.Pendingones {
+    color: #EB5757;
+    padding-left: 35px;
+}
+
+.screen562 .contant-body .full-width .table-value .value:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+
+.screen562 .contant-body .full-width .table-value .value:last-child,
+.screen562 .contant-body .full-width .table-value .value:last-child img {
+    cursor: pointer;
+}
+
+.screen562 .contant-body .full-width .table-value .value:last-child button {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.screen562 .contant-body .full-width .table-value .value:last-child span.Mark_Paid {
+    padding-left: 10px;
+    color: #F47E16;
+    font-weight: 700;
+}
+
+.screen562 span.Pendingones1 {
+    color: #009688;
+    padding-left: 35px;
+}
+
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-header,
+.screen562 .contant-body .full-width .Fee-Structure .table-header {
+    padding-bottom: 20px;
+}
+
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value {
+    grid-template-columns: 15% 60% 25%;
+}
+
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value .value:last-child {
+    display: flex;
+}
+
+.screen562 .contant-body .full-width .Upcoming-Fee-section .table-value .value:last-child img {
+    padding-left: 10px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value {
+    grid-template-columns: 15% 85%;
+    background: #fff;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value .title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value .fee-structure-value {
+    font-weight: normal;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child {
+    display: unset;
+    cursor: inherit;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid,
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure {
+    display: flex;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure {
+    margin-left: 25px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure span {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    cursor: pointer;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .table-value .value:last-child .fee-structure-value.paid .view-fee-structure img {
+    padding-left: 15px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection {
+    width: calc(28vw);
+    margin-left: 30px;
+    background: #EFF8F8;
+    border-radius: 15px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords {
+    display: flex;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding-bottom: 10px;
+    flex: 1;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .freerecords h2:nth-child(1) {
+    flex: 2;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-header {
+    border-radius: 15px 15px 0px 0px;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-headerones {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width .table-value {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background: #E0F2F1;
+    padding-right: 30px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .table-header {
+    padding: 15px 0px 0px !important;
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .freerecords h2 {
+    padding-left: 30px;
+}
+
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .discountsection .table-value .padding-left-35 {
+    padding-left: 35%;
+}
+
+/*************** page 562  ********************/
+
+/*************** screen423  ********************/
+.screen423 .lasttest {
+    padding: 60px 40px 0px 40px;
+}
+.screen423 {
+    width: 440px !important;
+    height: calc(100vh - 656px) !important;
+}
+.screen423 .lasttest p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 0px;
+    text-align: center;
+}
+.screen423 .lasttest button.button.CREATE.button-outer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 140px;
+    margin-left: 10px;
+}
+.screen423 .close {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #014E3F;
+    right: 15px;
+}
+.screen423 .nobutton {
+    border: 2px solid #FF7700 !important;
+    border-radius: 15px;
+    background-color: transparent !important;
+    color: #F47E16 !important;
+    box-shadow: 0px 0px 0em rgba(237, 108, 13, 0.3);
+}
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {
     .meinsection {

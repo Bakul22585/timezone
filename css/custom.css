@@ -6967,6 +6967,302 @@ li.redcolor1 {
     color: #F47E16 !important;
     box-shadow: 0px 0px 0em rgba(237, 108, 13, 0.3);
 }
+
+/*************** screen424  ********************/
+.screen424 .row .input-div.radio-div {
+    width: 400px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.screen424 .row .input-div.radio-div .radio-group-btn {
+    grid-template-columns: auto auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.screen424 .row.radio-margin-bottom p {
+    margin: 0px;
+    color: #009688;
+}
+.screen424 .indicator {
+    margin-bottom: 44px;
+}
+.screen424 .timetales {
+    margin-bottom: 30px !important;
+}
+.screen424 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+.screen424 .addmore span {
+    color: #F47E16;
+    padding-left: 20px;
+}
+.screen424 .weektable table tr {
+    background: #EFF8F8;
+}
+.screen424 .weektable table .firts {
+    background: #fff;
+}
+.screen424 .weektable table {
+    width: 50%;
+    padding-top: 60px;
+}
+.screen424 .weektable table thead tr {
+    background: transparent !important;
+}
+
+.screen424 .weektable table tr td:first-child {
+    border-right: 0.5px solid #80CBC4;
+    margin-right: 15px;
+}
+.screen424 .weektitle p {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #00352D;
+}
+.screen424 .weektable table tr {
+    background: #EFF8F8;
+    /* display: grid;
+    grid-template-columns: 14% 5% 5% 5% 5% 5% 5%; */
+    margin-bottom: 10px;
+    padding: 0px 15px;
+}
+
+.screen424 .weektable table tr .breack {
+    color: #FABF2C;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.screen424 table tr td p {
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+    color: #00695C;
+}
+.screen424 table tr td .breacksecound {
+    color: #F47E16;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.screen424 table tr td .localtimes {
+    color: #828F8E !important;
+}
+.screen424 table tr td img {
+    padding-top: 5px;
+}
+.screen424 table tr td {
+    padding: 5px 0px;
+    text-align: center;
+}
+.screen424 table tr th {
+    padding-bottom: 10px;
+}
+.screen424 .buttonlastbottom {
+    margin: 15px 0px 10px !important;
+}
+/**********************************************/
+
+/************************* Page 471 **************************/
+.screen471 {
+    padding-left: 30px;
+}
+
+.screen471 .SAve p {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen471 .filter-form {
+    display: flex;
+    margin-top: 45px;
+}
+
+.screen471 .filter-form .input-div.select {
+    margin-top: -25px;
+}
+
+.screen471 .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.screen471 .filter-form .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.screen471 .filter-form .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.screen471 .filter-form .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.screen471 .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen471 .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen471 .contant-body {
+    margin-top: 42px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+.screen471 .contant-body .full-width {
+    background: #ffffff;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.screen471 .contant-body .full-width .padding-section {
+    padding: 0 15px;
+    position: relative;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 150, 136, 0.2);
+    border-radius: 10px;
+    width: 316px;
+    height: 326px;
+    left: 43%;
+    top: 1.5%;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form {
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div {
+    margin-right: 0px;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div.select {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div.select.prefix select {
+    width: 100%;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    align-items: flex-end;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .nobutton {
+    border: 2px solid #FF7700 !important;
+    border-radius: 15px;
+    background-color: transparent !important;
+    color: #F47E16 !important;
+    box-shadow: 0px 0px 0em rgba(237, 108, 13, 0.3);
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .CREATE {
+    width: 45% !important;
+    max-width: 45% !important;
+    min-width: 45% !important;
+    height: 50px;
+}
+
+.screen471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .CREATE:last-child {
+    margin-left: 10%;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-header,
+.screen471 .contant-body .full-width .padding-section .table .table-value {
+    display: grid;
+    grid-template-columns: 15% 14.16% 14.16% 14.16% 14.16% 14.16% 14.16%;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-header .fields,
+.screen471 .contant-body .full-width .padding-section .table .table-value .value {
+    border-left: 0.3px solid #4DB6AC;
+    border-top: 0.3px solid #4DB6AC;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-header .fields:last-child,
+.screen471 .contant-body .full-width .padding-section .table .table-value .value:last-child {
+    border-right: 0.3px solid #4DB6AC;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value:last-child .value {
+    border-bottom: 0.3px solid #4DB6AC;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-header .fields.label {
+    text-align: center;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value .value {
+    height: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value .value img {
+    cursor: pointer;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value .value ul {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value .value ul li {
+    padding-bottom: 0px;
+}
+
+.screen471 .contant-body .full-width .padding-section .table .table-value .value ul li.bold-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #004D40;
+}
+
+/************************* Page 471 **************************/
+
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {
     .meinsection {

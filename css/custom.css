@@ -651,7 +651,6 @@ li {
 li {
     padding-bottom: 1.25rem;
     position: relative;
-    cursor: pointer;
 }
 
 .close {
@@ -741,7 +740,61 @@ img {
     top: 0;
     width: 100%;
 }
-
+.createquestion input.form-control.Topic {
+        max-width: 60%;
+        border-radius: 244px;
+}
+.createquestion button.button.button-outer {
+ background: #009688;
+ border-radius: 244px;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.5px;
+ color: #FFFFFF;
+ border: 0px;
+ box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+ min-width: 0px;
+ max-width: 175px;
+ padding: 8px 14px;
+ text-transform: capitalize;
+ position: absolute !important;
+ right: initial;
+ left: 185px;
+ top: 2px;
+}
+.createquestion button:after {
+    display: none !important;
+}   
+.Others select {
+    padding-left: 40px;
+    color: #0D352D;
+}
+.createquestion {
+    margin-left: 35px;
+    position: relative;
+}
+#Mention_Board {
+    background-image: none;
+    font-size: 12px;
+    padding: 15px 0px 15px 30px;
+    width: auto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.Others span.prefix-icon {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+.Others1 select {
+    padding-left: 40px;
+    color: #0D352D;
+}
+.Others1 span.prefix-icon {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
 .Start_Date1 select {
     background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
 }
@@ -1049,7 +1102,20 @@ img {
     box-shadow: 0px 0px 20px rgba(0, 152, 135, 0.1);
     border-radius: 5px;
     margin: 0 1rem;
-    float: right;
+    float: unset;
+}
+.CREATE1.SaveCREATE {
+    text-align: center;
+}
+.SaveCREATE .Savebutton {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16 !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
 }
 
 .createClassPopup-section.test-popup .test-list .fileuploads201 li {
@@ -1257,6 +1323,37 @@ span.CREATE1 {
     overflow: auto;
     padding-top: 94px;
 }
+.feedbacktest button.Cancel {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #009688;
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.feedbacktest button.SaveCancel {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    background-color: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+.feedbacktest {
+    background: #FFFFFF;
+    border: 1px solid #EFF8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 150, 136, 0.1);
+    border-radius: 10px;
+}
 
 .createClasssecoundscreen .test-list .Lightest_teal .form-control-placeholder {
     opacity: 0;
@@ -1401,6 +1498,7 @@ input[type=checkbox]+label::before {
 .add_option1 span {
     color: #F47E16;
     position: relative;
+    cursor: pointer;
 }
 
 .add_option1 span:after {
@@ -1438,7 +1536,7 @@ input[type=checkbox]+label::before {
     content: "";
     position: absolute;
     left: -18px;
-    top: 33%;
+    top: 59%;
     margin-top: -12px;
     display: block;
     height: 24px;
@@ -1484,6 +1582,9 @@ span.feedbacktest {
     width: auto;
     display: inline-block;
     padding: 10px 20px;
+}
+.Lightest_teal1 {
+    height: calc(39vh - -21px);
 }
 
 input[type=checkbox]:checked+label::after {
@@ -1798,6 +1899,7 @@ input[type=radio]+label::before {
     color: #F47E16;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 input.Long-Answer::placeholder {
@@ -1874,12 +1976,15 @@ input.Long-Answer::placeholder {
 }
 
 .control {
-    margin: 15px;
+    margin: 0px;
 }
 
 .Questions h2 {
     padding: 0px;
     text-align: center;
+}
+.control12 {
+    padding: 0px !important;
 }
 
 .Questions p {
@@ -1890,6 +1995,9 @@ input.Long-Answer::placeholder {
     margin-top: 10px;
     padding: 0px 5px 0 0px;
     text-align: center;
+}
+.control {
+    max-width: 0px;
 }
 
 .markstab p {
@@ -2269,7 +2377,9 @@ img.Group_9 {
 /****************** sreen 208 css ***********************/
  .stopsignalones .createNewClass {
     overflow-y: auto;
-    height: calc(100vh - 506px);
+   height: auto;
+   min-height: 420px;
+   max-height: 800px;
 }
 .stopsignal {
     width: 57%;
@@ -3107,6 +3217,7 @@ img.Group_9 {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 .screenedutinker .active {
@@ -3171,6 +3282,7 @@ img.Group_9 {
     color: #FFFFFF;
     position: relative;
     top: 5px;
+    cursor: pointer;
 }
 
 .rightbutton button {
@@ -3186,6 +3298,7 @@ img.Group_9 {
     color: #FFFFFF;
     position: relative;
     top: 5px;
+     cursor: pointer;
 }
 
 .rightbutton img {
@@ -3224,11 +3337,14 @@ img.Group_9 {
     width: auto;
     display: inline-block;
     padding-left: 5px;
-}
-li.Edit_2 {
     position: relative;
+}
+.secoundsubmenu li.Edit_2 {
+    position: absolute;
     top: 5px;
-    left: 23px;
+    left: 230px;
+    right: auto;
+    cursor: pointer;
 }
 .Classsreen1 {
     padding-left: 70px !important;
@@ -3299,7 +3415,8 @@ li.Edit_2 {
     overflow: auto;
     text-align: center;
     overflow-y: auto;
-    height: calc(100vh - 345px);
+    min-height: 590px;
+    max-width: 900px;
 }
 .screen301 .add-question-section1 {
     bottom: auto;
@@ -3309,6 +3426,9 @@ li.Edit_2 {
     top: 13px;
     left: auto;
     right: -13px;
+}
+.screen301 img {
+    cursor: pointer;
 }
 
 .add-question-section1 {
@@ -3716,6 +3836,7 @@ li.Edit_2 {
 .student_manager .Classsreen1 span {
     position: absolute;
     left: 180px;
+    cursor: pointer;
 }
 .student_manager span.delete_icons {
     position: absolute;
@@ -3763,6 +3884,8 @@ li.Edit_2 {
     width: 560px;
     height: calc(100vh - 676px);
     text-align: center;
+    min-height: 265px;
+    max-height: 900px;
 }
 /****************************************/
 
@@ -3791,8 +3914,10 @@ li.Edit_2 {
 .foursonescreentwo .createNewClass {
     padding: 14px 25px 0px 25px;
     width: 560px;
-       height: calc(100vh - 566px);
-       text-align: center;
+    height: calc(100vh - 566px);
+    text-align: center;
+    min-height: 340px !important;
+    max-height: 900px;
 }
 .foursonescreentwo label{
         font-family: Lato;
@@ -3996,7 +4121,8 @@ li.Edit_2 {
 }
 .DeleteClass404 .createNewClass {
     overflow-y: auto;
-    height: calc(100vh - 396px);
+       height: auto;
+       max-height: 900px;
 }
 
 .DeleteClass404 .margin-top-20px {
@@ -4058,11 +4184,13 @@ li.Edit_2 {
 /*****************500***********************/
 li.bell_active {
     display: inline-flex;
+    cursor: pointer;
 }
 li.x3112 {
     display: inline-flex;
     position: relative;
     right: 20px;
+    cursor: pointer;
 }
 .bell_active1 li.login a {
     padding-left: 80px;
@@ -4119,6 +4247,9 @@ li.redcolor1 {
        right: 130px;
        min-width: 300px !important;
        height: calc(100vh - 516px);
+   }
+   .fiftyone .approved img {
+       cursor: pointer;
    }
     .fiftyone h2 {
         font-size: 16px;
@@ -4442,6 +4573,7 @@ li.redcolor1 {
     top: auto;
     left: auto;
     right: 0px;
+    cursor: pointer;
 }
 .Period123 .Period select {
     width: 30%;
@@ -4457,8 +4589,11 @@ li.redcolor1 {
     font-size: 24px;
 }
 .fourdonefivescrenn .createNewClass {
-    width: 400px;
-    padding: 14px 50px;
+      width: 400px;
+      padding: 14px 50px;
+      min-height: 300px;
+      height: 380px;
+      max-height: 900px;
 }
 .fourdonefivescrenn .Test_Title {
     font-size: 16px;
@@ -4698,6 +4833,7 @@ li.redcolor1 {
     color: #FF7700;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 
  .sidebarscreen413 .row p.Download-Student-Template {
@@ -4814,6 +4950,7 @@ li.redcolor1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
+    cursor: pointer;
 }
 .screenno504 form ul li .allClasses {
     background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
@@ -5220,7 +5357,8 @@ li.redcolor1 {
     top: 30px !important;
 }
 .screen472 .createNewClass {
-    height: calc(100vh - 675px);
+        height: auto;
+        min-height: 280px;
 }
 
 /*************** page 475  ********************/
@@ -5780,6 +5918,7 @@ li.redcolor1 {
 }
 .screen421 .createNewClass {
     height: calc(100vh - 545px);
+    min-height: 390px;
 }
 .screen421 .input-div.select.prefix label {
     font-family: Lato;
@@ -6997,6 +7136,7 @@ li.redcolor1 {
 .screen424 .addmore span {
     color: #F47E16;
     padding-left: 20px;
+    cursor: pointer;
 }
 .screen424 .weektable table tr {
     background: #EFF8F8;
@@ -7262,6 +7402,271 @@ li.redcolor1 {
 }
 
 /************************* Page 471 **************************/
+
+/************************* Page 800 **************************/
+.screen800 {
+    background: rgba(219, 242, 240, 0.4);
+}
+.screen800 .meinclass {
+    margin-top: 11%;
+}
+.screen800 .eduTinker_web {
+    background: #E0F2F1;
+    border-radius: 10px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #004D40;
+    padding: 15px 70px;
+    width: fit-content;
+    margin: 35px auto 0px;
+}
+.screen800 .imagesall {
+    padding-top: 35px;
+}
+.screen800 .imagesall img {
+    margin: 0px 10px;
+}
+.screen800 .createNewClass {
+    width: calc(100vw - 180px);
+    height: calc(100vh - 80px);
+}
+
+/***************************************************/
+
+
+/************************* screen 599 ******************/
+.screen599 .office-copy {
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px;
+    color: #009688;
+}
+
+.screen599 .header-section,
+.screen599 .student-section,
+.screen599 .remarks-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.screen599 .header-section .fee-reciept-section,
+.screen599 .header-section .school-info-section {
+    flex: 1;
+}
+
+.screen599 .header-section .fee-reciept-section .fee-reciept {
+    font-weight: 900;
+    font-size: 24px;
+    color: #26A69A;
+}
+
+.screen599 .header-section .fee-reciept-section .date-info {
+    font-weight: bold;
+    font-size: 20px;
+    color: #004D40;
+}
+
+.screen599 .header-section .fee-reciept-section .date-info {
+    font-weight: bold;
+    font-size: 20px;
+    color: #004D40;
+}
+
+.screen599 .header-section .fee-reciept-section .reciept-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen599 .header-section .fee-reciept-section .reciept-info .reciept-deta-section,
+.screen599 .header-section .fee-reciept-section .reciept-info .reciept-number-section {
+    flex: 1;
+}
+
+.screen599 .header-section .fee-reciept-section .reciept-info .reciept-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen599 .header-section .fee-reciept-section .reciept-info p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen599 .header-section .school-info-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen599 .header-section .school-info-section .school-info {
+    flex: 6;
+    text-align: end;
+}
+
+.screen599 .header-section .school-info-section .school-info .school-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #00352D;
+}
+
+.screen599 .header-section .school-info-section .school-info .school-address {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #00352D;
+}
+
+.screen599 .header-section .school-info-section .school-info .school-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen599 .header-section .school-info-section .school-info .school-contact-info div {
+    flex: 1;
+}
+
+.screen599 .header-section .school-info-section .school-logo {
+    flex: 1;
+}
+
+.screen599 .student-section .student-info {
+    flex: 1;
+}
+
+.screen599 .student-section .student-info .details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen599 .student-section .student-info .details .name {
+    font-weight: normal;
+    font-size: 16px;
+    color: #00796B;
+    width: 380px;
+    flex: 1;
+}
+
+.screen599 .student-section .student-info .details .value {
+    font-weight: bold;
+    font-size: 16px;
+    color: #00352D;
+    flex: 5;
+}
+
+.screen599 .table-section .full-width {
+    background: #E0F2F1;
+    border-top: 0.5px solid #00352D;
+    border-bottom: 0.5px solid #00352D;
+}
+
+.screen599 .table-section .full-width .padding {
+    padding: 0px;
+}
+
+.screen599 .table-value-section span.value:first-child {
+    padding: 0px 0px 0px 100px !important;
+}
+
+.screen599 .table-header span.field:first-child {
+    padding: 10px 0 10px 100px !important;
+}
+
+.screen599 .table-header span.field {
+    padding: 10px 80px !important;
+}
+
+.table-value-section span.value {
+    padding: 0px 80px !important;
+}
+
+.screen599 .table-section .padding {
+    padding: 10px 0px 0px 0px;
+}
+
+.screen599 .table-section .full-width .padding .table-header,
+.screen599 .table-section .padding .table-value {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0px 60px;
+}
+
+.screen599 .table-section .full-width .padding .table-header .field {
+    font-weight: bold;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen599 .table-section .table-value-section .padding .table-value {
+    border-bottom: 0.5px solid #80CBC4;
+    padding: 10px 0;
+}
+
+.screen599 .table-section .table-value-section .padding .table-value:last-child {
+    border-bottom: none;
+}
+
+.screen599 .table-section .table-value-section .padding .table-value:last-child .value {
+    font-weight: bold;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen599 .table-section .table-footer {
+    background: #EFF8F8;
+    border-top: 0.5px solid #80CBC4;
+    border-bottom: 0.5px solid #80CBC4;
+}
+
+.screen599 .table-section .table-footer span.value {
+    padding: 0px 80px !important;
+}
+
+.screen599 .table-section .table-footer .padding .table-value .value {
+    font-weight: 900;
+    font-size: 18px;
+    color: #00352D;
+}
+
+.screen599 .table-section .table-footer .padding .table-value .value.paid {
+    display: flex;
+    align-items: baseline;
+}
+
+.screen599 .table-section .table-footer .padding .table-value .value.paid p.paid {
+    font-weight: normal;
+    font-size: 12px;
+    color: #00796B;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.screen599 .remarks-section .remarks {
+    flex: 2;
+}
+
+.screen599 .remarks-section .remarks .input-remark {
+    background-image: none;
+    height: 100px;
+    border-radius: 0;
+    padding-left: 15px;
+}
+
+.screen599 .remarks-section .remarks-text {
+    flex: 1;
+}
+
+.screen599 .remarks-section .remarks-text p {
+    padding-left: 30px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #00352D;
+}
+
+/************************* screen 599 ******************/
 
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {

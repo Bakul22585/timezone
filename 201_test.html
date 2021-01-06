@@ -48,8 +48,10 @@
                             <label class="form-control-placeholder file2" for="testdescription">Test Instructions</label>
                         </li>
                         <li>
-                            <button class="button questions button-outer">Create questions</button>
-                            <button class="button button-outer">Attach Files</button>
+                            <div class="createquestion">
+                                 <input class="form-control Topic" type="text" placeholder="Create Questions" required>
+                                  <button class="button button-outer">Attach Files</button>
+                            </div>
 
                             <ul class="fileuploads201">
                               <li class="upload">Upload from Device (5 MB max)</li>
@@ -61,8 +63,10 @@
                         </li>
                     </ul>
                 </form>
-                 <span class="CREATE1"></span>
+                 <div class="CREATE1 SaveCREATE">
+                 <button class="button CREATE button-outer Savebutton">Save</button>
                  <button class="button CREATE button-outer">CREATE TEST</button>
+                 </div>
             </div>
         
         <div class="col-sm-5 line">
@@ -83,10 +87,23 @@
                       <label class="form-control-placeholder" for="maximumMarks">Test Duration (in  minutes) </label>
                   </li>
 
-                    <li class="Start_Date1"> 
+                    <li class="Start_Date1 Others"> 
+                        <select name="" id="">
+                            <img src="images/svg/Badge.svg" class="Badge">  <option value="">Others</option>
+                        </select>
+                        <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                    </li>
+                 
+                   
+                    <li class="Start_Date1 ">
+                      <input class="form-control Maximum" type="text" id="Mention_Board" placeholder="Mention Board" required>
+                      <label class="form-control-placeholder" for="Mention Board<">Mention Board</label>
+                  </li>
+                    <li class="Start_Date1 Others1"> 
                         <select name="" id="">
                             <img src="images/svg/Badge.svg" class="Badge">  <option value="">Marks</option>
                         </select>
+                         <span class="prefix-icon"><img src="images/svg/wordicon.svg"></span>
                     </li>
                  
                    

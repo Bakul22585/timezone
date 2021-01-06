@@ -11,6 +11,7 @@
   <!-- change into index, follow -->
 
   <link href="css/custom.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/bakul.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="node_modules/lato-font/css/lato-font.css" />
 </head>
 
@@ -18,7 +19,7 @@
  
 
 
-  <div class="createClasssecoundscreen">
+  <div class="createClasssecoundscreen screen202">
 
     <div class="test-list">
 
@@ -63,7 +64,7 @@
                         </li>
                             <li class="row">
                             <div class="col-sm-1 control">
-                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Bike">
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Bike" checked>
                                 <label for="vehicle2" class="vehicle"></label><br>
                             </div>
 
@@ -72,16 +73,21 @@
                                 <span><img src="images/svg/Cross.svg" class="Cross"></span>
                             </div>
 
-                             <div class="col-sm-5 Add_feedback">
+                             <div class="col-sm-2 Add_feedback">
                                <div class="explanationasd"><span>Add explanation</span></div>
-                               <div class="feedbacktest">
-                                    <textarea class="form-control Test" id="testdescription" placeholder=" Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum ">           
-                                    </textarea>
-                                    <button class="Cancel">Cancel</button>
-                                    <button class="SaveCancel">Save</button>
-                               </div>
+                               
                              </div>
-
+                            
+                             <div class="col-sm-3 popup">
+                                <div class="feedbacktest">
+                                    <textarea rows="5" class="form-control Test" id="testdescription" placeholder=" Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum dolor sit amet Type answer explanation here, lorem ipsum "></textarea>
+                                    
+                                    <div class="buttons">
+                                        <button class="Cancel">Cancel</button>
+                                        <button class="SaveCancel">Save</button>
+                                    </div>
+                               </div>
+                            </div>
                         </li>
                             <li class="row">
                             <div class="col-sm-1 control">
@@ -112,10 +118,6 @@
                     <ul>
                         <li>
                              <span class="Mandatory">Marks</span>
-                        </li>
-                        <li class="set-display-unset">
-                              <input type="checkbox" id="vehicle4" name="vehicle4" value="Bike">
-                              <label for="vehicle4" class="vehicle">Mandatory</label>
                         </li>
                         <li  class="set-display-unset">
                               <input type="checkbox" id="vehicle5" name="vehicle5" value="Bike">

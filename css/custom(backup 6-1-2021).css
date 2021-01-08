@@ -1224,6 +1224,13 @@ img {
 
 }
 
+.Test {
+    width: 90%;
+    /*     font-weight: 700; */
+    font-size: 14px;
+
+}
+
 .file {
     margin-right: 12px;
 }
@@ -1571,8 +1578,8 @@ span.feedbacktest {
     display: inline-block;
     padding: 10px 20px;
 }
-.screen404 .Lightest_teal1 {
-        height: auto;
+.Lightest_teal1 {
+    height: calc(39vh - -21px);
 }
 
 input[type=checkbox]:checked+label::after {
@@ -1581,7 +1588,7 @@ input[type=checkbox]:checked+label::after {
     opacity: 1;
 }
 
-.screen404 .control1 label::after {
+.control1 label::after {
     content: "";
     position: absolute;
     top: calc(50% - 0.5625rem);
@@ -1597,7 +1604,7 @@ input[type=checkbox]+label::before {
     border-radius: 0.063rem;
 }
 
-.screen404 .control1 label::before {
+.control1 label::before {
     content: "";
     position: absolute;
     top: calc(50% - 0.5625rem);
@@ -1606,7 +1613,6 @@ input[type=checkbox]+label::before {
     height: 1.125rem;
     border: 0.063rem solid #DDE5EB;
     transition: background-size 0.2s ease;
-    background-color: #fff;
 }
 
 .control1 label.vehicle {
@@ -1950,25 +1956,20 @@ input.Long-Answer::placeholder {
     padding: 0px;
 }
 
-.screen404 .filter-popup {
-       background: #FFFFFF;
-       border: 1px solid #EFF8F8;
-       box-shadow: 0px 0px 20px rgba(0, 150, 136, 0.1);
-       border-radius: 10px;
-       height: 195px;
-       width: 170px;
-       position: absolute;
-       right: 0px;
-       top: 25px;
-       z-index: 1;
-       padding: 10px 0px 0px 40px;
+.filter-popup {
+    background: #FFFFFF;
+    border: 1px solid #EFF8F8;
+    box-shadow: 0px 0px 20px rgba(0, 150, 136, 0.1);
+    border-radius: 10px;
+    height: 195px;
+    width: 200px;
+    position: absolute;
+    right: -35px;
+    top: 25px;
+    z-index: 1;
+    padding: 0px 20px;
 }
-.screen404 .scrollbar {
-    padding-top: 25px;
-}
-.screen404 .filter-popup .control.position-relative {
-    margin: 10px 0px;
-}
+
 .control {
     margin: 0px;
 }
@@ -2160,21 +2161,7 @@ p.correct {
 .Add-explanationSection .radiobutton label::after {
     top: calc(50% - 0.7rem);
 }
-.screen205 .meinradiobutton,
-.screen250 .meinradiobutton {
-    margin-top: 25px;
-}
-.screen205 .Lightest_teal1{
-    margin-top: 30px;
-}
-.screen250 .buttonsave {
-    text-align: center;
-    position: absolute;
-    top: auto;
-    bottom: 40px;
-    left: 0px;
-    right: 0px;
-}
+
 /******************************************************************/
 
 /****************** sreen 206 css ***********************/
@@ -7491,112 +7478,6 @@ li.redcolor1 {
 }
 
 /***************************************************/
-
-
-/******************** screen 202  ************************/
-.screen202 .control label::before,
-.screen202 .control1 label::before {
-    background: #fff;
-}
-.screen202 .Lightest_teal1 {
-    height: 410px;
-}
-.screen202 .add_option1 {
-    right: 60px;
-    bottom: 30px;
-}
-.screen202 .popup {
-    z-index: 1;
-    position: absolute;
-    right: -120px;
-    max-width: 380px;
-}
-.screen202 .Correctsection {
-    position: relative;
-}
-.screen202 .Add_feedback span:after {
-    top: 29%;
-}
-.screen202 .feedbacktest {
-    padding: 10px;
-}
-.screen202 .feedbacktest textarea {
-    padding: 15px;
-}
-.screen202 .feedbacktest textarea::placeholder {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.5px;
-    color: #C6CFCE;
-}
-.screen202 .buttons {
-    display: flex;
-    justify-content: flex-end;
-}
-.screen202 .buttons button {
-    min-width: 0;
-    text-transform: none;
-}
-.screen202 .buttons button:last-child {
-    margin-left: 20px;
-}
-.screen202 .buttons button:last-child {
-    margin-left: 20px;
-}
-.screen202 .buttons button:last-child:hover {
-    background: transparent
-}
-/******************** screen 202  ************************/
-
-/******************** screen 203  ************************/
-.screen203 .Lightest_teal1 {
-    height: 380px;
-}
-.screen203 .radiobutton label::before,
-.screen203 .control label::before,
-.screen203 .control1 label::before {
-    background-color: #fff !important;
-}
-.screen203 .control {
-    margin-left: 20px;
-}
-.screen203 .Add_feedback span:after {
-    left: 0px;
-    top: 25%;
-}
-.screen203 .Mandatory .normal {
-    color: #00352D;
-}
-.screen203 .add_option1 {
-    right: 10px;
-}
-/******************** screen 203  ************************/
-
-/******************** screen 203  ************************/
-.screennew203 .right-side-icon {
-  display: none;
-}
-.screennew203 .checkbox {
-    margin-top: 20px;
-}
-.screennew203 .checkbox .radiobutton label::before,
-.screennew203 .checkbox .radiobutton input[type=checkbox]:checked+label::after {
-    border-radius: 0px !important;
-}
-.screennew203 .lightboxes .Marksbottom {
-    border-top: 1px solid #B2DFDB;
-    margin-top: 30px;
-}
-.screennew203 .secoundquestion {
-    margin-top: 35px;
-}
-.screennew203 .lightboxes .col-sm-1.control {
-    margin-left: 20px;
-        max-width: 60px;
-}
-/********************************************/
-
 
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {

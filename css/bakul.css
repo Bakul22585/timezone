@@ -1,0 +1,106 @@
+/************* screen476 ********************/
+.screen476 .full-width {
+    width: 100%;
+    margin-top: 20px;
+}
+.screen476 .full-width .checkbox-section .type {
+    text-align: left;
+    color: #009688;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.screen476 .full-width .checkbox-section .control label::before {
+    width: 15px;
+    height: 15px;
+}
+.screen476 .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen476 .checkbox-group .control {
+    flex: 1;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px 150px;
+    align-items: baseline;
+}
+.screen476 .checkbox-group .control label {
+    text-align: left;
+}
+.screen476 .checkbox-group .control input[type=checkbox] {
+    display: block;
+    opacity: 0;
+}
+.screen476 .selectbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.screen476 .selectbox-section .input-div {
+    flex: 1;
+    position: relative;
+    min-width: 150px;
+}
+.screen476 .selectbox-section .input-div:first-child {
+    margin-right: 10px;
+}
+.screen476 .selectbox-section .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+}
+.screen476 .selectbox-section .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.screen476 .selectbox-section .input-div.select.prefix select {
+    padding-left: 40px;
+}
+.screen476 .selectbox-section .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.screen476 .input-section {
+    position: relative;
+    margin-top: 15px;
+}
+.screen476 .input-section .without-icon-fullbox,
+.screen476 .input-section .textarea {
+    padding-left: 15px;
+}
+.screen476 .input-section .form-control-placeholder {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+}
+.screen476 .input-section .attachfiles-section {
+    display: flex;
+    margin: -20px 0px 0 15px;
+}
+.screen476 .input-section .attachfiles-section span {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    margin-left: 10px;
+}
+.screen476 .input-section.margin-botton-35 {
+    margin-bottom: 35px;
+}
+.screen476 .input-section.singal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen476 .input-section.singal .input-div {
+    flex: 1;
+}
+/************* screen476 ********************/

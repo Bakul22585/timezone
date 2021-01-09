@@ -7597,6 +7597,248 @@ li.redcolor1 {
 }
 /********************************************/
 
+/********************screen 475************************/
+.screenno475 button.button.CREATE.button-outer {
+    position: relative;
+    padding-right: 45px;
+}
+.screenno475 button.button.CREATE.button-outer img.Go_white {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+.screenno475 .Previous_Notices {
+    background: #E0F2F1;
+    padding: 15px 50px;
+}
+.screenno475 .Previous_Notices h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+}
+.screenno475 .Dance_Competition {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 152, 135, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+}
+.screenno475 .Dance_Competition h6 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screenno475 .Posted {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #009688;
+}
+.screenno475 .DELETE {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    position: relative;
+    cursor: pointer;
+}
+.screenno475 .REPOST {
+    display: grid;
+    grid-template-columns: 40% auto auto auto auto;
+}
+.screenno475 .Dance_Competitionone p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.screenno475 .Dance_Competitionone .Competition_poster {
+    font-weight: bold !important;
+    color: #F47E16 !important;
+    padding: 0px !important;
+    position: relative;
+    padding-left: 20px !important;
+    cursor: pointer;
+}
+.screenno475 .mein_Dance_Competition {
+    width: auto;
+    height: 70vh;
+    overflow: auto;
+}
+.screenno475 .Dance_Competitionone .Competition_poster img.Vector {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+.screenno475 .DELETE img{
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    left: 58px;
+}
+.screenno475 .noPrevious_Notices {
+    width: auto;
+    height: 70vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screenno475 .noPrevious_Notices h6 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00352D;
+}
+
+/******************************************************/
+
+/************* screen476 ********************/
+.screen476 .full-width {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.screen476 .full-width .checkbox-section .type {
+    text-align: left;
+    color: #009688;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.screen476 .full-width .checkbox-section .control label::before {
+    width: 15px;
+    height: 15px;
+}
+
+.screen476 .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen476 .checkbox-group .control {
+    flex: 1;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px 160px;
+    align-items: baseline;
+}
+
+.screen476 .checkbox-group .control label {
+    text-align: left;
+}
+
+.screen476 .checkbox-group .control input[type=checkbox] {
+    display: block;
+    opacity: 0;
+}
+
+.screen476 .selectbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.screen476 .selectbox-section .input-div {
+    flex: 1;
+    position: relative;
+    min-width: 150px;
+}
+
+.screen476 .selectbox-section .input-div:first-child {
+    margin-right: 10px;
+}
+
+.screen476 .selectbox-section .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+}
+
+.screen476 .selectbox-section .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.screen476 .selectbox-section .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.screen476 .selectbox-section .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen476 .input-section {
+    position: relative;
+    margin-top: 15px;
+}
+
+.screen476 .input-section .without-icon-fullbox,
+.screen476 .input-section .textarea {
+    padding-left: 15px;
+}
+
+.screen476 .input-section .form-control-placeholder {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+}
+
+.screen476 .input-section .attachfiles-section {
+    display: flex;
+    margin: -20px 0px 0 15px;
+    cursor: pointer;
+}
+
+.screen476 .input-section .attachfiles-section span {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    margin-left: 10px;
+}
+
+.screen476 .input-section.margin-botton-35 {
+    margin-bottom: 35px;
+}
+
+.screen476 .input-section.singal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen476 .input-section.singal .input-div {
+    flex: 1;
+}
+.createClassPopup-section408screen .createNewClass.screen476 {
+    background-color: #fff;
+    padding: 14px 25px 0px 25px;
+    width: 660px;
+    position: relative;
+    border-radius: 0.9375rem;
+    overflow: auto;
+    max-height: 800px;
+    text-align: center;
+}
+/************* screen476 ********************/
 
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {

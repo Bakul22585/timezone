@@ -7839,6 +7839,226 @@ li.redcolor1 {
     text-align: center;
 }
 /************* screen476 ********************/
+/************************ page 480 *******************/
+.screen480 .SearchPeopleInChatSection input {
+    background-image: url(../images/svg/SearchForChats.svg);
+    border-radius: 0;
+    background-color: #EFF8F8;
+    border: 0;
+    font-weight: normal;
+    font-size: 16px;
+    background-position: 2rem center;
+    padding-left: 70px;
+    height: 55px;
+    margin-bottom: 0;
+}
+.screen480 .SearchPeopleInChatSection input::placeholder {
+    color: #80CBC4;
+}
+.screen480 .leftSide .topLinks ul.justify-content-center li:nth-child(1) span {
+    margin-left: -50px;
+}
+.screen480 .chatSection {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+.screen480 .chatSection::-webkit-scrollbar {
+    width: 0px;
+}
+.screen480 .chatSection .chat {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 15px;
+}
+.screen480 .chatSection .chat:nth-child(1) {
+    background: #E0F2F1;
+    border-top: 1px solid #B2DFDB;
+}
+.screen480 .chatSection .chat:after {
+    content: '';
+    border-top: 1px solid #B2DFDB;
+    position: relative;
+    top: -70px;
+    width: 210px;
+    left: 60px;
+}
+.screen480 .chatSection .chat .bold-text {
+    font-weight: 900;
+    font-size: 16px;
+    color: #00352D;
+}
+.screen480 .chatSection .chat .normal-text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #00352D;
+}
+.screen480 .chatSection .chat .sub-text {
+    font-weight: normal;
+    font-size: 12px;
+    color: #828F8E;
+}
+.screen480 .chatSection .chat .time-text {
+    font-weight: normal;
+    font-size: 10px;
+    color: #00352D;
+}
+.screen480 .chatSection .chat .count {
+    background-color: #F47E16;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.screen480 .rightSide .headerSection {
+    background: #E0F2F1;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+}
+.screen480 .rightSide .headerSection div {
+    margin-left: 20px;
+}
+.screen480 .rightSide {
+    padding-top: 62px;
+    height: 100vh;
+}
+.screen480 .rightSide .containSection {
+    margin-top: 40px;
+}
+.screen480 .rightSide .containSection .line {
+    width: 95%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0 0 40px 30px;
+    border-top: 0.5px solid #4DB6AC;
+}
+.screen480 .rightSide .containSection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection {
+    padding: 3% 20%;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt {
+    background: #EFF8F8;
+    padding: 3%;
+    border-radius: 10px;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt label {
+    font-weight: 900;
+    font-size: 18px;
+    color: #00352D;
+    margin-bottom: 15px;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section {
+    display: flex;
+    cursor: pointer;
+}
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section span {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F47E16;
+}
+/************************ page 480 *******************/
+
+/************************ page 801 *******************/
+
+.screen801 .fivefiveeen {
+    
+    grid-template-columns: 250px 250px auto;
+    width: 100%;
+}
+.screen801 .fivefiveeen button.Classadd {
+    margin: 0px;
+    border: 2px solid #FF7700;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    background-color: transparent;
+    padding: 10px 0px;
+    min-width: 9rem;
+    position: absolute;
+    top: 24px;
+}
+.screen801 .fivefiveeen button.Classadd:hover {
+    background: transparent;
+}
+.screen801 .fivefiveeen li.Classaddbuttpn {
+    padding: 0px;
+    position: relative;
+}
+.screen801 .fivefiveeen li img.Dropdown {
+    position: absolute;
+    top: 43px;
+    left: 10px;
+}
+.screen801 .Selected.Classes {
+    min-width: 250px;
+    background: #EFF8F8;
+    border-radius: 10px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+.screen801 .Selected.Classes h5 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #004D40;
+    text-align: left;
+    padding: 10px 15px 5px;
+}
+.screen801 .Selected.Classes ul {
+    display: grid;
+    grid-template-columns: 105px 105px auto;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen801 .Selected.Classes ul li {
+    padding: 8px 0px;
+}
+.screen801 .Selected.Classes ul:last-child {
+    border-bottom: 0px solid #80CBC4;
+    padding-bottom: 40px;
+}
+.screen801 .createNewClass{
+    height: calc(100vh - 380px);
+    padding: 25px 25px 0px 25px;
+}
+.screen801 .CREATE {
+    margin-top: 40px;
+}
+.screen801 .close{
+    right: 1.6rem;
+    top: 1.6rem;
+}
+.screen801 .Selected.Classes ul li img.cross_image{
+    cursor: pointer;
+}
+/*******************************************/
 
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {

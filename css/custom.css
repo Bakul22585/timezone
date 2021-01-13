@@ -8060,6 +8060,584 @@ li.redcolor1 {
 }
 /*******************************************/
 
+/************ page 211 *****************/
+.screen211 {
+    margin-left: 25px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    padding-right: 120px;
+}
+.screen211 .meinscreenteste button {
+    position: relative;
+    margin-bottom: 20px;
+}
+.screen211 .meinscreenteste button img.artwork {
+    position: absolute;
+    left: 11px;
+    top: 18px;
+}
+.screen211 .Force_Work {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 152, 135, 0.1);
+    border-radius: 15px;
+    padding: 15px 20px 0px;
+    position: relative;
+}
+.screen211 .Force_Work li.Title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #009688;
+}
+.screen211 .Force_Work .Test_Title li {
+    padding-bottom: 15px;
+}
+.screen211 .Force_Work li.Work {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.screen211 .Force_Work li.Date {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.screen211 .Force_Work ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.screen211 .Test_Title {
+    width: 80%;
+    display: inline-block;
+}
+.screen211 .Force_Work1 {
+    width: auto;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    position: absolute;
+    top: 35px;
+    cursor: pointer;
+}
+.screen211 .Force_Work1 li.Title {
+    padding-bottom: 15px;
+}
+.screen211 .meinSamaysection {
+    background: #EFF8F8;
+    padding: 20px;
+    position: relative;
+    height: calc(100vh - 290px);
+    overflow: auto;
+}
+.screen211 .meinSamaysection ul {
+    display: grid;
+    grid-template-columns: 80% 7% auto;
+}
+.screen211 .meinSamaysection ul li.Bhardwaj {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0D352D;
+    padding-left: 35px;
+}
+.screen211 .meinSamaysection ul li.VIEW {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+}
+.screen211 .meinSamaysection ul li.numbercount {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen211 .meinSamaysection img.user_icon1 {
+        position: absolute;
+        left: 0px;
+        top: -2px;
+}
+.screen211 .meinSamaysection li.Absent {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+}
+.screen211 .Test_Title .minitesninfth ul {
+    grid-template-columns: 20% auto;
+}
+.screen211 .Test_Title .minitesninfth ul li {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+        padding-bottom: 0px;
+}
+.screen211 .Test_Title .minitesninfth ul li span{
+ font-weight: 800;
+}
+/**************************************/
+
+/************ page 221 *****************/
+.sceen221 p.Force_Magnetism {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    text-align: left;
+    padding-top: 10px;
+}
+.sceen221 .minutes207 {
+    display: flex;
+    padding-top: 0px;
+}
+.sceen221 .lasttest p {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+    text-align: justify;
+}
+.sceen221 .lasttest p.Test_Topic {
+    color: #009688;
+}
+.sceen221 .lasttest {
+    padding: 0px 20px;
+}
+.sceen221 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.sceen221 .createNewClass {
+    overflow-y: auto;
+    height: auto;
+    min-height: 520px;
+    max-height: 800px;
+}
+.sceen221 .CREATE {
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+.sceen221 p.Test_Topic {
+    font-weight: bold;
+}
+/**************************************/
+
+/************ page 22 *****************/
+.screen222 p.Force_Magnetism {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    text-align: left;
+    padding-top: 5px;
+}
+.screen222 .minutes207 {
+    display: flex;
+    padding-top: 0px;
+}
+.screen222 .lasttest p {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+    text-align: justify;
+}
+.screen222 .lasttest p.Test_Topic {
+    color: #009688;
+}
+.screen222 .lasttest {
+    padding: 0px 20px;
+}
+.screen222 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.screen222 .createNewClass {
+    overflow-y: auto;
+    height: auto;
+    min-height: 560px;
+    max-height: 800px;
+}
+.screen222 .CREATE {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    min-width: 9rem;
+}
+.screen222 p.Test_Topic {
+    font-weight: bold;
+}
+.screen222 .meinfiles h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 15px;
+    color: #0D352D;
+}
+.screen222 .meinfiles p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #009688;
+}
+.screen222 .meinfiles {
+    width: 100%;
+    text-align: left;
+    padding-left: 24px;
+}
+.screen222 .footerbutton {
+    width: 100%;
+}
+.screen222 .footerbutton span {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0D352D;
+    width: auto;
+    display: inline-block;
+    padding-left: 40px;
+    text-align: justify;
+    position: relative;
+}
+.screen222 .footerbutton span img{
+       position: absolute;
+       left: 15px;
+       top: 10px;
+}
+/**************************************/
+/*****************screen 223*********************/
+.screen223 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.screen223 .meinsection .linechange .Questions p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+}
+.screen223 .meinsection .linechange {
+    display: flex;
+    float: right;
+    padding-right: 30px;
+}
+.screen223 .meinsection .linechange .Questions {
+    padding: 15px 20px;
+}
+.screen223 .meinsection .linechange .Questions h2 span {
+    color: #26A69A;
+}
+.screen223 .meinsectionfirst {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 28% auto;
+   
+}
+.screen223 .minutes207 {
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.screen223 .sectionfirst {
+    padding-top: 30px;
+    padding-left: 40px;
+    border-right: 1px solid #B2DFDB;
+    padding-right: 40px;
+    position: relative;
+}
+.screen223 .Instructions h2 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00352D;
+    padding: 15px 0px 20px;
+}
+.screen223 .Instructions p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+}
+.screen223 .minutes207 p {
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    font-size: 18px;
+}
+.screen223 .Clock1 {
+    position: relative;
+    top: 6px;
+    right: 20px;
+}
+.screen223 .minutes207 p {
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    font-size: 18px;
+}
+.screen223 .badge1 {
+    position: relative;
+    top: 6px;
+    right: 15px;
+}
+.screen223 .minutes207 p {
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    font-size: 18px;
+}
+.screen223 span.Delete_topicons {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    cursor: pointer;
+}
+.screen223 .scrollbar {
+    overflow-y: auto;
+    height: calc(100vh - 99px);
+    padding: 15px 70px;
+}
+.screen223 .Jump_question {
+    margin-bottom: 40px;
+}
+.screen223 .Jump_question h6 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen223 .Jump_question ul li {
+    width: auto;
+    display: inline-block;
+    color: #F47E16;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.screen223 .Jump_question ul {
+    text-align: center;
+}
+.screen223 .meinarrowdivs {
+    width: auto;
+    position: relative;
+}
+.screen223 .Previous {
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    background: #FFFFFF;
+    border: 2px solid #FF7700;
+    box-shadow: 0px 10px 10px rgba(255, 119, 0, 0.1);
+    border-radius: 12px;
+    padding: 5px 7px 1px;
+     cursor: pointer;
+}
+.screen223 .Next {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    background: #FFFFFF;
+    border: 2px solid #FF7700;
+    box-shadow: 0px 10px 10px rgba(255, 119, 0, 0.1);
+    border-radius: 12px;
+    padding: 5px 7px 1px;
+    cursor: pointer;
+}
+.screen223 .radiobutton {
+    max-width: 80% !important;
+    MARGIN: 0 AUTO;
+}
+.screen223 .submit_test {
+    position: absolute;
+    right: 80px;
+    bottom: 20px;
+}
+.screen223 .radiobutton p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen223 .Jump_question li.active {
+    color: #00352D !important;
+    font-weight: bold;
+}
+.screen224 .meinsectionfirst {
+    grid-template-columns: 6% 85%;
+}
+.screen224 .meinradiobutton p.Upload_file {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    position: relative;
+     padding-left: 24px;
+}
+.screen223 .radiobutton .Long_Answer {
+    padding-left: 24px;
+}
+.screen224 .meinradiobutton img.Group_arrowtop {
+    position: absolute;
+    left: 120px;
+}
+.screen225 .radiobutton {
+    max-width: 50% !important;
+    MARGIN: 0 AUTO;
+}
+.screen225 .Next{
+    left: 270px;
+}
+.screen225 .Previous{
+    right: 270px;
+}
+
+/************************************************/
+
+/*****************screen 227*********************/
+
+.sceen227 p.Force_Magnetism {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.sceen227 .minutes207 {
+    display: flex;
+    padding-top: 0px;
+}
+
+.sceen227 .lasttest p {
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 22px;
+   color: #EB5757;
+   text-align: justify;
+   padding-top: 15px;
+}
+
+.sceen227 .lasttest p.Test_Topic {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 28px;
+   color: #EB5757;
+}
+
+.sceen227 .lasttest {
+    padding: 0px 20px;
+}
+
+.sceen227 .Questions h2 {
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 22px;
+   color: #00352D;
+   padding: 0px;
+}
+.sceen227  h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #0D352D;
+}
+
+.sceen227 .createNewClass {
+    overflow-y: auto;
+    height: auto;
+    min-height: 430px;
+    max-height: 800px;
+    min-width: 480px;
+    padding: 20px 70px;
+}
+
+.sceen227 .CREATE {
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.sceen227 p.Test_Topic {
+    font-weight: bold;
+}
+.sceen227 .Questions_attempted {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.sceen227 .Questions p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.sceen227 .Questions p span {
+    color: #EB5757;
+    font-weight: bold;
+}
+.screen228 .Questions .zero {
+    color: #EB5757;
+}
+.screen228 .lasttest p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen228 .createNewClass {
+    min-height: 300px;
+}
+.screen228 .Questions p {
+    padding-top: 10px;
+}
+.screen228 .close {
+    position: absolute;
+    right: 1.6rem;
+    top: 1.6rem;
+}
+/************************************************/
+
 /************ page 553 *****************/
 @media only screen and (max-width: 1099px) {
     .meinsection {

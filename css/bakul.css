@@ -45,3 +45,247 @@
     margin-left: 15px;
 }
 /******************** 481 ************************/
+/******************** 1002 ************************/
+.screen1002 .contain .input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.screen1002 .contain .btn-section {
+    display: flex;
+    justify-content: center;
+}
+.screen1002 .contain .input-div {
+    position: relative;
+    width: 70%
+}
+.screen1002 .contain .input-div .without-icon-fullbox {
+    background-image: none !important;
+    width: 100%;
+    display: inline-block;
+    padding-left: 20px;
+}
+.screen1002 .contain .input-div .form-control-placeholder {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+}
+.screen1002 .contain .btn-section button.cancel {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+.screen1002 .contain .btn-section button.btnWithIcon {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+.screen1002 .contain .btn-section button.btnWithIcon img {
+    margin-left: 70px;
+}
+/******************** 1002 ************************/
+/******************** 1001 ************************/
+.screen1001 .exam-btn-section {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.screen1001 .StatusSectionHeader {
+    background: #E0F2F1;
+    padding: 15px 40px;
+}
+.screen1001 .StatusSectionHeader span {
+    color: #00695C;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.screen1001 .StatusSectionHeader span.active {
+    color: #F47E16;
+    position: relative;
+}
+.screen1001 .StatusSectionHeader span.active::after {
+    content: '';
+    width: 120%;
+    position: absolute;
+    border-bottom: 4px solid #F47E16;
+    top: 40px;
+    left: -12px;
+    border-radius: 2px;
+}
+.screen1001 .contain-area {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}
+.screen1001 .contain-area .box {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 20px;
+}
+.screen1001 .contain-area .box .exam-section {
+    flex: 1;
+}
+.screen1001 .contain-area .box .time-section{
+    flex: 0.5;
+}
+.screen1001 .contain-area .box .action-section {
+    flex: 2;
+    margin-top: 20px;
+}
+.screen1001 .contain-area .box .exam-section p {
+    color: #009688;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.screen1001 .contain-area .box .exam-section span {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.screen1001 .contain-area .box .time-section p {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.screen1001 .contain-area .box .time-section p:nth-child(1) {
+    margin-bottom: 20px;
+}
+.screen1001 .contain-area .box .action-section button {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+.screen1001 .contain-area .box .action-section button.withIcon {
+    display: inline-flex;
+}
+.screen1001 .contain-area .box .action-section button.withIcon img {
+    margin-right: 10px;
+    height: 20px;
+}
+/******************** 1001 ************************/
+/******************** 1004 ************************/
+.screen1001 .contain-area .box .action-section.btn-right {
+    text-align: right;
+    margin-top: 5px;
+}
+.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon {
+    display: inline-flex;
+    border: 1px solid #FF7700;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon img {
+    height: 20px;
+    margin-left: 10px;
+}
+/******************** 1004 ************************/
+/******************** 1005 ************************/
+.screen1005 .sidebarscreen300 {
+    padding-left: 40px;
+    padding-right: 140px;
+}
+.screen1005 .sidebarscreen300 .SAve {
+    align-items: baseline;
+}
+.screen1005 .sidebarscreen300 .SAve .btn-section button {
+    margin-bottom: 0;
+}
+.screen1005 .sidebarscreen300 .SAve .btn-section .cancel {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+.screen1005 .contain {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 15px;
+}
+.screen1005 .contain .header {
+    background: #E0F2F1;
+    text-align: center;
+}
+.screen1005 .contain .header {
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 0;
+}
+.screen1005 .contain .classes-section div,
+.screen1005 .contain .subject-section div,
+.screen1005 .contain .student-section div,
+.screen1005 .contain .exam-section div,
+.screen1005 .contain .notbook-section div,
+.screen1005 .contain .absent-section div.checkbox-section {
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+.screen1005 .contain .classes-section,
+.screen1005 .contain .subject-section {
+    border-right: 1px solid #B2DFDB;
+}
+.screen1005 .contain .classes-section .body,
+.screen1005 .contain .subject-section .body,
+.screen1005 .contain .student-section .body,
+.screen1005 .contain .absent-section .body {
+    padding: 0;
+    /* overflow-y: auto;
+    height: calc(100vh - 190px); */
+}
+.screen1005 .contain .classes-section div.active,
+.screen1005 .contain .subject-section div.active {
+    background: #E0F2F1;
+}
+.screen1005 .contain .classes-section div.active::after,
+.screen1005 .contain .subject-section div.active::after {
+    content: '';
+    border-bottom: 5px solid #F47E16;
+    position: absolute;
+    width: 33%;
+    transform: rotate(90deg);
+    left: 130px;
+    top: 24px;
+    border-radius: 18px;
+}
+/******************** 1005 ************************/

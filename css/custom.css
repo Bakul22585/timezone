@@ -719,13 +719,16 @@ img {
 }
 
 .form-control:focus+.form-control-placeholder,
-.form-control:active+.form-control-placeholder,
-.form-control:valid+.form-control-placeholder {
+.form-control:valid+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder,
+input.form-control:not(:placeholder-shown) ~ label,
+input.form-control input:-webkit-autofill {
     font-size: 75% !important;
     transform: translate(0.8rem, -100%);
     opacity: 1;
     padding: 0 0.3rem;
     color: #4DB6AC;
+    
 }
 
 /***************************  201_test css *******************************/
@@ -1017,6 +1020,7 @@ img {
     width: 24px;
 }
 
+
 .createClassPopup-section.test-popup .test-list li .questions:after {
     background-image: url(../images/svg/plus.svg);
     background-position: center;
@@ -1065,11 +1069,13 @@ img {
 
 .createClassPopup-section.test-popup .test-list .test-block .form-control-placeholder {
     opacity: 0;
+    display: none !important;
 }
 
 .createClassPopup-section.test-popup .test-list .test-block .form-control:focus+.form-control-placeholder,
 .createClassPopup-section.test-popup .test-list .test-block .form-control:valid+.form-control-placeholder {
     opacity: 1;
+    display: block !important;
 }
 
 .createClassPopup-section.test-popup .test-list .line {
@@ -1103,6 +1109,9 @@ img {
     border-radius: 5px;
     margin: 0 1rem;
     float: unset;
+}
+.Marksbottom ul li:last-child {
+    width: 222px;
 }
 .CREATE1.SaveCREATE {
     text-align: center;
@@ -1229,12 +1238,15 @@ img {
 }
 
 .file1 {
-    float: left;
-    margin-right: 12px;
+    position: absolute;
+    top: 5px;
 }
 
 .file2 {
     margin-left: 30px;
+}
+textarea#testdescription {
+    margin-left: 35px;
 }
 
 .CREATE {
@@ -1243,7 +1255,15 @@ img {
     border: 0px !important;
     margin-top: 10px;
 }
-
+.SAVE_DRAFTbutton {
+    background-color: transparent;
+    color: #F47E16;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+}
+.SAVE_DRAFTbutton:hover {
+    background: transparent;
+}
 span.CREATE1 {
     width: 25%;
     display: inline-block;
@@ -1667,6 +1687,7 @@ input[type=checkbox]+label::before {
     margin-left: 40px;
     margin-top: 0px;
     max-width: 90% !important;
+    margin-bottom: 25px;
 }
 
 .radiobutton span {
@@ -1683,6 +1704,7 @@ input[type=checkbox]+label::before {
     height: 1.9rem;
     width: 1.9rem;
     right: 1rem;
+    cursor: pointer;
 }
 
 .radiobutton label {
@@ -1701,6 +1723,9 @@ input[type=checkbox]+label::before {
     border-radius: 100px !important;
 }
 
+.radiobutton p span.as-link {
+    float: right;
+}
 input[type=radio]+label::before {
     border: 0.063rem solid #B2DFDB;
     /* border-radius: 0.063rem; */
@@ -1871,11 +1896,11 @@ input[type=radio]+label::before {
     top: -15px;
 }
 
-.add-question-section {
+/* .add-question-section {
     position: absolute;
     right: 15px;
     bottom: -40px;
-}
+} */
 
 .add-question-section img {
     position: absolute;
@@ -2164,6 +2189,9 @@ p.correct {
 .screen250 .meinradiobutton {
     margin-top: 25px;
 }
+.screen205 .scrollbar .Lightest_teal1 form {
+    max-width: 1500px;
+}
 .screen205 .Lightest_teal1{
     margin-top: 30px;
 }
@@ -2174,6 +2202,51 @@ p.correct {
     bottom: 40px;
     left: 0px;
     right: 0px;
+}
+.screen205 .Lightest_teal1.testsection .radiobutton {
+    background: #EFF8F8;
+}
+.screen205  .Marksbottom label::before {
+    background: #fff;
+}
+.screen205 .Marksbottom input[type=checkbox]+label::before {
+    border: 0.063rem solid #B2DFDB;
+    border-radius: 0.063rem;
+}
+.screen205 .Marksbottom label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+.screen205 .Marksbottom label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+}
+.screen205 .Marksbottom input[type=checkbox]:checked+label::after {
+    background-size: 100%;
+    background: url(../images/svg/check.svg) center no-repeat;
+    opacity: 1;
+}
+.screen205 .control label:after,
+.screen205 .control label:before {
+    content: "";
+    position: absolute;
+    top: calc(50% - -0.7em);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    transition: background-size .2s ease;
 }
 /******************************************************************/
 
@@ -2220,6 +2293,7 @@ p.correct {
     color: #F47E16;
     font-size: 14px;
     padding-left: 40px;
+    cursor: pointer;
 }
 
 .questionsmarks {
@@ -2261,7 +2335,7 @@ p.correct {
     border-radius: 0.9375rem;
     overflow: auto;
     overflow-y: auto;
-    height: calc(100vh - 426px);
+    height: calc(100vh - 296px);
     text-align: center;
 }
 .createClassPopup-section207screen .CREATE {
@@ -2778,6 +2852,8 @@ img.Group_9 {
     padding-top: 3.25rem;
     position: relative;
     background-color: #fff;
+    overflow-y: auto;
+    height: calc(100vh - 99px);
 }
 
 .classDashboard-sectionscreen209 .createAssigmentBlock {
@@ -2818,13 +2894,7 @@ img.Group_9 {
     position: relative;
 }
 
-.classDashboard-sectionscreen209 .headingtitles .active {
-    color: #F47E16;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 32px;
-    letter-spacing: 0.5px;
-}
+
 
 .classDashboard-sectionscreen209 .headingtitles .Completed {
     color: #00695C;
@@ -2833,15 +2903,25 @@ img.Group_9 {
     line-height: 32px;
     font-weight: normal;
     padding-left: 30px;
+     cursor: pointer;
 }
-
+.classDashboard-sectionscreen209 .headingtitles .active {
+    color: #F47E16;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
 .classDashboard-sectionscreen209 .headingtitles h2 {
     padding-bottom: 15px;
     border-bottom: 4px solid #E0F2F1;
     border-radius: 2px;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-.classDashboard-sectionscreen209 .headingtitles h2.active:after {
+.classDashboard-sectionscreen209 .headingtitles h2.Upcoming.active:after {
     content: "";
     width: 280px;
     height: 4px;
@@ -2852,6 +2932,17 @@ img.Group_9 {
     bottom: 0px;
     left: -9px;
 
+}
+.classDashboard-sectionscreen209 h2.Completed.active:after {
+   content: "";
+   width: 130px;
+   height: 4px;
+   background: #f47e16;
+   border-radius: 2px;
+   display: inline-block;
+   position: absolute;
+   bottom: 0;
+   left: 280px;
 }
 
 .classDashboard-sectionscreen209 .Force_Work h6 {
@@ -2927,10 +3018,10 @@ img.Group_9 {
     position: relative;
 }
 
-.classDashboard-sectionscreen209 .Testupcoming_scrollbar {
+/* .classDashboard-sectionscreen209 .Testupcoming_scrollbar {
     overflow-y: auto;
     height: calc(55vh - 99px);
-}
+} */
 
 .classDashboard-sectionscreen209 .Testupcoming_scrollbar::-webkit-scrollbar {
     width: 0px;
@@ -3089,13 +3180,13 @@ img.Group_9 {
 }
 
 .account-section214 .image-block .logo {
-    margin: 0 auto 5rem;
+    margin: 0 auto 3rem;
 }
 
 .logo {
     text-indent: -62499.9375rem;
-    background: url(../images/svg/logo.svg) no-repeat;
-    width: 18.75rem;
+    background: url(../images/svg/Logo_New_60.svg) no-repeat;
+    width: 20.75rem;
     height: 5.25rem;
     display: block;
 }
@@ -3572,11 +3663,11 @@ img.Group_9 {
     padding-top: 114px !important;
 }
 
-.leftside {
+.screen216 .leftside {
     border-right: 1px solid #80CBC4;
 }
 
-.leftside h4 {
+.screen216 .leftside h4 {
     color: #0D352D;
     font-weight: bold;
     font-size: 20px;
@@ -3584,7 +3675,7 @@ img.Group_9 {
     padding-top: 30px;
 }
 
-.pdfimages {
+.screen216 .pdfimages {
     background: #EFF8F8;
     border-radius: 15px;
     padding: 25px;
@@ -3592,16 +3683,16 @@ img.Group_9 {
     position: relative;
 }
 
-.pdfimages img.pdf_1 {
+.screen216 .pdfimages img.pdf_1 {
     position: absolute;
     top: 15px;
 }
 
-.pdfimages .File_Name {
+.screen216 .pdfimages .File_Name {
     padding-left: 60px;
 }
 
-.pdfimages1 {
+.screen216 .pdfimages1 {
     background: #EFF8F8;
     border-radius: 15px;
     padding: 25px;
@@ -3610,54 +3701,54 @@ img.Group_9 {
     margin-top: 20px;
 }
 
-.pdfimages1 img {
+.screen216 .pdfimages1 img {
     position: absolute;
     top: 15px;
 }
 
-.pdfimages1 .File_Name1 {
+.screen216 .pdfimages1 .File_Name1 {
     padding-left: 60px;
     color: #F47E16;
 }
 
-.rightside {
+.screen216 .rightside {
     border-left: 1px solid #80CBC4;
 }
 
-.rightside form {
+.screen216 .rightside form {
     padding: 30px 0px 0px !important;
 }
 
-.textareafiled input {
+.screen216 .textareafiled input {
     padding-bottom: 90px;
     margin: 0px;
 }
 
-.Share_voice_feedback {
+.screen216 .Share_voice_feedback {
     display: flex;
     flex: 1;
 }
 
-.spackericon2 h5 {
+.screen216 .spackericon2 h5 {
     color: #0D352D;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.5px;
 }
 
-.spackericon2 p {
+.screen216 .spackericon2 p {
     color: #4DB6AC;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
 }
 
-.Checked_Mark {
+.screen216 .Checked_Mark {
     padding-top: 60px;
     text-align: center;
 }
 
-.Checked_Mark P {
+.screen216 .Checked_Mark P {
     color: #F47E16;
     text-transform: uppercase;
     font-weight: 500;
@@ -3665,7 +3756,7 @@ img.Group_9 {
     line-height: 24px;
 }
 
-.spackericon2 {
+.screen216 .spackericon2 {
     padding-top: 15px;
 }
 
@@ -3994,7 +4085,7 @@ img.Group_9 {
     position: relative;
     border-radius: 0.9375rem;
     overflow: auto;
-    max-height: 540px;
+    max-height: 590px;
     text-align: center;
 }
 
@@ -4303,9 +4394,11 @@ li.redcolor1 {
    .approved123 .file2 {
        margin-left: 0px;
        opacity: 0;
+       display: none !important;
    }
    .approved123 .form-control:focus+.form-control-placeholder {
            opacity: 1;
+           display: block !important;
    }
    .approved123 form{
            margin-top: 30px;
@@ -8157,6 +8250,7 @@ li.redcolor1 {
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #F47E16;
+    cursor: pointer;
 }
 .screen211 .meinSamaysection ul li.numbercount {
     font-weight: bold;
@@ -8638,7 +8732,1101 @@ li.redcolor1 {
 }
 /************************************************/
 
+/************ page 213 *****************/
+.screen_New_213 header {
+    background: #EFF8F8;
+}
+
+.screen_New_213 header h2 {
+    padding-left: 17rem !important;
+}
+
+.screen_New_213 .close {
+    position: absolute !important;
+    left: auto !important;
+    top: 2rem !important;
+    background: url(../images/svg/Group123.svg) right center no-repeat !important;
+    z-index: 99 !important;
+    right: 30px !important;
+}
+
+.screen_New_213 header {
+    height: 114px !important;
+}
+.screen_New_213 .add_new_marksmein p.add_new_marks {
+    position: relative;
+}
+.screen_New_213 .add_new_marksmein p.add_new_marks span {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 13px;
+    padding: 0px;
+}
+.screen_New_213 .Profile_icons {
+    width: auto;
+    float: left;
+    position: absolute;
+    left: 180px;
+    top: 22px;
+}
+
+.screen_New_213 h2 {
+    padding-top: 31px !important;
+    color: #009688;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.screen_New_213 .Electric_Current {
+    color: #009688;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+.screen_New_213 .align-items-stretch.d-flex.test-block {
+    padding-top: 114px !important;
+}
+
+.screen_New_213 .leftside {
+    border-right: 1px solid #80CBC4;
+        padding-left: 25px;
+}
+
+.screen_New_213 .leftside h4 {
+    color: #0D352D;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.screen_New_213 .pdfimages {
+   background: #FFFFFF;
+   border: 1px solid #B2DFDB;
+   box-sizing: border-box;
+   box-shadow: 0px 4px 10px rgba(0, 150, 136, 0.1);
+   border-radius: 10px;
+   position: relative;
+   padding: 15px;
+   width: auto;
+}
+
+.screen_New_213 .writingsection {
+    width: auto;
+    display: inline-block;
+    padding-left: 15px;
+}
+.screen_New_213 .pdfimages img.pdf_1 {
+    position: absolute;
+    top: 15px;
+}
+
+.screen_New_213 .pdfimages1 {
+    background: #EFF8F8;
+    border-radius: 15px;
+    padding: 25px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.screen_New_213 .pdfimages1 img {
+    position: absolute;
+    top: 15px;
+}
+
+.screen_New_213 .rightside {
+    border-left: 1px solid #80CBC4;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+.screen_New_213 .questionsmarks12 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+    margin: 0px;
+}
+.screen_New_213 .rightside form {
+    padding: 30px 0px 0px !important;
+}
+
+.screen_New_213 .textareafiled input {
+    padding-bottom: 180px;
+    margin: 0px;
+}
+
+.screen_New_213 .Share_voice_feedback {
+    display: flex;
+    flex: 1;
+}
+.screen_New_213 .file2 {
+    margin-left: 0px;
+}
+.screen_New_213 .spackericon2 h5 {
+    color: #0D352D;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.screen_New_213 .spackericon2 p {
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.screen_New_213 .Checked_Mark {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.screen_New_213 .Checked_Mark P {
+    color: #F47E16;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen_New_213 .spackericon2 {
+    padding-top: 15px;
+}
+.screen_New_213 p.Wrongsince {
+    width: auto;
+    display: inline;
+    padding-left: 15px;
+    position: relative;
+        margin: 0px;
+}
+.screen_New_213 p.Wrongsince1 {
+    width: auto;
+    display: inline;
+    padding-left: 15px;
+    position: relative;
+     margin: 0px;
+}
+.screen_New_213 .radiobutton label {
+   width: auto;
+   display: inline-block;
+   font-weight: normal;
+   font-size: 14px;
+   letter-spacing: 0.5px;
+   color: #009688;
+}
+.screen_New_213 .Wrongsince .Wrong{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+    padding-left: 15px;
+}
+.screen_New_213 .Wrongsince1 .Correct {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #4DB6AC;
+    padding-left: 30px;
+}
+.screen_New_213 .radiobutton p {
+    width: auto;
+    display: inline-block;
+}
+.screen_New_213 .radiobutton p.MARKS_20 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828F8E;
+    padding-left: 15px;
+    float: right;
+    color: #828F8E;
+}
+.screen_New_213 .meinradiobutton .radiobutton p.MARKS_20 #vehicle {
+    width: auto;
+    max-width: 100px;
+}
+.screen_New_213 .radiobutton .MARKS_20 span {
+    padding: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #00352D;
+}
+.screen_New_213 .radiobutton p.MARKS_201 {
+   float: right;
+    padding: 8px 0px;
+    color: #828F8E;
+    text-align: right;
+}
+.screen_New_213 .radiobutton .MARKS_201 span {
+    padding: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #F47E16;
+}
+.screen_New_213 .Mic_newsection1 .invitastion .Title1 {
+    MIN-width: AUTO;
+    MAX-WIDTH: 190PX;
+}
+.screen_New_213 .MARKS_201 .Title1 {
+    MIN-width: AUTO;
+    MAX-WIDTH: 190PX;
+}
+.screen_New_213 .Wrongsince1 img {
+    position: absolute;
+    left: 10px;
+}
+.screen_New_213 .Wrongsince1 img.shutterstock {
+    position: unset !important;
+}
+.screen_New_213 .radiobutton {
+    background: #F7FBFB;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+    width: auto;
+    margin-bottom: 30px;
+    flex: 1;
+    max-width: 750px !important;
+    min-width: 500px;
+}
+.screen_New_213 .radiobuttonsubones {   
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen_New_213 .radiobuttonones {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .screen_New_213 .center {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 30px 15px;
+} */
+.screen_New_213 .center {
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+/* .screen_New_213 .Commentsection {
+    padding: 10px 20px;
+    width: 300px;
+} */
+.screen_New_213 .Commentsection .Mic_newsection p span {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #00352D;
+}
+.screen_New_213 .Commentsection .Mic_newsection p {
+    margin: 0px;
+    padding: 5px 0px 0px;
+}
+.screen_New_213 .information_regarding p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #00695C;
+    padding-left: 50px;
+}
+.screen_New_213 .add_new_marksmein p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #EB5757;
+}
+.screen_New_213 .radiobuttonsub {
+    position: relative;
+}
+.screen_New_213 .add_new_marksmein {
+    position: absolute;
+    top: -75px;
+    right: -100px;
+}
+.screen_New_213 .Voice_Note_one {
+    background: #EFF8F8;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 20px;
+    width: 270px;
+}
+.screen_New_213 .Voice_Note_one span{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+}
+.screen_New_213 .Voice_Note_one p{
+        margin: 0px;
+        position: relative;
+}
+.screen_New_213 .Voice_Note_one p span {
+       padding-left: 30px;
+       position: relative;
+}
+.screen_New_213 .Voice_Note_one span {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+.screen_New_213 img.play {
+    position: absolute;
+    right: -40px;
+}
+.screen_New_213 .Voice_Note_one img.Group_471 {
+    position: absolute;
+    top: 12px;
+}
+.screen_New_213 .Voice_Note_one img.Group_4712 {
+    position: absolute;
+}
+.screen_New_213 .Cross {
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+.screen_New_213 span.invitastion {
+    width: auto;
+    display: inline-block;
+}
+.screen_New_213 .Mic_newsection img {
+    position: relative;
+    TOP: 5PX;
+}
+/**************************************/
+
 /************ page 553 *****************/
+.screen241 .imagestreesection {
+    background: #C4C4C4;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 60px;
+}
+.screen241 .meinradiosbutton {
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+.screen241 .radiobutton {
+    margin-bottom: 25px;
+}
+/***************************************/
+
+/*************** page 601  ********************/
+.screen601.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers {
+    grid-template-columns: 20% 20% 20%;
+    width: 100%;
+}
+.screen601.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn {
+    margin-bottom: 0px;
+    position: relative;
+    width: auto;
+    max-width: 940px;
+}
+.screen601.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn img.Add {
+    position: absolute;
+    left: 13px;
+    top: 8px;
+}
+.screen601.Student-Course-Allocation.empty-table .contant-body .full-width .top-title-btn button.button.CREATE.button-outer{
+        position: absolute;
+        right: 0px;
+        margin-top: 15px;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        min-width: 13rem;
+        font-size: 16px;
+        text-align: right;
+}
+.screen601.Student-Course-Allocation .contant-body .full-width .padding-section .headers {
+    margin-top: 10px;
+}
+
+.screen601.Student-Course-Allocation.empty-table .contant-body .full-width .padding-section .headers .header {
+    color: #0D352D;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 0.5px solid #80CBC4;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view {
+    position: relative;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view div {
+    position: relative;
+    flex: 1;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.switch-on {
+    position: absolute;
+    top: -8px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.switch-off {
+    position: absolute;
+    top: -8px;
+    left: 120px;
+    cursor: pointer;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view div img.teacher-error {
+    top: 0px;
+    left: 0;
+}
+
+.screen601 .contant-body .value-full-width .padding-section .values .value-data .full-view div span {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #EB4747;
+}
+
+/*************** page 601  ********************/
+
+/*************** page 602  ********************/
+.International p {
+    padding-top: 10px;
+}
+.screen602 {
+    padding-left: 40px;
+}
+.International p span {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00352D;
+}
+.Internationalschool input#testname {
+    min-width: 300px;
+}
+.firstscreen602{
+    background: #F7FBFB !important;
+        height: calc(100vh - 100px);
+}
+.screen602 .meinsectionsix h2 {
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #009688;
+    margin-bottom: 10px;
+}
+.No_logo_added {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C6CFCE;
+}
+.screen602 .meinsectionsix .Removeedit span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.screen602 .meinsectionsix .Internationalschool p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #00352D;
+}
+.screen602 .meinsectionsix .Internationalschool p span {
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 28px;
+   color: #F47E16;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+/************ page 477 *****************/
+
+.screen447 .SearchPeopleInChatSection input {
+    background-image: url(../images/svg/SearchForChats.svg);
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+    font-weight: normal;
+    font-size: 16px;
+    background-position: 2rem center;
+    padding-left: 70px;
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.screen447 .chatSection {
+    height: calc(98vh - 270px);
+    overflow-y: auto;
+}
+
+.screen447 {
+    display: grid;
+    grid-template-columns: 330px auto;
+}
+
+.screen447 .chatSection .chat:nth-child(1) {
+    background: #E0F2F1;
+    border-top: 1px solid #B2DFDB;
+}
+
+.screen447 .screenmeinsction {
+    border-right: 1px solid #00897B;
+    padding-top: 34px;
+}
+
+.screen447 .chatSection .chat {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 15px;
+}
+
+.screen447 .chatSection .chat .bold-text {
+    font-weight: 900;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen447 .chatSection .chat .sub-text {
+    font-weight: normal;
+    font-size: 12px;
+    color: #828F8E;
+}
+
+.scrennsection447 {
+    padding-top: 61px !important;
+}
+
+.screen447 .radio-group-btn {
+    display: grid;
+    grid-template-columns: 130px 230px;
+    position: unset;
+}
+
+.screen447 .radio-group-btn .radiobutton {
+    background: transparent;
+    position: relative;
+}
+
+.screen447 .radio-group-btn .radiobutton label {
+    padding: 16px 0 0 10px;
+    font-weight: normal;
+}
+
+.screen447 .radio-group-btn .radiobutton label::before {
+    top: calc(50% - 0rem);
+    background-color: #fff !important;
+}
+
+.screen447 .radio-group-btn .radiobutton label::after {
+    top: calc(50% - 0rem);
+}
+
+.screen447 .radiobutton {
+    background: #F7FBFB;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 90% !important;
+    margin-bottom: 25px;
+}
+
+.screen447 span.Modify_Class.Fee_Structure {
+    color: #009688 !important;
+}
+
+.screen447 .SAve .Recepients {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.screen447 {
+    padding: 0px !important;
+}
+
+.screen447 .SAve {
+    padding-left: 30px;
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.screen447 .chatSection .chat .count {
+    background-color: #F47E16;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.screen447 .chatSection .chat .time-text {
+    font-weight: normal;
+    font-size: 10px;
+    color: #00352D;
+}
+
+.screen447 .contentchat {
+    background: #EFF8F8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 30px;
+    width: auto;
+    float: right;
+}
+
+.screen447 .contentchat span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4DB6AC;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen447 .contentchat p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen447 .yellowbox {
+    background: #FFFCE1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15PX 0px;
+    width: auto;
+    float: left;
+    margin: 0px 30px 15px;
+}
+
+.screen447 .yellowbox span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F8A724;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen447 .yellowbox p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen447 .chattingsection .line {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0px;
+    border-top: 0.5px solid #4DB6AC;
+    clear: both;
+}
+
+.screen447 .chattingsection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+
+.screen447 .boxcontent {
+    width: 95%;
+    display: inline-block;
+}
+
+.screen447 .chatinputsection {
+    width: 95%;
+    display: inline-block;
+    margin: 0px 30px 15px;
+    background: #EFF8F8;
+    border-radius: 15px;
+    position: relative;
+    padding: 5px;
+}
+
+.screen447 .chatinputsection input[type="text"] {
+    border: 1px solid #E0F2F1;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.screen447 .chatinputsection input[type=text],
+.screen447 .chatinputsection textarea[type=text] {
+    background-image: url(../images/svg/smileicons.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    padding: 15px 50px;
+    margin: 0px;
+}
+
+.screen447 .chatinputsection button {
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    text-align: right;
+    min-width: 5rem;
+}
+
+.screen447 .chatinputsection button:hover {
+    background-color: transparent !important;
+    background: transparent;
+}
+
+.screen447 .chattingsection {
+    width: 100%;
+    display: inline-block;
+    height: calc(100vh - 0px);
+    overflow-y: auto;
+}
+
+/**************************************/
+
+/************************ page 479 *******************/
+
+.screen479 .SearchPeopleInChatSection input {
+    background-image: url(../images/svg/SearchForChats.svg);
+    border-radius: 0;
+    background-color: #EFF8F8;
+    border: 0;
+    font-weight: normal;
+    font-size: 16px;
+    background-position: 2rem center;
+    padding-left: 70px;
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.screen479 .SearchPeopleInChatSection input::placeholder {
+    color: #80CBC4;
+}
+
+.screen479 .leftSide .topLinks ul.justify-content-center li:nth-child(1) span {
+    margin-left: -50px;
+}
+
+.screen479 .chatSection {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.screen479 .chatSection::-webkit-scrollbar {
+    width: 0px;
+}
+
+.screen479 .chatSection .chat {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 15px;
+}
+
+.screen479 .chatSection .chat:nth-child(1) {
+    background: #E0F2F1;
+    border-top: 1px solid #B2DFDB;
+}
+
+.screen479 .chatSection .chat:after {
+    content: '';
+    border-top: 1px solid #B2DFDB;
+    position: relative;
+    top: -70px;
+    width: 210px;
+    left: 60px;
+}
+
+.screen479 .chatSection .chat .bold-text {
+    font-weight: 900;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .normal-text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .sub-text {
+    font-weight: normal;
+    font-size: 12px;
+    color: #828F8E;
+}
+
+.screen479 .chatSection .chat .time-text {
+    font-weight: normal;
+    font-size: 10px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .count {
+    background-color: #F47E16;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.screen479 .rightSide .headerSection {
+    background: #E0F2F1;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+}
+
+.screen479 .rightSide .headerSection div {
+    margin-left: 20px;
+}
+
+.screen479 .rightSide {
+    padding-top: 60px !important;
+}
+
+.screen479 .rightSide .containSection {
+    margin-top: 40px;
+}
+
+.screen479 .rightSide .containSection .line {
+    width: 95%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0 0 40px 30px;
+    border-top: 0.5px solid #4DB6AC;
+}
+
+.screen479 .rightSide .containSection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection {
+    padding: 3% 20%;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt {
+    background: #EFF8F8;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt label {
+    font-weight: 900;
+    font-size: 18px;
+    color: #00352D;
+    margin-bottom: 15px;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section {
+    display: flex;
+    cursor: pointer;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section span {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F47E16;
+}
+
+.screen479 .contentchat {
+    background: #EFF8F8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 30px;
+    width: auto;
+    float: right;
+}
+
+.screen479 .contentchat span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4DB6AC;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen479 .contentchat p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen479 .yellowbox {
+    background: #FFFCE1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15PX 0px;
+    width: auto;
+    float: left;
+    margin: 0px 30px 15px;
+}
+
+.screen479 .yellowbox span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F8A724;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen479 .yellowbox p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen479 .chattingsection .line {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0px;
+    border-top: 0.5px solid #4DB6AC;
+    clear: both;
+}
+
+.screen479 .chattingsection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+
+.screen479 .boxcontent {
+    width: 95%;
+    display: inline-block;
+}
+
+.screen479 .chatinputsection {
+    width: 95%;
+    display: inline-block;
+    margin: 0px 30px 15px;
+    background: #EFF8F8;
+    border-radius: 15px;
+    position: relative;
+    padding: 5px;
+}
+
+.screen479 .chatinputsection input[type="text"] {
+    border: 1px solid #E0F2F1;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.screen479 .chatinputsection input[type=text],
+.screen479 .chatinputsection textarea[type=text] {
+    background-image: url(../images/svg/smileicons.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    padding: 15px 50px;
+    margin: 0px;
+}
+
+.screen479 .chatinputsection button {
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    text-align: right;
+    min-width: 5rem;
+}
+
+.screen479 .chatinputsection button:hover {
+    background-color: transparent !important;
+    background: transparent;
+}
+
+.screen479 .chattingsection {
+    width: 100%;
+    display: inline-block;
+}
+
+.screen479 .chattingsection {
+    width: 100%;
+    display: inline-block;
+    height: calc(65vh - 60px);
+    overflow-y: auto;
+}
+
+/*******************************************/
+
+/************ media screen *****************/
+
 @media only screen and (max-width: 1099px) {
     .meinsection {
         width: 60%;

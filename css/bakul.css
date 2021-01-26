@@ -1,0 +1,47 @@
+/******************** 1015 ************************/
+.screen1015 .create-new-report-card-btn {
+    margin-top: 20px;
+}
+.screen1015 .previousReportCardSection {
+    background: #E0F2F1;
+    padding: 15px 15px 15px 40px;
+}
+.screen1015 .previousReportCardSection span {
+    color: #00695C;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+/******************** 1015 ************************/
+/******************** 481 ************************/
+.createClassPopup-section408screen .createNewClass.screen476.screen481 {
+    max-height: calc(100vh - 20px);
+}
+.screen481 .date-time-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen481 .date-time-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen481 .date-time-section .input-div {
+    flex: 1;
+    position: relative;
+}
+.screen481 .date-time-section .input-div:nth-child(2) {
+    margin-left: 15px;
+}
+.screen481 .dateTimeSection {
+    display: flex;
+}
+.screen481 .dateTimeSection .checkbox-group .control label::after,
+.screen481 .dateTimeSection .checkbox-group .control label::before {
+    top: unset;
+}
+.screen481 .input-section.singal .checkbox-section {
+    flex: 1;
+    margin-left: 15px;
+}
+/******************** 481 ************************/

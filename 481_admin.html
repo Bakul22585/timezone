@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="key, words" />
+    <meta name="description" content="Website description" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- change into index, follow -->
+    
+    <link href="css/custom.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/bakul.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="node_modules/lato-font/css/lato-font.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="createClassPopup-section408screen d-flex align-items-center justify-content-center">
+            <div class="createNewClass screen476 screen481">
+                <span class="close">Close</span>
+                <h2>Post New Notice</h2>
+                <div class="full-width">
+                    <div class="checkbox-section">
+                        <label class="type">Recipients</label>
+                        <div class="checkbox-group">
+                            <div class="control">
+                                <input type="checkbox" id="allstaff" checked="true">
+                                <label for="allstaff">All Staff</label>
+                            </div>
+                            <div class="control">
+                                <input type="checkbox" id="allstaffandstudents">
+                                <label for="allstaffandstudents">All Staff and Students</label>
+                            </div>
+                            <div class="control">
+                                <input type="checkbox" id="sectionwisestudents" checked="true">
+                                <label for="sectionwisestudents">Section Wise Students</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selectbox-section">
+                        <div class="input-div select prefix">
+                            <label for="class">Select Class</label>
+                            <select name="class" id="class">
+                                <option value="Class 10">Class 10</option>
+                            </select>
+                            <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                        </div>
+                        <div class="input-div select prefix">
+                            <label for="section">Select section</label>
+                            <select name="section" id="section">
+                                <option value="A">A</option>
+                            </select>
+                            <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                        </div>
+                    </div>
+                    <div class="input-section">
+                        <input class="form-control without-icon-fullbox" type="text" id="enternoticetitle" value="Dance Competition">
+                        <label class="form-control-placeholder" for="enternoticetitle">Enter Notice Title</label>
+                    </div>
+                    <div class="input-section margin-botton-35">
+                        <textarea rows="3" id="description" class="textarea">Add description here</textarea>
+                        <label class="form-control-placeholder" for="description">Description</label>
+                        <div class="attachfiles-section">
+                            <img src="./images/svg/Vector.svg"/>
+                            <span>Attach Files</span>
+                        </div>
+                    </div>
+                    <div class="checkbox-section dateTimeSection">
+                        <div class="checkbox-group">
+                            <div class="control">
+                                <input type="checkbox" id="scheduleforlater" checked="true">
+                                <label for="scheduleforlater">Schedule For later</label>
+                            </div>
+                        </div>
+                        <div class="date-time-section">
+                            <div class="input-div">
+                                <input class="form-control without-icon-fullbox" type="text" id="selectdate" value="29/02/2021">
+                                <label class="form-control-placeholder" for="selectdate">Select Date</label>
+                            </div>
+                            <div class="input-div">
+                                <input class="form-control without-icon-fullbox" type="text" id="selecttime" value="02:00 PM">
+                                <label class="form-control-placeholder" for="selecttime">Select Time</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-section singal">
+                        <div class="input-div">
+                            <input class="form-control without-icon-fullbox" type="text" id="addsignature" value="Ram Prasad Bismil">
+                            <label class="form-control-placeholder" for="addsignature">Add Signature</label>
+                        </div>
+                        <div class="checkbox-section">
+                            <div class="checkbox-group">
+                                <div class="control">
+                                    <input type="checkbox" id="sende-mail" checked="true">
+                                    <label for="sende-mail">Send E-Mail</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="checkbox-section">
+                        <div class="checkbox-group">
+                            <div class="control">
+                                <input type="checkbox" id="sende-mail" checked="true">
+                                <label for="sende-mail">Send E-Mail</label>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="row margin-top-35px">
+                    <div class="lasttest">
+                        <button class="button CREATE button-outer">Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

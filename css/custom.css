@@ -3376,7 +3376,7 @@ img.Group_9 {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    padding-top: 70px;
+    padding-top: 25px;
 }
 
 .rightbutton span {
@@ -3570,14 +3570,15 @@ img.Group_9 {
 }
 
 .buttonCreate span {
-    background: #F47E16;
-    box-shadow: 0px 0px 10px rgba(237, 108, 13, 0.3);
+    background: #f47e16;
+    box-shadow: 0 0 10px rgb(237 108 13 / 30%);
     border-radius: 15px;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
     text-transform: uppercase;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 13px 40px;
+    cursor: pointer;
 }
 
 /********************************************************/
@@ -4598,7 +4599,7 @@ li.redcolor1 {
     padding-left: 15px;
     font-weight: 400;
 }
-.Period123 ul li{
+/* .Period123 ul li{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
@@ -4607,6 +4608,13 @@ li.redcolor1 {
     padding: 0px;
     width: 50%;
     float: left;
+} */
+.Period123 ul li {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    color: #00352d;
+    cursor: pointer;
 }
 .Periodsection h6{
    font-size: 16px;
@@ -4638,6 +4646,14 @@ li.redcolor1 {
 .fivefivetwoscreen .struture {
     padding-left: 30px;
     padding-top: 20px;
+}
+.fivefivetwoscreen .premeinsection input.form-control.duedate,
+.fivefivetwoscreen .premeinsection select.fee-comp-selector {
+    width: 90%;
+}
+
+.fivefivetwoscreen .Dropdowninputbox label {
+    display: none;
 }
 .fivefivetwoscreen .struture p {
     font-size: 12px;
@@ -6988,7 +7004,7 @@ li.redcolor1 {
 .screen563 .table-headerones .fields {
     font-weight: 900;
 }
-.screen563 .Discounts p {
+/* .screen563 .Discounts p {
     padding: 0px 0px 0px 40px;
     text-align: left;
     font-weight: 800;
@@ -6996,12 +7012,24 @@ li.redcolor1 {
     line-height: 18px;
     color: #00352D;
     margin-bottom: 5px;
+} */
+.screen563 .Discounts p {
+    padding: 15px 0 0 40px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    color: #00352d;
+    margin-bottom: 5px;
 }
 /***********************************/
 
 /*************** page 562  ********************/
 .screen562 .indicator {
     padding-left: 30px;
+}
+.screen562 .contant-body .full-width .Fee-Structure .middelsection .contant-body .full-width p {
+    padding: 0px 0px 10px;
 }
 
 .screen562 .indicator .backtohome {
@@ -9824,6 +9852,526 @@ li.redcolor1 {
 }
 
 /*******************************************/
+
+
+/******************** 1015 ************************/
+.screen1015 .create-new-report-card-btn {
+    margin-top: 20px;
+}
+
+.screen1015 .previousReportCardSection {
+    background: #E0F2F1;
+    padding: 15px 15px 15px 40px;
+}
+
+.screen1015 .previousReportCardSection span {
+    color: #00695C;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/******************** 1015 ************************/
+/******************** 481 ************************/
+.createClassPopup-section408screen .createNewClass.screen476.screen481 {
+    max-height: calc(100vh - 20px);
+}
+
+.screen481 .date-time-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen481 .date-time-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen481 .date-time-section .input-div {
+    flex: 1;
+    position: relative;
+}
+
+.screen481 .date-time-section .input-div:nth-child(2) {
+    margin-left: 15px;
+}
+
+.screen481 .dateTimeSection {
+    display: flex;
+}
+
+.screen481 .dateTimeSection .checkbox-group .control label::after,
+.screen481 .dateTimeSection .checkbox-group .control label::before {
+    top: unset;
+}
+
+.screen481 .input-section.singal .checkbox-section {
+    flex: 1;
+    margin-left: 15px;
+}
+
+/******************** 481 ************************/
+/******************** 1002 ************************/
+.screen1002 .contain .input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.screen1002 .contain .btn-section {
+    display: flex;
+    justify-content: center;
+}
+
+.screen1002 .contain .input-div {
+    position: relative;
+    width: 70%
+}
+
+.screen1002 .contain .input-div .without-icon-fullbox {
+    background-image: none !important;
+    width: 100%;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.screen1002 .contain .input-div .form-control-placeholder {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+}
+
+.screen1002 .contain .btn-section button.cancel {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen1002 .contain .btn-section button.btnWithIcon {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.screen1002 .contain .btn-section button.btnWithIcon img {
+    margin-left: 70px;
+}
+
+/******************** 1002 ************************/
+/******************** 1001 ************************/
+.screen1001 .exam-btn-section {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.screen1001 .StatusSectionHeader {
+    background: #E0F2F1;
+    padding: 15px 40px;
+}
+
+.screen1001 .StatusSectionHeader span {
+    color: #00695C;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.screen1001 .StatusSectionHeader span.active {
+    color: #F47E16;
+    position: relative;
+}
+
+.screen1001 .StatusSectionHeader span.active::after {
+    content: '';
+    width: 120%;
+    position: absolute;
+    border-bottom: 4px solid #F47E16;
+    top: 40px;
+    left: -12px;
+    border-radius: 2px;
+}
+
+.screen1001 .contain-area {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}
+
+.screen1001 .contain-area .box {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 20px;
+}
+
+.screen1001 .contain-area .box .exam-section {
+    flex: 1;
+}
+
+.screen1001 .contain-area .box .time-section {
+    flex: 0.5;
+}
+
+.screen1001 .contain-area .box .action-section {
+    flex: 2;
+    margin-top: 20px;
+}
+
+.screen1001 .contain-area .box .exam-section p {
+    color: #009688;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.screen1001 .contain-area .box .exam-section span {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.screen1001 .contain-area .box .time-section p {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.screen1001 .contain-area .box .time-section p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.screen1001 .contain-area .box .action-section button {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen1001 .contain-area .box .action-section button.withIcon {
+    display: inline-flex;
+}
+
+.screen1001 .contain-area .box .action-section button.withIcon img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+/******************** 1001 ************************/
+/******************** 1004 ************************/
+.screen1001 .contain-area .box .action-section.btn-right {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon {
+    display: inline-flex;
+    border: 1px solid #FF7700;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+/******************** 1004 ************************/
+/******************** 1005 ************************/
+.screen1005 .sidebarscreen300 {
+    padding-left: 40px;
+    padding-right: 140px;
+}
+
+.screen1005 .sidebarscreen300 .SAve {
+    align-items: baseline;
+}
+
+.screen1005 .sidebarscreen300 .SAve .btn-section button {
+    margin-bottom: 0;
+}
+
+.screen1005 .sidebarscreen300 .SAve .btn-section .cancel {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen1005 .contain {
+    display: grid;
+    grid-template-columns: 15.35% 15.35% auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.screen1005 .contain .header,
+.screen1005 .contain .studentInfoDetails .header label {
+    background: #E0F2F1;
+    text-align: center;
+}
+
+.screen1005 .contain .header,
+.screen1005 .contain .studentInfoDetails .header label {
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 0;
+}
+
+.screen1005 .contain .classes-section div,
+.screen1005 .contain .subject-section div,
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .studentName,
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input,
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .select,
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section {
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+
+.classes-section .body div
+
+/*.subject-section .body div*/
+    {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.screen1005 .contain .classes-section,
+.screen1005 .contain .subject-section {
+    border-right: 1px solid #B2DFDB;
+}
+
+.screen1005 .contain .studentInfoDetails .header {
+    padding: 0;
+}
+
+.screen1005 .contain .studentInfoDetails .header,
+.screen1005 .contain .studentInfoDetails .body .studentInfoData {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* border-bottom: 1px solid #B2DFDB; */
+    height: 54px;
+}
+
+.screen1005 .contain .classes-section .body,
+.screen1005 .contain .subject-section .body,
+.screen1005 .contain .student-section .body {
+    padding: 0;
+}
+
+.screen1005 .contain .classes-section .body,
+.screen1005 .contain .subject-section .body,
+.screen1005 .contain .studentInfoDetails .body {
+    padding: 0;
+    overflow-y: auto;
+    height: calc(100vh - 210px);
+    background-color: #ffffff;
+}
+
+.screen1005 .contain .classes-section div.active,
+.screen1005 .contain .subject-section div.active {
+    background: #E0F2F1;
+}
+
+.screen1005 .contain .classes-section div.active::after,
+.screen1005 .contain .subject-section div.active::after {
+    content: '';
+    border-bottom: 5px solid #F47E16;
+    position: absolute;
+    width: 33%;
+    transform: rotate(90deg);
+    left: 130px;
+    top: 24px;
+    border-radius: 18px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p input {
+    position: unset;
+    margin: 0;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input input {
+    height: 30px;
+    background: none;
+    width: 100px;
+    padding: 0;
+    position: absolute;
+    left: 16%;
+    background-color: #fff;
+    padding-right: 40px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .input span {
+    position: absolute;
+    top: 19px;
+    color: #4DB6AC;
+    right: 20px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 8px);
+    left: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::after {
+    top: calc(50% - 9px);
+    left: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.screen1005 .contain .studentInfoDetails .body .studentInfoData .select select {
+    height: 30px;
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    width: 100px;
+    padding: 0;
+    position: absolute;
+    left: 22%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+/******************** 1005 ************************/
+/******************** 412 ************************/
+.sidebarscreen412 .row .checkbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+}
+
+.sidebarscreen412 .row .checkbox-section .checkbox-group {
+    position: relative;
+    flex: 1;
+    min-width: 170px;
+    height: 55px;
+}
+
+.sidebarscreen412 .row .checkbox-section .checkbox-group .control label {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.sidebarscreen412 .row .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 8px);
+    left: -29px;
+    width: 15px;
+    height: 15px;
+}
+
+.sidebarscreen412 .row .checkbox-section .checkbox-group .control label::after {
+    top: calc(50% - 0.5625rem);
+    left: -30px;
+    width: 20px;
+    height: 20px;
+}
+
+/******************** 412 ************************/
+/******************** 1020 ************************/
+.screen1020 .DefineGradingScaleSection {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 152, 135, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #EB5757;
+    box-sizing: border-box;
+    border-radius: 11px;
+    width: 260px;
+    padding: 15px;
+    position: absolute;
+    top: 55%;
+    right: 20%;
+    text-align: center;
+}
+
+.screen1020 .DefineGradingScaleSection p {
+    color: #00352D;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.screen1020 .DefineGradingScaleSection button.BorderwithIcon {
+    display: inline-flex;
+    border-radius: 15px;
+    padding: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen1020 .DefineGradingScaleSection button.BorderwithIcon img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+/******************** 1020 ************************/
+
 
 /************ media screen *****************/
 

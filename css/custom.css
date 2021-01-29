@@ -10372,6 +10372,274 @@ li.redcolor1 {
 
 /******************** 1020 ************************/
 
+/******************** 1009 ************************/
+.screen1009 .contain {
+    grid-template-columns: 15.67% auto;
+}
+
+.screen1009 .contain .studentInfoDetails .header label {
+    display: flex;
+    justify-content: center;
+}
+
+.screen1009 .contain .studentInfoDetails .header label img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.screen1009 .contain .studentInfoDetails .header,
+.screen1009 .contain .studentInfoDetails .body .studentInfoData {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label {
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control input:disabled+label {
+    color: #828F8E;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 12px);
+    left: 10%;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::after {
+    top: calc(50% - 13px);
+    left: 9%;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .input input {
+    padding-right: 5px;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .action-section {
+    text-align: center;
+    align-self: center;
+}
+
+.screen1009 .contain .studentInfoDetails .body .studentInfoData .action-section img {
+    cursor: pointer;
+}
+
+/******************** 1009 ************************/
+/******************** 1010 ************************/
+.wrapper .screen1010 {
+    padding: 14px 0;
+    width: 770px;
+}
+
+.screen1010 .full-width {
+    margin-top: 25px;
+}
+
+.screen1010 .full-width .header {
+    background: #E0F2F1;
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+}
+
+.screen1010 .full-width .header label {
+    padding: 10px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen1010 .full-width .body .rowData {
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.screen1010 .full-width .body .rowData.margin-top-35px {
+    margin-top: 35px;
+}
+
+.screen1010 .full-width .body .rowData::after {
+    content: '';
+    border-bottom: 0.5px solid #B2DFDB;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen1010 .full-width .body .rowData:last-child::after {
+    content: '';
+    border-bottom: none;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen1010 .full-width .body .rowData .checkbox-section {
+    position: relative;
+    margin-left: 35px;
+}
+
+.screen1010 .full-width .body .rowData .input {
+    display: flex;
+    justify-content: center;
+}
+
+.screen1010 .full-width .body .rowData .input input {
+    background: none;
+    margin-bottom: 0;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 8px;
+    width: 75%;
+}
+
+.screen1010 .full-width .addAssesment {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.screen1010 .full-width .addAssesment img {
+    cursor: pointer;
+}
+
+.screen1010 .full-width .addAssesment span {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.screen1010 .CREATE {
+    margin-bottom: 10px;
+}
+
+/******************** 1010 ************************/
+/******************** 1018 ************************/
+.screen1018 .contain {
+    margin: 50px 0 0 80px;
+}
+
+.screen1018 .contain .TableSection {
+    width: 50%;
+}
+
+.screen1018 .contain .TableSection .header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.screen1018 .contain .TableSection .header label {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen1018 .contain .TableSection .body .rowData {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 35px;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection {
+    display: flex;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection img {
+    margin: 0 20px;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv {
+    position: relative;
+    width: 30%;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv span {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    color: #4DB6AC;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv input,
+.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv input {
+    padding-left: 15px;
+}
+
+.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv label,
+.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+}
+
+.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv img {
+    height: 30px;
+    position: absolute;
+    right: -50px;
+    cursor: pointer;
+    top: 5px;
+}
+
+.screen1018 .contain .addRange {
+    display: flex;
+}
+
+.screen1018 .contain .addRange img {
+    cursor: pointer;
+}
+
+.screen1018 .contain .addRange span {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.screen1018 .contain .save {
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+/******************** 1018 ************************/
+/******************** 480 ************************/
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt .DanceheaderSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen480 .rightSide .containSection .DanceCompetitionSection .containt .DanceheaderSection p {
+    color: #009688;
+}
+
+/******************** 480 ************************/
 
 /************ media screen *****************/
 

@@ -1,181 +1,45 @@
-/******************** 1015 ************************/
-.screen1015 .create-new-report-card-btn {
-    margin-top: 20px;
+/*********************** 1016 *********************/
+.screen1016 .filter-form {
+    width: 75%;
 }
-.screen1015 .previousReportCardSection {
-    background: #E0F2F1;
-    padding: 15px 15px 15px 40px;
+.screen1016 .filter-form .topSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
-.screen1015 .previousReportCardSection span {
-    color: #00695C;
-    letter-spacing: 0.5px;
+.screen1016 .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.screen1016 .filter-form .topSection button {
+    margin-top: 25px;
+}
+.screen1016 .filter-form .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-}
-/******************** 1015 ************************/
-/******************** 481 ************************/
-.createClassPopup-section408screen .createNewClass.screen476.screen481 {
-    max-height: calc(100vh - 20px);
-}
-.screen481 .date-time-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-.screen481 .date-time-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-.screen481 .date-time-section .input-div {
-    flex: 1;
-    position: relative;
-}
-.screen481 .date-time-section .input-div:nth-child(2) {
-    margin-left: 15px;
-}
-.screen481 .dateTimeSection {
-    display: flex;
-}
-.screen481 .dateTimeSection .checkbox-group .control label::after,
-.screen481 .dateTimeSection .checkbox-group .control label::before {
-    top: unset;
-}
-.screen481 .input-section.singal .checkbox-section {
-    flex: 1;
-    margin-left: 15px;
-}
-/******************** 481 ************************/
-/******************** 1002 ************************/
-.screen1002 .contain .input-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-.screen1002 .contain .btn-section {
-    display: flex;
-    justify-content: center;
-}
-.screen1002 .contain .input-div {
-    position: relative;
-    width: 70%
-}
-.screen1002 .contain .input-div .without-icon-fullbox {
-    background-image: none !important;
-    width: 100%;
-    display: inline-block;
-    padding-left: 20px;
-}
-.screen1002 .contain .input-div .form-control-placeholder {
-    font-size: 75% !important;
-    transform: translate(0.8rem, -100%);
-    opacity: 1;
-    padding: 0 0.3rem;
+    font-size: 12px;
+    line-height: 16px;
     color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
 }
-.screen1002 .contain .btn-section button.cancel {
-    background-color: transparent;
-    outline: none;
-    color: #FF7700;
-    box-shadow: none;
-    border: none;
-    padding: 0;
-    min-width: auto;
-    margin-right: 25px;
-    background: transparent;
-}
-.screen1002 .contain .btn-section button.btnWithIcon {
-    display: flex;
-    align-items: center;
-    padding-left: 45px;
-}
-.screen1002 .contain .btn-section button.btnWithIcon img {
-    margin-left: 70px;
-}
-/******************** 1002 ************************/
-/******************** 1001 ************************/
-.screen1001 .exam-btn-section {
-    margin-top: 20px;
+.screen1016 .filter-form .input-div.select.prefix select {
     padding-left: 40px;
 }
-.screen1001 .StatusSectionHeader {
-    background: #E0F2F1;
-    padding: 15px 40px;
+.screen1016 .filter-form .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
 }
-.screen1001 .StatusSectionHeader span {
-    color: #00695C;
-    letter-spacing: 0.5px;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    margin-right: 15px;
-    cursor: pointer;
-}
-.screen1001 .StatusSectionHeader span.active {
-    color: #F47E16;
-    position: relative;
-}
-.screen1001 .StatusSectionHeader span.active::after {
-    content: '';
-    width: 120%;
+.screen1016 .filter-form .input-div.select .prefix-icon {
     position: absolute;
-    border-bottom: 4px solid #F47E16;
-    top: 40px;
-    left: -12px;
-    border-radius: 2px;
+    top: 38px;
+    left: 10px;
 }
-.screen1001 .contain-area {
-    height: calc(100vh - 280px);
-    overflow-y: auto;
-}
-.screen1001 .contain-area .box {
-    background: #FFFFFF;
-    border: 1px solid #80CBC4;
-    box-sizing: border-box;
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 16px 20px;
-}
-.screen1001 .contain-area .box .exam-section {
-    flex: 1;
-}
-.screen1001 .contain-area .box .time-section{
-    flex: 0.5;
-}
-.screen1001 .contain-area .box .action-section {
-    flex: 2;
-    margin-top: 20px;
-}
-.screen1001 .contain-area .box .exam-section p {
-    color: #009688;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 10px;
-}
-.screen1001 .contain-area .box .exam-section span {
-    color: #0D352D;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-}
-.screen1001 .contain-area .box .time-section p {
-    color: #0D352D;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 0;
-}
-.screen1001 .contain-area .box .time-section p:nth-child(1) {
-    margin-bottom: 20px;
-}
-.screen1001 .contain-area .box .action-section button {
+.screen1016 .filter-form button {
     background-color: transparent;
     outline: none;
     color: #FF7700;
@@ -186,423 +50,32 @@
     margin-right: 25px;
     background: transparent;
 }
-.screen1001 .contain-area .box .action-section button.withIcon {
-    display: inline-flex;
-}
-.screen1001 .contain-area .box .action-section button.withIcon img {
-    margin-right: 10px;
-    height: 20px;
-}
-/******************** 1001 ************************/
-/******************** 1004 ************************/
-.screen1001 .contain-area .box .action-section.btn-right {
-    text-align: right;
-    margin-top: 5px;
-}
-.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon {
+.screen1016 .filter-form .BorderwithIcon {
     display: inline-flex;
     border: 1px solid #FF7700;
     border-radius: 15px;
-    padding: 15px;
+    padding: 11px 20px;
     margin-right: 0;
     margin-bottom: 0;
 }
-.screen1001 .contain-area .box .action-section.btn-right .BorderwithIcon img {
-    height: 20px;
-    margin-left: 10px;
+.screen1016 .filter-form .BorderwithIcon img {
+    margin-left: 45px;
 }
-/******************** 1004 ************************/
-/******************** 1005 ************************/
-.screen1005 .sidebarscreen300 {
-    padding-left: 40px;
-    padding-right: 140px;
-}
-.screen1005 .sidebarscreen300 .SAve {
-    align-items: baseline;
-}
-.screen1005 .sidebarscreen300 .SAve .btn-section button {
-    margin-bottom: 0;
-}
-.screen1005 .sidebarscreen300 .SAve .btn-section .cancel {
-    background-color: transparent;
-    outline: none;
-    color: #FF7700;
-    box-shadow: none;
-    border: none;
-    padding: 0;
-    min-width: auto;
-    margin-right: 25px;
-    background: transparent;
-}
-.screen1005 .contain {
-    display: grid;
-    grid-template-columns: 15.35% 15.35% auto;
-    margin-top: 15px;
-    position: relative;
-}
-.screen1005 .contain .header,
-.screen1005 .contain .studentInfoDetails .header label {
-    background: #E0F2F1;
-    text-align: center;
-}
-.screen1005 .contain .header,
-.screen1005 .contain .studentInfoDetails .header label {
-    color: #00352D;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 15px 0;
-}
-.screen1005 .contain .classes-section div,
-.screen1005 .contain .subject-section div,
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .studentName,
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input,
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .select,
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section {
-    padding: 15px 0;
-    text-align: center;
-    position: relative;
-}
-.classes-section .body div /*.subject-section .body div*/ {
-    border-bottom: 1px solid #B2DFDB;
-}
-.screen1005 .contain .classes-section,
-.screen1005 .contain .subject-section {
-    border-right: 1px solid #B2DFDB;
-}
-.screen1005 .contain .studentInfoDetails .header {
-    padding: 0;
-}
-.screen1005 .contain .studentInfoDetails .header,
-.screen1005 .contain .studentInfoDetails .body .studentInfoData {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    /* border-bottom: 1px solid #B2DFDB; */
-    height: 54px;
-}
-.screen1005 .contain .classes-section .body,
-.screen1005 .contain .subject-section .body,
-.screen1005 .contain .student-section .body {
-    padding: 0;
-}
-.screen1005 .contain .classes-section .body,
-.screen1005 .contain .subject-section .body,
-.screen1005 .contain .studentInfoDetails .body {
-    padding: 0;
-    overflow-y: auto;
-    height: calc(100vh - 210px);
-    background-color: #ffffff;
-}
-.screen1005 .contain .classes-section div.active,
-.screen1005 .contain .subject-section div.active {
-    background: #E0F2F1;
-}
-.screen1005 .contain .classes-section div.active::after,
-.screen1005 .contain .subject-section div.active::after {
-    content: '';
-    border-bottom: 5px solid #F47E16;
-    position: absolute;
-    width: 33%;
-    transform: rotate(90deg);
-    left: 130px;
-    top: 24px;
-    border-radius: 18px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p {
-    position: relative;
-    width: auto;
-    display: inline-block;
-    margin: 0;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p input {
-    position: unset;
-    margin: 0;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input p span {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input input {
-    height: 30px;
-    background: none;
-    width: 100px;
-    padding: 0;
-    position: absolute;
-    left: 16%;
-    background-color: #fff;
-    padding-right: 40px;
-    border-radius: 10px;
-    padding-left: 5px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .input span {
-    position: absolute;
-    top: 19px;
-    color: #4DB6AC;
-    right: 20px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::before {
-    top: calc(50% - 8px);
-    left: 50%;
-    width: 15px;
-    height: 15px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::after {
-    top: calc(50% - 9px);
-    left: 50%;
-    width: 20px;
-    height: 20px;
-}
-.screen1005 .contain .studentInfoDetails .body .studentInfoData .select select {
-    height: 30px;
-    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
-    width: 100px;
-    padding: 0;
-    position: absolute;
-    left: 22%;
-    background-color: #fff;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-/******************** 1005 ************************/
-/******************** 412 ************************/
-.sidebarscreen412 .row .checkbox-section {
+.screen1016 .filter-form .secoundSection {
     display: flex;
     flex-wrap: wrap;
-    height: auto;
+    margin-top: 35px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv {
     position: relative;
-}
-.sidebarscreen412 .row .checkbox-section .checkbox-group {
-    position: relative;
-    flex: 1;
-    min-width: 170px;
-    height: 55px;
-}
-.sidebarscreen412 .row .checkbox-section .checkbox-group .control label {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-}
-.sidebarscreen412 .row .checkbox-section .checkbox-group .control label::before {
-    top: calc(50% - 8px);
-    left: -29px;
-    width: 15px;
-    height: 15px;
-}
-.sidebarscreen412 .row .checkbox-section .checkbox-group .control label::after {
-    top: calc(50% - 0.5625rem);
-    left: -30px;
-    width: 20px;
-    height: 20px;
-}
-/******************** 412 ************************/
-/******************** 1020 ************************/
-.screen1020 .DefineGradingScaleSection {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 30px rgba(0, 152, 135, 0.1);
-    background: #FFFFFF;
-    border: 1px solid #EB5757;
-    box-sizing: border-box;
-    border-radius: 11px;
-    width: 260px;
-    padding: 15px;
-    position: absolute;
-    top: 55%;
-    right: 20%;
-    text-align: center;
-}
-.screen1020 .DefineGradingScaleSection p {
-    color: #00352D;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-}
-.screen1020 .DefineGradingScaleSection button.BorderwithIcon {
-    display: inline-flex;
-    border-radius: 15px;
-    padding: 15px;
-    margin-right: 0;
-    margin-bottom: 0;
-    background-color: transparent;
-    outline: none;
-    color: #FF7700;
-    box-shadow: none;
-    border: none;
-    padding: 0;
-    min-width: auto;
+    width: 380px;
     margin-right: 25px;
-    background: transparent;
-}
-.screen1020 .DefineGradingScaleSection button.BorderwithIcon img {
-    height: 20px;
-    margin-left: 10px;
-}
-/******************** 1020 ************************/
-/******************** 1009 ************************/
-.screen1009 .contain {
-    grid-template-columns: 15.67% auto;
-}
-.screen1009 .contain .studentInfoDetails .header label {
-    display: flex;
-    justify-content: center;
-}
-.screen1009 .contain .studentInfoDetails .header label img {
-    height: 25px;
-    margin-right: 10px;
-}
-.screen1009 .contain .studentInfoDetails .header,
-.screen1009 .contain .studentInfoDetails .body .studentInfoData {
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label {
-    color: #00352D;
-    letter-spacing: 0.5px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control input:disabled + label {
-    color: #828F8E;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::before {
-    top: calc(50% - 12px);
-    left: 10%;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label::after {
-    top: calc(50% - 13px);
-    left: 9%;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .input input {
-    padding-right: 5px;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .action-section {
-    text-align: center;
-    align-self: center;
-}
-.screen1009 .contain .studentInfoDetails .body .studentInfoData .action-section img {
-    cursor: pointer;
-}
-/******************** 1009 ************************/
-/******************** 1010 ************************/
-.wrapper .screen1010 {
-    padding: 14px 0;
-    width: 770px;
-}
-.screen1010 .full-width {
-    margin-top: 25px;
-}
-.screen1010 .full-width .header {
-    background: #E0F2F1;
-    display: grid;
-    grid-template-columns: 40% 23% 23% 14%;
-}
-.screen1010 .full-width .header label {
-    padding: 10px;
-    color: #00352D;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-}
-.screen1010 .full-width .body .rowData {
-    display: grid;
-    grid-template-columns: 40% 23% 23% 14%;
     margin-top: 15px;
-    position: relative;
 }
-.screen1010 .full-width .body .rowData.margin-top-35px {
-    margin-top: 35px;
+.screen1016 .filter-form .secoundSection .inputDiv input {
+    width: 100%;
 }
-.screen1010 .full-width .body .rowData::after {
-    content: '';
-    border-bottom: 0.5px solid #B2DFDB;
-    width: 80%;
-    position: absolute;
-    top: 50px;
-    left: 98px;
-}
-.screen1010 .full-width .body .rowData:last-child::after {
-    content: '';
-    border-bottom: none;
-    width: 80%;
-    position: absolute;
-    top: 50px;
-    left: 98px;
-}
-.screen1010 .full-width .body .rowData .checkbox-section {
-    position: relative;
-    margin-left: 35px;
-}
-.screen1010 .full-width .body .rowData .input {
-    display: flex;
-    justify-content: center;
-}
-.screen1010 .full-width .body .rowData .input input {
-    background: none;
-    margin-bottom: 0;
-    height: 35px;
-    padding-left: 10px;
-    padding-right: 5px;
-    border-radius: 8px;
-    width: 75%;
-}
-.screen1010 .full-width .addAssesment {
-    display: flex;
-    margin-top: 15px;
-    margin-left: 40px;
-}
-.screen1010 .full-width .addAssesment img {
-    cursor: pointer;
-}
-.screen1010 .full-width .addAssesment span {
-    color: #F47E16;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    cursor: pointer;
-    padding-left: 10px;
-}
-.screen1010 .CREATE {
-    margin-bottom: 10px;
-}
-/******************** 1010 ************************/
-/******************** 1018 ************************/
-.screen1018 .contain {
-    margin: 50px 0 0 80px;
-}
-.screen1018 .contain .TableSection {
-    width: 50%;
-}
-.screen1018 .contain .TableSection .header {
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
-.screen1018 .contain .TableSection .header label {
-    color: #000000;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-}
-.screen1018 .contain .TableSection .body .rowData {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    margin-top: 35px;
-}
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection {
-    display: flex;
-}
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection img {
-    margin: 0 20px;
-    height: 2px;
-    margin-top: 20px;
-}
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv {
-    position: relative;
-    width: 30%;
-}
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv span {
+.screen1016 .filter-form .secoundSection .inputDiv span {
     position: absolute;
     top: 11px;
     right: 10px;
@@ -611,55 +84,73 @@
     font-size: 16px;
     line-height: 24px;
 }
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv input,
-.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv input {
+.screen1016 .filter-form .secoundSection .inputDiv:nth-child(1) input {
     padding-left: 15px;
 }
-.screen1018 .contain .TableSection .body .rowData .PrecentageSection .inputDiv label,
-.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv label {
+.screen1016 .filter-form .secoundSection .inputDiv:last-child {
+    width: 145px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv label {
     font-size: 75% !important;
     transform: translate(0.8rem, -100%);
     opacity: 1;
     padding: 0 0.3rem;
     color: #4DB6AC;
+    visibility: visible !important;
 }
-.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv {
-    width: 100%;
-    position: relative;
-    display: flex;
+.screen1016 .filter-form .SelectExams {
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
-.screen1018 .contain .TableSection .body .rowData .GradeSection .inputDiv img {
-    height: 30px;
-    position: absolute;
-    right: -50px;
-    cursor: pointer;
-    top: 5px;
+.screen1016 .filter-form .TableSection {
+    width: 75%;
+    margin-top: 25px;
 }
-.screen1018 .contain .addRange {
-    display: flex;
+.screen1016 .filter-form .TableSection .header,
+.screen1016 .filter-form .TableSection .body .rowData {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
 }
-.screen1018 .contain .addRange img {
-    cursor: pointer;
-}
-.screen1018 .contain .addRange span {
-    color: #F47E16;
-    font-weight: bold;
-    font-size: 16px;
+.screen1016 .filter-form .TableSection .header span {
+    color: #004D40;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 24px;
-    cursor: pointer;
-    padding-left: 10px;
+    letter-spacing: 0.5px;
 }
-.screen1018 .contain .save {
-    margin-left: 140px;
-    margin-top: 50px;
+.screen1016 .filter-form .TableSection .header .checkbox-section,
+.screen1016 .filter-form .TableSection .body .checkbox-section {
+    position: relative;
 }
-/******************** 1018 ************************/
-/******************** 480 ************************/
-.screen480 .rightSide .containSection .DanceCompetitionSection .containt .DanceheaderSection {
-    display: flex;
-    justify-content: space-between;
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label {
+    margin-left: 35px;
 }
-.screen480 .rightSide .containSection .DanceCompetitionSection .containt .DanceheaderSection p {
-    color: #009688;
+.screen1016 .filter-form .TableSection .body .checkbox-section .checkbox-group .control label {
+    margin-left: 20px;
 }
-/******************** 480 ************************/
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label::after {
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 12px);
+}
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 10px);
+    left: 2px;
+    width: 15px;
+    height: 15px;
+}
+.screen1016 .filter-form .TableSection .body .rowData {
+    padding: 13px 0px;
+    /* border-bottom: 1px solid; */
+}
+.screen1016 .filter-form .TableSection .body .rowData .checkbox-section {
+    margin-left: 35px;
+}
+.screen1016 .filter-form .TableSection .body .rowData .checkbox-section .checkbox-group .control label {
+    margin-left: 30px;
+}
+/*********************** 1016 *********************/

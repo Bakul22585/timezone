@@ -3547,9 +3547,15 @@ img.Group_9 {
     bottom: 10px;
 }
 
-.add-question-section1 img {
+
+ .add-question-section1 img {
     position: absolute;
-    right: 100px;
+    right: 100px !important;
+    top: 3px;
+}
+.screen426 .add-question-section1 img {
+    position: absolute;
+    right: 130px !important;
     top: 3px;
 }
 
@@ -4552,6 +4558,7 @@ li.redcolor1 {
     width: calc(98% + 1.063rem);
     padding: 20px;
     display: inline-block;
+    max-width: 880px;
    
 }
 .Period{
@@ -4599,7 +4606,7 @@ li.redcolor1 {
     padding-left: 15px;
     font-weight: 400;
 }
-/* .Period123 ul li{
+.Period123 ul li{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
@@ -4608,14 +4615,14 @@ li.redcolor1 {
     padding: 0px;
     width: 50%;
     float: left;
-} */
-.Period123 ul li {
+}
+/* .Period123 ul li {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: .5px;
     color: #00352d;
     cursor: pointer;
-}
+} */
 .Periodsection h6{
    font-size: 16px;
    line-height: 24px;
@@ -4762,6 +4769,230 @@ li.redcolor1 {
     margin-bottom: 15px;
 }
 /************************************************/
+/******************606****************************/
+.sidebarscreen606 {
+    padding: 0px !important;
+}
+.sidebarscreen606 .indicatorsectionmein,
+.sidebarscreen606 .row {
+    padding-left: 30px;
+}
+.sidebarscreen606 .checkbox-section.threecheckobes {
+    width: 600px;
+}
+.sidebarscreen606 .Infosectopn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+        display: grid;
+        grid-template-columns: auto auto;
+}
+.sidebarscreen606 .Infosectopnones {
+    width: 880px;
+}   
+.sidebarscreen606 .Infosectopnones .input-div {
+    width: 230px;
+}
+ .sidebarscreen606 .row.Add_606 button.button.CREATE.button-outer.questions_form {
+    background: #FEF2E8 !important;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16 !important;
+    display: flex;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    text-transform: capitalize;
+}
+ .sidebarscreen606 .Add_606 img.Info {
+    margin-right: 15px;
+}
+ .sidebarscreen606 .Add_606 {
+     border-top: 1px solid #B2DFDB;
+     padding-top: 15px;
+}
+.sidebarscreen606 .indicatorsectionmein .Communicationone {
+    flex: 1;
+    text-align: right;
+    margin-right: 70px;
+}
+ .sidebarscreen606 .indicatorsectionmein .Communication {
+    flex: 1;
+}
+.sidebarscreen606 .indicatorsectionmein {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .sidebarscreen606 .indicatorsectionmein button.saveasdraft {
+    text-align: right;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: unset;
+    border: 0px;
+}
+
+ .sidebarscreen606 .indicatorsectionmein button.Post_Form img.Send {
+    margin-left: 10px;
+}
+ .sidebarscreen606 .indicatorsectionmein button.Post_Form {
+    display: inline-flex;
+}
+.sidebarscreen606 {
+    padding-left: 30px;
+    height: calc(100vh - 0rem);
+}
+
+/************************************************/
+
+/******************608****************************/
+.sidebarscreen608 {
+    padding: 0px !important;
+}
+
+.sidebarscreen608 .indicatorsectionmein,
+.sidebarscreen608 .row {
+    padding-left: 30px;
+}
+
+.sidebarscreen608 .checkbox-section.threecheckobes {
+    width: 600px;
+}
+.sidebarscreen608 .Infosectopn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+        display: grid;
+        grid-template-columns: auto auto;
+}
+.sidebarscreen608 .Infosectopnones {
+    width: 880px;
+}   
+.sidebarscreen608 .Infosectopnones .input-div {
+    width: 230px;
+}
+.sidebarscreen608 .row.Add_606 button.button.CREATE.button-outer.questions_form {
+    background: #FEF2E8 !important;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16 !important;
+    display: flex;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    text-transform: capitalize;
+}
+.sidebarscreen608 .Add_606 img.Info {
+    margin-right: 15px;
+}
+.sidebarscreen608 .Add_606 {
+     border-top: 1px solid #B2DFDB;
+     padding-top: 15px;
+}
+.sidebarscreen608 .indicatorsectionmein .Communicationone {
+    flex: 1;
+    text-align: right;
+    margin-right: 70px;
+}
+.sidebarscreen608 .indicatorsectionmein .Communication {
+    flex: 1;
+}
+.sidebarscreen608 .indicatorsectionmein {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebarscreen608 .indicatorsectionmein button.saveasdraft {
+    text-align: right;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: unset;
+    border: 0px;
+}
+
+.sidebarscreen608 .indicatorsectionmein button.Post_Form img.Send {
+    margin-left: 10px;
+}
+.sidebarscreen608 .indicatorsectionmein button.Post_Form {
+    display: inline-flex;
+}
+.sidebarscreen608 {
+    padding-left: 30px;
+    height: calc(100vh - 0rem);
+}
+.sidebarscreen608 .row .checkbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+}
+
+/************************************************/
+
+/******************1500****************************/
+.screen1500 {
+    height: calc(100vh - 90px);
+}
+.screen1500 ul li .add-question-section1 span {
+    padding-left: 0px;
+    font-weight: 700;
+}
+
+.screen1500 ul li .perday,
+.screen1500 ul li .perdayones {
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.screen1500 .Period123 img.Dropdownones {
+    top: 6px;
+    left: 31px;
+    position: absolute;
+}
+
+.screen1500 .persantage {
+    font-weight: bold !important;
+}
+
+.screen1500 .struture {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.screen1500 .subsectionsPeriod li span {
+    width: auto;
+        display: flex;
+}
+.screen1500 .subsectionsPeriod .Period span img {
+    position: unset;
+    padding-left: 15px;
+}
+.screen1500 .Period123 ul li {
+    font-weight: bold;
+}
+.screen1500 .yearfirstsection form.Academic_years .dateline li select {
+        background-color: #fff;
+}
+.screen1500 .yearfirstsection {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.screen1500 .yearfirstsection .add-question-section1 .add-question-section1 span {
+    margin-left: 10px;
+    width: auto;
+}
+.screen1500 .yearfirstsection .add-question-section1 {
+    position: unset;
+    margin-top: 10px;
+}
+/**************************************************/
 
 /* page: 412 */
  .screenedutinker {
@@ -7583,6 +7814,230 @@ li.redcolor1 {
 
 /************************* Page 471 **************************/
 
+
+/************************* Page_colunm 471 **************************/
+.screen_colunm471 {
+    padding-left: 30px;
+}
+
+.screen_colunm471 .SAve p {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen_colunm471 .filter-form {
+    display: flex;
+    margin-top: 45px;
+}
+
+.screen_colunm471 .filter-form .input-div.select {
+    margin-top: -25px;
+}
+
+.screen_colunm471 .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.screen_colunm471 .filter-form .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.screen_colunm471 .filter-form .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.screen_colunm471 .filter-form .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.screen_colunm471 .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen_colunm471 .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen_colunm471 .contant-body {
+    margin-top: 42px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+.screen_colunm471 .contant-body .full-width {
+    background: #ffffff;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section {
+    padding: 0 15px;
+    position: relative;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 150, 136, 0.2);
+    border-radius: 10px;
+    width: 316px;
+    height: 326px;
+    left: 43%;
+    top: 1.5%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form {
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div {
+    margin-right: 0px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div.select {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .input-div.select.prefix select {
+    width: 100%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    align-items: flex-end;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .nobutton {
+    border: 2px solid #FF7700 !important;
+    border-radius: 15px;
+    background-color: transparent !important;
+    color: #F47E16 !important;
+    box-shadow: 0px 0px 0em rgba(237, 108, 13, 0.3);
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .CREATE {
+    width: 45% !important;
+    max-width: 45% !important;
+    min-width: 45% !important;
+    height: 50px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .popup-section .filter-form .buttonsscreens .CREATE:last-child {
+    margin-left: 10%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .table-header,
+.screen_colunm471 .contant-body .full-width .padding-section .table .table-value {
+    display: grid;
+    grid-template-columns: 15% 14.16% 14.16% 14.16% 14.16% 14.16% 14.16%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .table-header .fields,
+.screen_colunm471 .contant-body .full-width .padding-section .table .value {
+    border-left: 0.3px solid #4DB6AC;
+    border-top: 0.3px solid #4DB6AC;
+}
+
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .table-value:last-child .value {
+    border-bottom: 0.3px solid #4DB6AC;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .table-header .fields.label {
+    text-align: center;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .value {
+    height: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .value img {
+    cursor: pointer;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .value ul {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .value ul li {
+    padding-bottom: 0px;
+}
+
+.screen_colunm471 .contant-body .full-width .padding-section .table .value ul li.bold-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #004D40;
+}
+.screen_colunm471 .meinheader_section {
+    width: auto;
+    display: inline-block;
+    padding: 0px;
+}
+.screen_colunm471 .header {
+    text-align: center;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+    min-height: 32px;
+    border-left: 0.3px solid rgb(77, 182, 172);
+    border-top: 0.3px solid rgb(77, 182, 172);
+}
+.screen_colunm471 .table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.screen_colunm471 .table .meinheader_section:first-child .header {
+    background: transparent;
+}
+.screen_colunm471 .table .meinheader_section:last-child .header,
+.screen_colunm471 .table .meinheader_section:last-child .body .value {
+    border-right: 0.3px solid rgb(77, 182, 172);
+}
+.screen_colunm471 .table .meinheader_section .body .value:last-child {
+    border-bottom: 0.3px solid rgb(77, 182, 172);
+}
+
+/************************* Page_colunm 471 **************************/
+
+
 /************************* Page 800 **************************/
 .screen800 {
     background: rgba(219, 242, 240, 0.4);
@@ -9871,6 +10326,136 @@ li.redcolor1 {
     font-size: 24px;
     line-height: 32px;
 }
+.screen1015 .exam-btn-section {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.screen1015 .StatusSectionHeader {
+    background: #E0F2F1;
+    padding: 15px 40px;
+}
+
+.screen1015 .StatusSectionHeader span {
+    color: #00695C;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.screen1015 .StatusSectionHeader span.active {
+    color: #F47E16;
+    position: relative;
+}
+
+.screen1015 .StatusSectionHeader span.active::after {
+    content: '';
+    width: 120%;
+    position: absolute;
+    border-bottom: 4px solid #F47E16;
+    top: 40px;
+    left: -12px;
+    border-radius: 2px;
+}
+
+.screen1015 .contain-area {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}
+
+.screen1015 .contain-area .box {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 20px;
+}
+
+.screen1015 .contain-area .box .exam-section {
+    flex: 1;
+}
+
+.screen1015 .contain-area .box .time-section {
+    flex: 0.5;
+}
+
+.screen1015 .contain-area .box .action-section {
+    flex: 2;
+    margin-top: 20px;
+}
+
+.screen1015 .contain-area .box .exam-section p {
+    color: #009688;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.screen1015 .contain-area .box .exam-section span {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.screen1015 .contain-area .box .time-section p {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.screen1015 .contain-area .box .time-section p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.screen1015 .contain-area .box .action-section button {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen1015 .contain-area .box .action-section button.withIcon {
+    display: inline-flex;
+    border: 1px solid #FF7700;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 15px 25px;
+}
+.screen1015 .endsection button.withIcon {
+    font-size: 0px;
+    background: transparent;
+    border: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    padding: 0px;
+    min-width: 3rem;
+}
+
+.screen1015 .contain-area .box .action-section button.withIcon img {
+    margin-right: 10px;
+    height: 20px;
+}
+
 
 /******************** 1015 ************************/
 /******************** 481 ************************/
@@ -9917,6 +10502,11 @@ li.redcolor1 {
     display: flex;
     justify-content: center;
     margin-top: 60px;
+}
+.screen1002 .contain .Exam_Name {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .screen1002 .contain .btn-section {
@@ -9987,7 +10577,15 @@ li.redcolor1 {
     margin-right: 15px;
     cursor: pointer;
 }
-
+.screen1001 .endsection button.withIcon {
+    font-size: 0px;
+    background: transparent;
+    border: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    padding: 0px;
+    min-width: 3rem;
+}
 .screen1001 .StatusSectionHeader span.active {
     color: #F47E16;
     position: relative;
@@ -10002,6 +10600,10 @@ li.redcolor1 {
     left: -12px;
     border-radius: 2px;
 }
+.screen1001 .StatusSectionHeader span.active:last-child::after {
+    width: 105%;
+    left: -10px;
+    }
 
 .screen1001 .contain-area {
     height: calc(100vh - 280px);
@@ -10083,6 +10685,18 @@ li.redcolor1 {
 .screen1001 .contain-area .box .action-section button.withIcon img {
     margin-right: 10px;
     height: 20px;
+}
+.onetwosection .numbersection span {
+        background: #E0F2F1;
+        padding: 4px 7px;
+        border-radius: 25px;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        line-height: 3 !important;
+        letter-spacing: 0.5px !important;
+        color: #00352D !important;
+        margin: 5px;
+        cursor: pointer;
 }
 
 /******************** 1001 ************************/
@@ -10178,7 +10792,16 @@ li.redcolor1 {
 .screen1005 .contain .subject-section {
     border-right: 1px solid #B2DFDB;
 }
-
+.screen1005 .Classones button.cancel {
+    margin: 0px;
+    background: transparent;
+    color: #0D352D;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    border: 0px;
+    padding: .0px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
 .screen1005 .contain .studentInfoDetails .header {
     padding: 0;
 }
@@ -10213,14 +10836,15 @@ li.redcolor1 {
 
 .screen1005 .contain .classes-section div.active::after,
 .screen1005 .contain .subject-section div.active::after {
-    content: '';
-    border-bottom: 5px solid #F47E16;
-    position: absolute;
-    width: 33%;
-    transform: rotate(90deg);
-    left: 130px;
-    top: 24px;
-    border-radius: 18px;
+       content: '';
+       border-bottom: 5px solid #F47E16;
+       position: absolute;
+       width: 54px;
+       transform: rotate(90deg);
+       left: auto;
+       top: 24px;
+       border-radius: 18px;
+       right: -23px;
 }
 
 .screen1005 .contain .studentInfoDetails .body .studentInfoData .input p {
@@ -10307,6 +10931,7 @@ li.redcolor1 {
     position: absolute;
     top: 10px;
     left: 30px;
+    padding: 0px;
 }
 
 .sidebarscreen412 .row .checkbox-section .checkbox-group .control label::before {
@@ -10391,7 +11016,15 @@ li.redcolor1 {
 .screen1009 .contain .studentInfoDetails .body .studentInfoData {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
-
+.screen1009 button.Result_Structure {
+       background: transparent;
+       color: #F47E16;
+       box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+       border: 0px;
+       margin: 0px;
+       padding-bottom: 0px;
+       padding-top: 0px;
+}
 .screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control label {
     color: #00352D;
     letter-spacing: 0.5px;
@@ -10399,7 +11032,14 @@ li.redcolor1 {
     font-size: 16px;
     line-height: 24px;
 }
-
+.screen1009 p.SUBJECT1 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #009688;
+}
 .screen1009 .contain .studentInfoDetails .body .studentInfoData .checkbox-section .checkbox-group .control input:disabled+label {
     color: #828F8E;
 }
@@ -10640,6 +11280,1440 @@ li.redcolor1 {
 }
 
 /******************** 480 ************************/
+/*********************** 1016 *********************/
+.screen1016 .filter-form {
+    width: 75%;
+}
+.screen1016 .filter-form .topSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.screen1016 .filter-form .topSection .input-div.select.prefix:nth-child(1) select#class {
+    padding-left: 15px;
+    width: 180px;
+}
+.screen1016 .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.screen1016 .SelectExams.Sections_Included {
+    margin-top: 30px;
+}
+.screen1016 .filter-form .topSection button {
+    margin-top: 25px;
+}
+.screen1016 .filter-form .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.screen1016 .filter-form .input-div.select.prefix select {
+    padding-left: 40px;
+}
+.screen1016 .filter-form .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+.screen1016 .filter-form .input-div.select .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.screen1016 .filter-form button,
+.screen1016 .SAve .BorderwithIcon {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+.screen1016 .filter-form .BorderwithIcon,
+.screen1016 .SAve .BorderwithIcon {
+    display: inline-flex;
+    border: 1px solid #FF7700;
+    border-radius: 15px;
+    padding: 11px 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.screen1016 .SAve {
+    align-items: baseline;
+    padding-right: 30px;
+}
+.screen1016 .filter-form .BorderwithIcon img,
+.screen1016 .SAve .BorderwithIcon img {
+    margin-left: 45px;
+}
+.screen1016 .filter-form .secoundSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv {
+    position: relative;
+    width: 380px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv input {
+    width: 100%;
+}
+.screen1016 .filter-form .secoundSection .inputDiv span {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    color: #4DB6AC;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv:nth-child(1) input {
+    padding-left: 15px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv:last-child {
+    width: 155px;
+}
+.screen1016 .filter-form .secoundSection .inputDiv label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    visibility: visible !important;
+}
+.screen1016 .filter-form .SelectExams {
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.screen1016 .filter-form .TableSection {
+    width: 75%;
+    margin-top: 25px;
+}
+
+/* .screen1016 .TableSection:nth-child(1){
+    border-bottom: 1px solid #80CBC4;
+} */
+
+.screen1016 .filter-form .TableSection .header,
+.screen1016 .filter-form .TableSection .body .rowData {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+.screen1016 .filter-form .TableSection .header span {
+    color: #004D40;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.screen1016 .filter-form .TableSection .header .checkbox-section,
+.screen1016 .filter-form .TableSection .body .checkbox-section,
+.screen1016 .Attendancesection .checkbox-section {
+    position: relative;
+}
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label,
+.screen1016 .Attendancesection .checkbox-section .checkbox-group .control label {
+    margin-left: 35px;
+}
+.screen1016 .Attendancesection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.screen1016 .Attendancesection .checkbox-section {
+    width: 220px;
+    margin-bottom: 25px;
+}
+.screen1016 .filter-form .TableSection .body .checkbox-section .checkbox-group .control label {
+    margin-left: 20px;
+}
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label::after {
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 12px);
+}
+.screen1016 .filter-form .TableSection .header .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 10px);
+    left: 2px;
+    width: 15px;
+    height: 15px;
+}
+.screen1016 .buttonsection{
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+.screen1016 .buttonsection .REport_card {
+    background-color: #FF7700;
+    outline: none;
+    color: #ffffff;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    padding: 15px 40px;
+}
+/* .screen1016 .SAve .BorderwithIcon {
+    margin-bottom: 0px;
+} */
+.screen1016 .filter-form .TableSection .body .rowData:last-child {
+    border-bottom: 0px;
+}
+.screen1016 .filter-form .TableSection .body .rowData {
+    padding: 13px 0px;
+    border-bottom: 0.5px solid #B2DFDB;
+    margin: 0px 0px 0px 35px;
+}
+.screen1016 .filter-form .TableSection:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 105%;
+    padding-top: 20px;
+    border-bottom: 1px solid #80CBC4;
+}
+.screen1016 .meinTableSection .TableSection:last-child::after {
+    width: 130%;
+}
+.screen1016 .filter-form .TableSection .body .rowData .checkbox-section {
+    margin-left: 0;
+}
+.screen1016 .filter-form .TableSection .body .rowData .checkbox-section .checkbox-group .control label{
+    margin-left: 30px;
+}
+/*********************** 1016 *********************/
+
+/*********************** 1052 *********************/
+
+.screen1052 .continueChoose {
+    font-size: 36px;
+}
+.screen1052 .account--form {
+    padding: 80px 20px;
+}
+.screen1052 .Sibling_Name {
+   width: auto;
+   /* align-items: center; */
+   background: #EFF8F8;
+   border-radius: 10px;
+   padding: 6px 10px 6px 10px;
+   /* left: 150px; */
+   display: flex;
+}
+.screen1052 .mein_Sibling_Name {
+    display: flex;
+    justify-content: center;
+}
+.screen1052 .Sibling_Name p {
+    align-items: center;
+}
+.screen1052 .Sibling_Name img {
+   max-width: 50px;
+}
+.screen1052 .mein_Sibling_Name_secound {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+}
+.screen1052 .Dropdown_right img {
+    position: relative;
+    top: 12px;
+}
+
+/*********************** 1050 *********************/
+.screen1050 .Quick_Filtersmeinsection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen1050 .rightsitesection,
+.screen1050 .leftsidesection {
+    flex: 1;
+}
+.screen1050 .leftsidesection p,
+.screen1050 .rightsitesection p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+}
+.screen1050 .threebuttons button {
+    border: 1px solid #B2DFDB;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    min-width: auto;
+    margin: 0px 15px 0px 0px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+}
+.screen1050 .threebuttons button.active {
+    background: linear-gradient(225deg, rgba(246, 155, 0, 0.1) 0%, rgba(237, 106, 0, 0.1) 100%);
+    border: 1px solid #F47E16;
+    border-radius: 10px;
+}
+.screen1050 .rightsitesection .fromtosection {
+    display: grid;
+    grid-template-columns: 27% auto;
+}
+.screen1050 .rightsitesection .firstformsection .input-div {
+    position: relative;
+    margin-right: 25px;
+}
+.screen1050 .rightsitesection .firstformsection .input-div img.Location_date {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+}
+.screen1050 .rightsitesection .firstformsection .input-div input {
+    width: 190px;
+    padding-right: 16px;
+    font-size: 15px;
+    color: #0D352D;
+    margin-bottom: 0px;
+}
+.screen1050 .rightsitesection .firstformsection button{
+    background: transparent !important;
+    box-shadow: 0px 0px 30px rgb(0 152 135 / 10%);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16 !important;
+    border: 2px solid #F47E16 !important;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 10px;
+        margin-bottom: 0px;
+}
+.screen1050 .rightsitesection p {
+    margin-bottom: 8px;
+}
+.screen1050 .threebuttons button:hover {
+    background: transparent;
+}
+.screen1050 .Fee_Collection h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #009688;
+    margin: 20px 0px 10px;
+}
+.screen1050 .Fee_Collection_ones {
+    background: #EAEAEA;
+    border-radius: 20px;
+    padding: 25px 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.screen1050 .Fee_Collection_ones .Total_Collected_one {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.screen1050 .Fee_Collection_ones .Total_Collected {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+}
+.screen1050 .Fee_Collection_ones .sectiontwo ul li {
+    width: 40%;
+    display: inline-block;
+    color: #00352D;
+    font-weight: 500;
+}
+.screen1050 .download_icons p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    display: flex;
+}
+.screen1050 .leftsidesection .download_icons img.download24 {
+    padding-right: 15px;
+}
+.screen1050 .Quick_Filtersmeinsection .rightsitesection {
+    margin-left: 25px;
+}
+.screen1050 .leftsidesection {
+    margin-right: 25px;
+}
+
+.screen1050 .mein_studentcount {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen1050 .mein_studentcount .leftstudentcount,
+.screen1050 .mein_studentcount .rightstudentcount {
+    flex: 1;
+}
+.screen1050 .mein_studentcount .leftstudentcount {
+    margin-right: 25px;
+}
+.screen1050 .mein_studentcount .rightstudentcount{
+    margin-left: 25px;
+}
+.screen1050 .mein_studentcount .leftstudentcount h4,
+.screen1050 .mein_studentcount .rightstudentcount h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #00352D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.screen1050 .meinstudentpaid1 {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.screen1050 .meinstudentpaid .studentpaid {
+    width: 48%;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.screen1050 .meinstudentpaid {
+    background: #EAEAEA;
+    border-radius: 20px;
+    padding: 50px 0px 0px;
+        margin-right: 25px;
+}
+.screen1050 .meinstudentpaid h5 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    color: #009688;
+    margin-bottom: 15px;
+}
+.screen1050 .meinstudentpaid p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00352D;
+    margin-bottom: 15px;
+}
+.screen1050 .meinstudentpaid button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.screen1050 .notification {
+    background: #FABF2C;
+    border-radius: 0px 0px 15px 15px;
+}
+.screen1050 .notification p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F47E16;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.screen1050 .Students_Discounts {
+    background: #EAEAEA;
+    border-radius: 20px;
+    padding: 55px 20px 0px;
+    text-align: center;
+}
+.screen1050 .Students_Discounts h5 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    color: #009688;
+    margin-bottom: 15px;
+}
+.screen1050 .Students_Discounts button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.screen1050 .rightsitesection h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #EB5757;
+}
+.screen1050 .Students_Discounts p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00352D;
+}
+.rightsitesection .sectionone p.Total_Collected_one {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 22px;
+    color: #EB5757;
+}
+.rightstudentcount p.Total_Collected_one {
+    color: #6102FD !important;
+}
+/*************************************************/
+
+/********************screen 616************************/
+.screenno616 button.button.CREATE.button-outer {
+    position: relative;
+    padding-right: 45px;
+}
+
+.screenno616 button.button.CREATE.button-outer img.Go_white {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+
+.screenno616 .Previous_Notices {
+    background: #E0F2F1;
+    padding: 15px 50px;
+}
+
+.screenno616 .Previous_Notices h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding: 0px;
+}
+
+.screenno616 .Dance_Competition {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 152, 135, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+}
+.screenno616 .Completed.active:after {
+        width: 70px !important;
+        left: 210px !important;
+}
+.screenno616 .Upcoming.active:after {
+       width: 160px !important;
+       left: 40px !important;
+}
+
+.screenno616 .Dance_Competition h6 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    width: auto;
+    display: inline-block;
+}
+
+.screenno616 .Posted {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #009688;
+    margin-right: 80px;
+}
+
+.screenno616 .DELETE {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+.screenno616 button.editform {
+    margin: 0px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    border: 1.5px solid #FF7700;
+    border-radius: 10px;
+    max-width: 5rem;
+    float: right;
+}
+/* .screenno616 .REPOST {
+    display: grid;
+    grid-template-columns: 87% 13%;
+} */
+
+.screenno616 .Dance_Competitionone p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.screenno616 .Dance_Competitionone .Competition_poster {
+    font-weight: bold !important;
+    color: #F47E16 !important;
+    padding: 0px !important;
+    position: relative;
+    padding-left: 0px !important;
+    cursor: pointer;
+}
+
+.screenno616 .mein_Dance_Competition {
+    width: auto;
+    height: 70vh;
+    overflow: auto;
+}
+
+.screenno616 .Dance_Competitionone .Competition_poster img.Vector {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.screenno616 .DELETE img {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    left: 58px;
+}
+
+.screenno616 .noPrevious_Notices {
+    width: auto;
+    height: 70vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenno616 .noPrevious_Notices h6 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00352D;
+}
+
+/******************************************************/
+
+/******************1501 screen****************************/
+.screenno1501 .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 20% 15% 15% 15%;
+    padding-left: 15px;
+}
+.screenno1501 .Classsreen li {
+    padding-bottom: 0px;
+    display: initial;
+}
+.screenno1501 .Classsreen span.trash_can {
+    margin-left: 15px;
+}
+.screenno1501 .Classsreen  span {
+    cursor: pointer;
+}
+.screenno1501 .Classsreen ul {
+    grid-template-columns: 15% 21% 16% 15% 15%;
+    padding: 10px 0px;
+}
+
+.screenno1501 ul .view {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.screenno1501 form ul li .allClasses {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+    padding-left: 40px;
+}
+
+.screenno1501 form ul li select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+
+}
+
+.screenno1501 .dateline .Start_Date {
+    width: 23.80%;
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0px;
+
+}
+
+.screenno1501 .dateline .Start_Date label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    /* visibility: visible !important; */
+}
+
+.screenno1501 .form-control:focus+.form-control-placeholder {
+    padding: 0px !important;
+}
+
+.screenno1501 .Modify_Class {
+    color: #00352D;
+    font-weight: 700;
+}
+
+.screenno1501 span.groupedimages {
+    position: absolute;
+    left: -190px;
+    top: 15px;
+}
+
+.screenno1501 input[type=text].duedate {
+    background-image: url(../images/svg/Combined_Shape.svg) !important;
+}
+
+.screenno1501 .CREATE {
+    float: right;
+    margin: 0px;
+}
+
+.screenno1501 .sidebarscreen300 p {
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+
+.screenno1501 input#duedate {
+    margin-top: 14px;
+}
+
+/********************************************************/
+
+/************************* Page 618 **************************/
+.screen618 {
+    padding-left: 30px;
+}
+.screenmein618 {
+    opacity: 0.3;
+}
+
+.screen618 .SAve p {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen618 .filter-form {
+    display: flex;
+    margin-top: 45px;
+}
+
+.popup-sectionfirtst .filter-form .input-div.select {
+    margin-top: -25px;
+}
+
+.popup-sectionfirtst .filter-form .input-div {
+    position: relative;
+    margin-right: 30px;
+}
+
+.popup-sectionfirtst .input-div.select label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+.popup-sectionfirtst .input-div.select.prefix select {
+    padding-left: 40px;
+}
+
+.popup-sectionfirtst .input-div select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    color: #0D352D;
+    margin: 0px;
+    width: 230px;
+}
+
+.popup-sectionfirtst .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.popup-sectionfirtst .prefix-icon {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+
+.screen618 .contant-body {
+    margin-top: 42px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+.screen618 .contant-body .full-width {
+    background: #ffffff;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.screen618 .contant-body .full-width .padding-section {
+    padding: 0 15px;
+    position: relative;
+}
+
+ .popup-sectionfirtst {
+   position: absolute;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 20px rgb(0 150 136 / 20%);
+   border-radius: 10px;
+   width: 316px;
+   height: 326px;
+   left: 43%;
+   top: 40%;
+}
+ .popup-sectionfirtst .filter-form {
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.popup-sectionfirtst .filter-form .input-div {
+    margin-right: 0px;
+}
+
+.popup-sectionfirtst .filter-form .input-div.select {
+    margin-top: 25px;
+    width: 100%;
+}
+
+ .popup-sectionfirtst .filter-form .input-div.select.prefix select {
+    width: 100%;
+}
+
+ .popup-sectionfirtst .filter-form .buttonsscreens {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    align-items: flex-end;
+}
+
+ .popup-sectionfirtst .filter-form .buttonsscreens .nobutton {
+    border: 2px solid #FF7700 !important;
+    border-radius: 15px;
+    background-color: transparent !important;
+    color: #F47E16 !important;
+    box-shadow: 0px 0px 0em rgba(237, 108, 13, 0.3);
+}
+
+.popup-sectionfirtst .filter-form .buttonsscreens .CREATE {
+    width: 45% !important;
+    max-width: 45% !important;
+    min-width: 45% !important;
+    height: 50px;
+}
+
+.popup-sectionfirtst .filter-form .buttonsscreens .CREATE:last-child {
+    margin-left: 10%;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-header,
+.screen618 .contant-body .full-width .padding-section .table .table-value {
+    display: grid;
+    grid-template-columns: 15% 14.16% 14.16% 14.16% 14.16% 14.16% 14.16%;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-header .fields,
+.screen618 .contant-body .full-width .padding-section .table .table-value .value {
+    border-left: 0.3px solid #4DB6AC;
+    border-top: 0.3px solid #4DB6AC;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-header .fields:last-child,
+.screen618 .contant-body .full-width .padding-section .table .table-value .value:last-child {
+    border-right: 0.3px solid #4DB6AC;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value:last-child .value {
+    border-bottom: 0.3px solid #4DB6AC;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-header .fields.label {
+    text-align: center;
+    background: #E0F2F1;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value .value {
+    height: 130px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value .value img {
+    cursor: pointer;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value .value ul {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value .value ul li {
+    padding-bottom: 0px;
+}
+
+.screen618 .contant-body .full-width .padding-section .table .table-value .value ul li.bold-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #004D40;
+}
+
+/************************* Page 618 **************************/
+
+/******************** 1010 ************************/
+.wrapper .screen1010 {
+    padding: 14px 0;
+    width: 770px;
+}
+
+.screen1010 .full-width {
+    margin-top: 25px;
+}
+
+.screen1010 .full-width .header {
+    background: #E0F2F1;
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+}
+
+.screen1010 .full-width .header label {
+    padding: 10px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen1010 .full-width .body .rowData {
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.screen1010 .full-width .body .rowData.margin-top-35px {
+    margin-top: 35px;
+}
+
+.screen1010 .full-width .body .rowData::after {
+    content: '';
+    border-bottom: 0.5px solid #B2DFDB;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen1010 .full-width .body .rowData:last-child::after {
+    content: '';
+    border-bottom: none;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen1010 .full-width .body .rowData .checkbox-section {
+    position: relative;
+    margin-left: 35px;
+}
+
+.screen1010 .full-width .body .rowData .input {
+    display: flex;
+    justify-content: center;
+}
+
+.screen1010 .full-width .body .rowData .input input {
+    background: none;
+    margin-bottom: 0;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 8px;
+    width: 75%;
+}
+
+.screen1010 .full-width .addAssesment {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.screen1010 .full-width .addAssesment img {
+    cursor: pointer;
+}
+
+.screen1010 .full-width .addAssesment span {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.screen1010 .CREATE {
+    margin-bottom: 10px;
+}
+
+/******************** 1502 ************************/
+.createClassPopup-section1502screen {
+    background-color: #0D352D;
+    z-index: 999;
+    padding: 3.25rem 0;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.createClassPopup-section1502screen .createNewClass {
+    background-color: #fff;
+    padding: 14px 25px 40px 25px;
+    width: 900px;
+    position: relative;
+    border-radius: 0.9375rem;
+    overflow: auto;
+    max-height: 590px;
+    text-align: center;
+}
+
+.createClassPopup-section1502screen .close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: url(../images/svg/Vector_2.svg) center no-repeat;
+    text-indent: -62499.9375rem;
+    background-size: 100%;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 99;
+    color: #014E3F;
+}
+
+.margin-top-35px {
+    margin-top: 35px;
+}
+
+.margin-top-15px {
+    margin-top: 15px;
+}
+
+.margin-left--15px {
+    margin-left: -15px;
+}
+
+.without-icon-fullbox {
+    background-image: none !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.createClassPopup-section1502screen .margin-left--15px label.type {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    opacity: 1;
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    text-align: left;
+}
+
+.createClassPopup-section1502screen .margin-left--15px .radio-group .radiobutton {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100% !important;
+    position: relative;
+    text-align: left;
+}
+
+.createClassPopup-section1502screen .margin-left--15px .radio-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+.createClassPopup-section1502screen .Vehicle_Type label {
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+.createClassPopup-section1502screen .Vehicle_Type {
+    position: relative;
+}
+.createClassPopup-section1502screen .createNewClass h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.createClassPopup-section1502screen .Vehicle_Type img.vehicle_Bus {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.createClassPopup-section1502screen .Vehicle_Type select.Marks {
+    padding-left: 30px;
+}
+.createClassPopup-section1502screen .Vehicle_Type label.form-control-placeholder {
+    position: absolute;
+    top: -30px;
+}
+.createClassPopup-section1502screen .margin-left--15px .radio-group .radiobutton label {
+    padding-left: 0;
+    color: #333;
+    margin-left: 10px;
+}
+
+.createClassPopup-section1502screen .margin-left--15px .radio-group .radiobutton label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.createClassPopup-section1502screen .margin-left--15px .radio-group .radiobutton label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.createClassPopup-section1502screen .margin-left--15px .radio-group .radiobutton input[type=radio]:checked+label {
+    font-weight: 400 !important;
+}
+
+/* page: 408 */
+
+
+/******************1513 screen****************************/
+.screenno1513 .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns:15% 18% 15%;
+    padding-left: 0px;
+}
+.screenno1513 .Classsreen {
+    padding: 10px 40px;
+}
+
+.screenno1513 .Classsreen li {
+    padding-bottom: 0px;
+    display: initial;
+}
+
+.screenno1513 .Classsreen span.trash_can {
+    margin-left: 15px;
+}
+
+.screenno1513 .Classsreen span {
+    cursor: pointer;
+}
+
+.screenno1513 .Classsreen ul {
+    grid-template-columns: 15% 19% 16%;
+    padding: 10px 0px;
+}
+
+.screenno1513 ul .view {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.screenno1513 form ul li .allClasses {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+    padding-left: 40px;
+}
+
+.screenno1513 form ul li select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+}
+
+.screenno1513 .dateline .Start_Date {
+    width: 23.80%;
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0px;
+}
+
+.screenno1513 .dateline .Start_Date label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.screenno1513 .form-control:focus+.form-control-placeholder {
+    padding: 0px !important;
+}
+
+.screenno1513 .Modify_Class {
+    color: #00352D;
+    font-weight: 700;
+}
+
+.screenno1513 span.groupedimages {
+    position: absolute;
+    left: -190px;
+    top: 15px;
+}
+.screenno1513 .buttonsectiosROUTE span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828F8E;
+    padding-left: 25px;
+}
+.screenno1513 button.CLONE_ROUTE {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    background: transparent;
+    border: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+}
+.screenno1513 input[type=text].duedate {
+    background-image: url(../images/svg/Combined_Shape.svg) !important;
+}
+.screenno1513 .sidebarscreen300 p {
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+
+.screenno1513 input#duedate {
+    margin-top: 14px;
+}
+
+/********************************************************/
+
+
+/******************1503 screen****************************/
+.screenno1503 .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 18% 15%;
+    padding-left: 0px;
+}
+
+.screenno1503 .Classsreen {
+    padding: 10px 40px;
+}
+
+.screenno1503 .Classsreen li {
+    padding-bottom: 0px;
+    display: initial;
+}
+
+.screenno1503 .Classsreen span.trash_can {
+    margin-left: 15px;
+}
+
+.screenno1503 .Classsreen span {
+    cursor: pointer;
+}
+
+.screenno1503 .Classsreen ul {
+    grid-template-columns: 15% 19% 16%;
+    padding: 10px 0px;
+}
+
+.screenno1503 ul .view {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.screenno1503 form ul li .allClasses {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+    padding-left: 40px;
+}
+
+.screenno1503 form ul li select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+}
+
+.screenno1503 .dateline .Start_Date {
+    width: 23.80%;
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0px;
+}
+
+.screenno1503 .dateline .Start_Date label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.screenno1503 .form-control:focus+.form-control-placeholder {
+    padding: 0px !important;
+}
+
+.screenno1503 .Modify_Class {
+    color: #00352D;
+    font-weight: 700;
+}
+
+.screenno1503 span.groupedimages {
+    position: absolute;
+    left: -190px;
+    top: 15px;
+}
+
+.screenno1503 .buttonsectiosROUTE span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828F8E;
+    padding-left: 25px;
+}
+
+.screenno1503 button.CLONE_ROUTE {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    background: transparent;
+    border: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+}
+
+.screenno1503 input[type=text].duedate {
+    background-image: url(../images/svg/Combined_Shape.svg) !important;
+}
+
+.screenno1503 .sidebarscreen300 p {
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+
+.screenno1503 input#duedate {
+    margin-top: 14px;
+}
+
+/********************************************************/
 
 /************ media screen *****************/
 

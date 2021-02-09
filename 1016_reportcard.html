@@ -11,8 +11,6 @@
     <!-- change into index, follow -->
     
     <link href="css/custom.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/bakul.css" media="all" rel="stylesheet" type="text/css" />
-    
     <link rel="stylesheet" href="node_modules/lato-font/css/lato-font.css" />
 </head>
 
@@ -48,406 +46,458 @@
                     <div class="sidebarscreen300 ">
                         <div class="SAve">
                             <p> Academics > Report Card > <span class="Modify_Class Fee_Structure"> Create New <span></p>
-                        </div>
-                        <div>
-                            <form class="filter-form">
-                                <div class="topSection">
-                                    <div class="input-div select prefix">
-                                        <label for="class">Select Class</label>
-                                        <select name="class" id="class">
-                                            <option value="Class 10">Class 10</option>
-                                        </select>
-                                        <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                                <button class="BorderwithIcon">Preview <img src="./images/svg/openEye.svg"></button>       
+                            </div>
+                            <div>
+                                <form class="filter-form">
+                                    <div class="topSection">
+                                        <div class="input-div select prefix">
+                                            <label for="class">Academic Year</label>
+                                            <select name="class" id="class">
+                                                <option value="Class 10">2020-2021</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="input-div select prefix">
+                                            <label for="class">Select Class</label>
+                                            <select name="class" id="class">
+                                                <option value="Class 10">Class 10</option>
+                                            </select>
+                                            <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                                        </div>
+                                        <div class="input-div select prefix">
+                                            <label for="section">Select section</label>
+                                            <select name="section" id="section">
+                                                <option value="A">All Sections</option>
+                                            </select>
+                                            <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                                        </div>
+                                        <!-- <div>
+                                            <button class="BorderwithIcon">Preview <img src="./images/svg/openEye.svg"></button>
+                                        </div> -->
                                     </div>
-                                    <div class="input-div select prefix">
-                                        <label for="section">Select section</label>
-                                        <select name="section" id="section">
-                                            <option value="A">All Sections</option>
-                                        </select>
-                                        <span class="prefix-icon"><img src="images/svg/twoIcons.svg"></span>
+                                    <div class="secoundSection">
+                                        <div class="inputDiv">
+                                            <input class="form-control without-icon-fullbox" type="text" id="EnterReportCardTitle" value="First Term">
+                                            <label class="form-control-placeholder" for="EnterReportCardTitle">Enter Report Card Title</label>
+                                        </div>
+                                        <div class="inputDiv">
+                                            <input class="form-control without-icon-fullbox" type="text" id="EnterPassingMarks" value="50">
+                                            <label class="form-control-placeholder" for="EnterPassingMarks">Enter Passing Marks (in %)</label>
+                                            <span>%</span>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <button class="BorderwithIcon">Preview <img src="./images/svg/openEye.svg"></button>
+                                    <label class="SelectExams">Select Exams</label>
+                                    <div class="meinTableSection">
+                                        <div class="TableSection">
+                                            <div class="header">
+                                                <div class="checkbox-section">
+                                                    <div class="checkbox-group">
+                                                        <div class="control">
+                                                            <input type="checkbox" id="HalfYearlyExamination">
+                                                            <label for="HalfYearlyExamination">Half Yearly Examination</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span>Show Marks</span>
+                                                <span>Show Grades</span>
+                                            </div>
+                                            <div class="body">
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Exam1">
+                                                                <label for="Exam1">Exam</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks11">
+                                                                <label for="ShowMarks11"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades11">
+                                                                <label for="ShowGrades11"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Test1">
+                                                                <label for="Test1">Test</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks12">
+                                                                <label for="ShowMarks12"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades12">
+                                                                <label for="ShowGrades12"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Notebook1">
+                                                                <label for="Notebook1">Notebook</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks13">
+                                                                <label for="ShowMarks13"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades13">
+                                                                <label for="ShowGrades13"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Total1">
+                                                                <label for="Total1">Total</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks14">
+                                                                <label for="ShowMarks14"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades14">
+                                                                <label for="ShowGrades14"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="TableSection">
+                                            <div class="header">
+                                                <div class="checkbox-section">
+                                                    <div class="checkbox-group">
+                                                        <div class="control">
+                                                            <input type="checkbox" id="ThirdMonthlyExamination">
+                                                            <label for="ThirdMonthlyExamination">Third Monthly Examination</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="body">
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Exam2">
+                                                                <label for="Exam2">Exam</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks21">
+                                                                <label for="ShowMarks21"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades21">
+                                                                <label for="ShowGrades21"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Test2">
+                                                                <label for="Test2">Test</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks22">
+                                                                <label for="ShowMarks22"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades22">
+                                                                <label for="ShowGrades22"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Notebook2">
+                                                                <label for="Notebook2">Notebook</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks23">
+                                                                <label for="ShowMarks23"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades23">
+                                                                <label for="ShowGrades23"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Total2">
+                                                                <label for="Total2">Total</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks24">
+                                                                <label for="ShowMarks24"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades24">
+                                                                <label for="ShowGrades24"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="TableSection">
+                                            <div class="header">
+                                                <div class="checkbox-section">
+                                                    <div class="checkbox-group">
+                                                        <div class="control">
+                                                            <input type="checkbox" id="AnnualExamination">
+                                                            <label for="AnnualExamination">Annual Examination</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="body">
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Exam3">
+                                                                <label for="Exam3">Exam</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks31">
+                                                                <label for="ShowMarks31"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades31">
+                                                                <label for="ShowGrades31"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Test3">
+                                                                <label for="Test3">Test</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks32">
+                                                                <label for="ShowMarks32"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades32">
+                                                                <label for="ShowGrades32"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Notebook3">
+                                                                <label for="Notebook3">Notebook</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks33">
+                                                                <label for="ShowMarks33"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades33">
+                                                                <label for="ShowGrades33"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rowData">
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="Total34">
+                                                                <label for="Total34">Total</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowMarks34">
+                                                                <label for="ShowMarks34"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox-section">
+                                                        <div class="checkbox-group">
+                                                            <div class="control">
+                                                                <input type="checkbox" id="ShowGrades34">
+                                                                <label for="ShowGrades34"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </div>
-                                </div>
-                                <div class="secoundSection">
-                                    <div class="inputDiv">
-                                        <input class="form-control without-icon-fullbox" type="text" id="EnterReportCardTitle" value="First Term">
-                                        <label class="form-control-placeholder" for="EnterReportCardTitle">Enter Report Card Title</label>
-                                    </div>
-                                    <div class="inputDiv">
-                                        <input class="form-control without-icon-fullbox" type="text" id="EnterPassingMarks" value="50">
-                                        <label class="form-control-placeholder" for="EnterPassingMarks">Enter Passing Marks (in %)</label>
-                                        <span>%</span>
-                                    </div>
-                                </div>
-                                <label class="SelectExams">Select Exams</label>
-                                <div class="TableSection">
-                                    <div class="header">
+                                    
+                                    <label class="SelectExams Sections_Included">Sections to be Included</label>
+                                    <div class="Attendancesection">
                                         <div class="checkbox-section">
                                             <div class="checkbox-group">
                                                 <div class="control">
-                                                    <input type="checkbox" id="HalfYearlyExamination">
-                                                    <label for="HalfYearlyExamination">Half Yearly Examination</label>
+                                                    <input type="checkbox" id="Attendance">
+                                                    <label for="Attendance">Attendance</label>
                                                 </div>
                                             </div>
                                         </div>
-                                        <span>Show Marks</span>
-                                        <span>Show Grades</span>
-                                    </div>
-                                    <div class="body">
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Exam1">
-                                                        <label for="Exam1">Exam</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks11">
-                                                        <label for="ShowMarks11"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades11">
-                                                        <label for="ShowGrades11"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Test1">
-                                                        <label for="Test1">Test</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks12">
-                                                        <label for="ShowMarks12"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades12">
-                                                        <label for="ShowGrades12"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Notebook1">
-                                                        <label for="Notebook1">Notebook</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks13">
-                                                        <label for="ShowMarks13"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades13">
-                                                        <label for="ShowGrades13"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Total1">
-                                                        <label for="Total1">Total</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks14">
-                                                        <label for="ShowMarks14"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades14">
-                                                        <label for="ShowGrades14"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="TableSection">
-                                    <div class="header">
+                                        
                                         <div class="checkbox-section">
                                             <div class="checkbox-group">
                                                 <div class="control">
-                                                    <input type="checkbox" id="ThirdMonthlyExamination">
-                                                    <label for="ThirdMonthlyExamination">Third Monthly Examination</label>
+                                                    <input type="checkbox" id="Remarks">
+                                                    <label for="Remarks">Remarks</label>
                                                 </div>
                                             </div>
                                         </div>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="body">
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Exam2">
-                                                        <label for="Exam2">Exam</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks21">
-                                                        <label for="ShowMarks21"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades21">
-                                                        <label for="ShowGrades21"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Test2">
-                                                        <label for="Test2">Test</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks22">
-                                                        <label for="ShowMarks22"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades22">
-                                                        <label for="ShowGrades22"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Notebook2">
-                                                        <label for="Notebook2">Notebook</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks23">
-                                                        <label for="ShowMarks23"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades23">
-                                                        <label for="ShowGrades23"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Total2">
-                                                        <label for="Total2">Total</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks24">
-                                                        <label for="ShowMarks24"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades24">
-                                                        <label for="ShowGrades24"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="TableSection">
-                                    <div class="header">
+                                        
                                         <div class="checkbox-section">
                                             <div class="checkbox-group">
                                                 <div class="control">
-                                                    <input type="checkbox" id="AnnualExamination">
-                                                    <label for="AnnualExamination">Annual Examination</label>
+                                                    <input type="checkbox" id="Division">
+                                                    <label for="Division">Division/Position</label>
                                                 </div>
                                             </div>
                                         </div>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="body">
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Exam3">
-                                                        <label for="Exam3">Exam</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks31">
-                                                        <label for="ShowMarks31"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades31">
-                                                        <label for="ShowGrades31"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Test3">
-                                                        <label for="Test3">Test</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks32">
-                                                        <label for="ShowMarks32"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades32">
-                                                        <label for="ShowGrades32"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Notebook3">
-                                                        <label for="Notebook3">Notebook</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks33">
-                                                        <label for="ShowMarks33"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades33">
-                                                        <label for="ShowGrades33"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="rowData">
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="Total34">
-                                                        <label for="Total34">Total</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowMarks34">
-                                                        <label for="ShowMarks34"></label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="checkbox-section">
-                                                <div class="checkbox-group">
-                                                    <div class="control">
-                                                        <input type="checkbox" id="ShowGrades34">
-                                                        <label for="ShowGrades34"></label>
-                                                    </div>
+                                        <div class="checkbox-section">
+                                            <div class="checkbox-group">
+                                                <div class="control">
+                                                    <input type="checkbox" id="Division1">
+                                                    <label for="Division1">Parents’ Signature</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </form>
+                                    <div class="buttonsection">
+                                        <button>CANCEL</button>
+                                        <button class="REport_card">Create REport card</button>   
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
-</html>
+    </body>
+    </html>

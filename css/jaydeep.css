@@ -1,0 +1,513 @@
+/************ page 477 *****************/
+
+.screen447 .SearchPeopleInChatSection input {
+    background-image: url(../images/svg/SearchForChats.svg);
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+    font-weight: normal;
+    font-size: 16px;
+    background-position: 2rem center;
+    padding-left: 70px;
+    height: 55px;
+    margin-bottom: 0;
+}
+.screen447 .chatSection {
+    height: calc(98vh - 270px);
+    overflow-y: auto;
+}
+.screen447 {
+    display: grid;
+    grid-template-columns: 330px auto;
+}
+.screen447 .chatSection .chat:nth-child(1) {
+    background: #E0F2F1;
+    border-top: 1px solid #B2DFDB;
+}
+.screen447 .screenmeinsction {
+    border-right: 1px solid #00897B;
+    padding-top: 34px;
+}
+.screen447 .chatSection .chat {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 15px;
+}
+ .screen447 .chatSection .chat .bold-text {
+     font-weight: 900;
+     font-size: 16px;
+     color: #00352D;
+ }
+ .screen447 .chatSection .chat .sub-text {
+     font-weight: normal;
+     font-size: 12px;
+     color: #828F8E;
+ }
+ .scrennsection447 {
+     padding-top: 61px !important;
+ }
+ .screen447 .radio-group-btn {
+     display: grid;
+     grid-template-columns: 130px 230px;
+     position: unset;
+ }
+ 
+ .screen447 .radio-group-btn .radiobutton {
+     background: transparent;
+     position: relative;
+ }
+ .screen447 .radio-group-btn .radiobutton label {
+     padding: 16px 0 0 10px;
+     font-weight: normal;
+ }
+ .screen447 .radio-group-btn .radiobutton label::before {
+     top: calc(50% - 0rem);
+     background-color: #fff !important;
+ }
+ .screen447 .radio-group-btn .radiobutton label::after {
+         top: calc(50% - 0rem);
+ }
+ .screen447 .radiobutton {
+   background: #F7FBFB;
+   border-radius: 10px;
+   padding: 0px 20px;
+   margin-left: 0px;
+   margin-top: 0px;
+   max-width: 90% !important;
+   margin-bottom: 25px;
+ }
+ .screen447 span.Modify_Class.Fee_Structure {
+     color: #009688 !important;
+ }
+ .screen447 .SAve .Recepients {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 22px;
+     color: #009688;
+     margin-bottom: 10px;
+ }
+ .screen447 {
+     padding: 0px !important;
+ }
+ .screen447 .SAve {
+     padding-left: 30px;
+     border-bottom: 1px solid #B2DFDB;
+ }
+ .screen447 .chatSection .chat .count {
+     background-color: #F47E16;
+     color: #ffffff;
+     border-radius: 100%;
+     width: 20px;
+     height: 20px;
+     text-align: center;
+     margin-top: 5px;
+     font-size: 14px;
+ }
+ .screen447 .chatSection .chat .time-text {
+     font-weight: normal;
+     font-size: 10px;
+     color: #00352D;
+ }
+ .screen447 .contentchat {
+     background: #EFF8F8;
+     border-radius: 10px;
+     padding: 15px;
+     margin: 15px 30px;
+     width: auto;
+     float: right;
+ }
+ .screen447 .contentchat span {
+     font-weight: bold;
+     font-size: 10px;
+     line-height: 12px;
+     color: #4DB6AC;
+     float: right;
+     width: 100%;
+     text-align: right;
+ }
+ .screen447 .contentchat p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    }
+
+ .screen447 .yellowbox {
+     background: #FFFCE1;
+     border-radius: 10px;
+     padding: 15px;
+     margin: 15PX 0px;
+     width: auto;
+     float: left;
+     margin: 0px 30px 15px;
+ }
+ .screen447 .yellowbox span {
+     font-weight: bold;
+     font-size: 10px;
+     line-height: 12px;
+     color: #F8A724;
+     float: right;
+     width: 100%;
+     text-align: right;
+ }
+ .screen447 .yellowbox p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.screen447 .chattingsection .line {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0px;
+    border-top: 0.5px solid #4DB6AC;
+    clear: both;
+}
+.screen447 .chattingsection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+.screen447 .boxcontent {
+    width: 95%;
+    display: inline-block;
+}
+.screen447 .chatinputsection {
+        width: 95%;
+        display: inline-block;
+        margin: 0px 30px 15px;
+        background: #EFF8F8;
+        border-radius: 15px;
+        position: relative;
+        padding: 5px;
+}
+.screen447 .chatinputsection input[type="text"] {
+    border: 1px solid #E0F2F1;
+    border-radius: 15px;
+    width: 100%;
+}
+.screen447 .chatinputsection input[type=text],
+.screen447 .chatinputsection textarea[type=text] {
+    background-image: url(../images/svg/smileicons.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    padding: 15px 50px;
+        margin: 0px;
+}
+.screen447 .chatinputsection button {
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    text-align: right;
+    min-width: 5rem;
+}
+.screen447 .chatinputsection button:hover {
+    background-color: transparent !important;
+    background: transparent;
+}
+.screen447 .chattingsection {
+    width: 100%;
+    display: inline-block;
+    height: calc(100vh - 0px);
+    overflow-y: auto;
+}
+/**************************************/
+
+/************************ page 479 *******************/
+
+.screen479 .SearchPeopleInChatSection input {
+    background-image: url(../images/svg/SearchForChats.svg);
+    border-radius: 0;
+    background-color: #EFF8F8;
+    border: 0;
+    font-weight: normal;
+    font-size: 16px;
+    background-position: 2rem center;
+    padding-left: 70px;
+    height: 55px;
+    margin-bottom: 0;
+}
+
+.screen479 .SearchPeopleInChatSection input::placeholder {
+    color: #80CBC4;
+}
+
+.screen479 .leftSide .topLinks ul.justify-content-center li:nth-child(1) span {
+    margin-left: -50px;
+}
+
+.screen479 .chatSection {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.screen479 .chatSection::-webkit-scrollbar {
+    width: 0px;
+}
+
+.screen479 .chatSection .chat {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 15px;
+}
+
+.screen479 .chatSection .chat:nth-child(1) {
+    background: #E0F2F1;
+    border-top: 1px solid #B2DFDB;
+}
+
+.screen479 .chatSection .chat:after {
+    content: '';
+    border-top: 1px solid #B2DFDB;
+    position: relative;
+    top: -70px;
+    width: 210px;
+    left: 60px;
+}
+
+.screen479 .chatSection .chat .bold-text {
+    font-weight: 900;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .normal-text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .sub-text {
+    font-weight: normal;
+    font-size: 12px;
+    color: #828F8E;
+}
+
+.screen479 .chatSection .chat .time-text {
+    font-weight: normal;
+    font-size: 10px;
+    color: #00352D;
+}
+
+.screen479 .chatSection .chat .count {
+    background-color: #F47E16;
+    color: #ffffff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.screen479 .rightSide .headerSection {
+    background: #E0F2F1;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+}
+
+.screen479 .rightSide .headerSection div {
+    margin-left: 20px;
+}
+
+.screen479 .rightSide {
+    padding-top: 60px !important;
+}
+
+.screen479 .rightSide .containSection {
+    margin-top: 40px;
+}
+
+.screen479 .rightSide .containSection .line {
+    width: 95%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0 0 40px 30px;
+    border-top: 0.5px solid #4DB6AC;
+}
+
+.screen479 .rightSide .containSection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection {
+    padding: 3% 20%;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt {
+    background: #EFF8F8;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt label {
+    font-weight: 900;
+    font-size: 18px;
+    color: #00352D;
+    margin-bottom: 15px;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #004D40;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section {
+    display: flex;
+    cursor: pointer;
+}
+
+.screen479 .rightSide .containSection .DanceCompetitionSection .containt .attachfiles-section span {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F47E16;
+}
+.screen479 .contentchat {
+    background: #EFF8F8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 30px;
+    width: auto;
+    float: right;
+}
+
+.screen479 .contentchat span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4DB6AC;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen479 .contentchat p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen479 .yellowbox {
+    background: #FFFCE1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15PX 0px;
+    width: auto;
+    float: left;
+    margin: 0px 30px 15px;
+}
+
+.screen479 .yellowbox span {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F8A724;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.screen479 .yellowbox p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.screen479 .chattingsection .line {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0px;
+    border-top: 0.5px solid #4DB6AC;
+    clear: both;
+}
+
+.screen479 .chattingsection .line span {
+    background: #EFF8F8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #00796B;
+}
+
+.screen479 .boxcontent {
+    width: 95%;
+    display: inline-block;
+}
+
+.screen479 .chatinputsection {
+    width: 95%;
+    display: inline-block;
+    margin: 0px 30px 15px;
+    background: #EFF8F8;
+    border-radius: 15px;
+    position: relative;
+    padding: 5px;
+}
+
+.screen479 .chatinputsection input[type="text"] {
+    border: 1px solid #E0F2F1;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.screen479 .chatinputsection input[type=text],
+.screen479 .chatinputsection textarea[type=text] {
+    background-image: url(../images/svg/smileicons.svg);
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    padding: 15px 50px;
+    margin: 0px;
+}
+
+.screen479 .chatinputsection button {
+    background: transparent;
+    box-shadow: 0px 0px 0rem rgba(237, 108, 13, 0.3);
+    border: 0px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    text-align: right;
+    min-width: 5rem;
+}
+
+.screen479 .chatinputsection button:hover {
+    background-color: transparent !important;
+    background: transparent;
+}
+.screen479 .chattingsection {
+    width: 100%;
+    display: inline-block;
+}
+.screen479 .chattingsection {
+    width: 100%;
+    display: inline-block;
+    height: calc(65vh - 60px);
+    overflow-y: auto;
+}
+/*******************************************/

@@ -64,3 +64,80 @@
     cursor: pointer;
 }
 /**************** 1510 ******************/
+/**************** 1518 ******************/
+.screenno1518 .buttonsectiosROUTE button {
+    display: flex;
+}
+.screenno1518 .buttonsectiosROUTE button img {
+    margin-right: 25px;
+}
+.screenno1518 .All_Classes .Subject_name {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.screenno1518 .Routessection .Classsreen ul {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) {
+    display: flex;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) .navigationIntigator {
+    border-left: 1px solid #B2DFDB;
+    margin-right: 15px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) .navigationIntigator img {
+    margin-left: -12px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) span {
+    display: flex;
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .studentName {
+    margin-left: 15px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .studentName img {
+    margin-left: 15px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .viewAll {
+    margin-top: 20px;
+}
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) span img {
+    display: flex;
+    margin-right: 15px;
+}
+.screenno1518 .Routessection .Classsreen ul li:last-child span {
+    color: #F47E16;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.screenno1518 .Routessection .Classsreen ul li:last-child span img {
+    margin-left: 15px;
+}
+/**************** 1518 ******************/
+/**************** 1516 ******************/
+.screen1516 .Routessection .Classsreen ul li:nth-child(3) .addStudentSection {
+    margin-top: 50px;
+}
+.screen1516 .Routessection .Classsreen ul li:nth-child(3) .addStudentSection .studentName {
+    display: flex;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0;
+}
+/**************** 1516 ******************/

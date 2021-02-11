@@ -1,0 +1,66 @@
+/**************** 1509 ******************/
+.screen1509 .screen1500 .sidebarscreen300 .Academic_years {
+    margin-top: 20px;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .Periodsection .Period123 .yearfirstsection .Academic_years ul li .add-question-section1 span {
+    margin-left: 0px;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .fee-payment-section {
+    margin-top: 30px;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 40%;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label {
+    padding-left: 20px;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+}
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label::after,
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label::before {
+    top: 10px;
+}
+/**************** 1509 ******************/
+/**************** 1510 ******************/
+.screenno1510 .RouteTableDetails {
+    background: #FFFFFF;
+    border: 1px solid #B2DFDB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgb(0 150 136 / 10%);
+    border-radius: 10px;
+    width: 591px;
+    height: 390px;
+    position: absolute;
+    top: 200px;
+    left: 605px;
+    overflow-y: auto;
+}
+.screenno1510 .RouteTableDetails table {
+    width: 100%;
+    padding: 15px;
+}
+.screenno1510 .RouteTableDetails table tr th {
+    text-align: left;
+}
+.screenno1510 .RouteTableDetails table tr td {
+    padding: 15px;
+    padding-left: 0;
+}
+.screenno1510 .RouteTableDetails table tr td .btn-transparant {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+/**************** 1510 ******************/

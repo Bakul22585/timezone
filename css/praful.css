@@ -6,3 +6,22 @@
 .screen1520 .createNewClass .fees {
     margin-bottom: 16px;
 }
+/* screen1519 */
+
+.screen1519 .confirm_section button
+{
+    margin-top: 0px;
+}
+.screen1519 .createNewClass .fees {
+    margin-bottom: 16px;
+}
+.screen1519 .Start_Date1{
+    margin-right: 16px;
+}
+.screen1519 .acadamic{
+    width: 47%;
+}
+.screen1519 .button {
+    margin: 20px;
+}
+/* screen1519 */

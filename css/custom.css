@@ -12600,15 +12600,63 @@ li.redcolor1 {
 
 
 /******************1503 screen****************************/
+.meinscreenno1503 {
+    padding-top: 62px !important;
+}
+.screenno1503 {
+    display: grid;
+    grid-template-columns: auto auto;
+        height: calc(100vh - 6rem);
+}
 .screenno1503 .Subject_name {
     width: 100%;
     display: grid;
     grid-template-columns: 15% 18% 15%;
     padding-left: 0px;
 }
-
+.screenno1503 .Route_Details_section h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+    padding: 15px;
+}
+.screenno1503 .table_section table {
+    width: 100%;
+}
+.screenno1503 .table_section table tr th {
+    text-align: left;
+    padding: 15px !important;
+}
+.screenno1503 .table_section table tr td {
+    padding: 15px;
+    border-bottom: 1px solid #E0F2F1;
+}
+.screenno1503 .CLONE_ROUTE_mein_section {
+    border-right: 1px solid #009688;
+    padding-top: 30px;
+}
+.screenno1503 .Route_Details_section {
+    padding-left: 15px;
+    padding-top: 15px;
+}
 .screenno1503 .Classsreen {
     padding: 10px 40px;
+}
+.screenno1503 .table_section table tr td:first-child {
+    border: 0px;
+    position: relative;
+}
+.screenno1503 .table_section table tr td:first-child:after {
+    position: absolute;
+    content: '';
+    border: 1px solid #B2DFDB;
+    width: 36px;
+    transform: rotate(-90deg);
+    right: auto;
+    left: 8px;
+    top: auto;
+    bottom: 0px;
 }
 
 .screenno1503 .Classsreen li {
@@ -12713,6 +12761,251 @@ li.redcolor1 {
     margin-top: 14px;
 }
 
+
+
+/******************1511 screen****************************/
+.screenno1511 .Subject_name {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding-left: 0px;
+}
+.screenno1511 .Students button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF7700 !important;
+    background: transparent !important;
+    box-shadow: none;
+    border: 0px;
+    min-width: 7rem;
+    margin: 0px;
+    padding: 0px !important;
+}
+.screenno1511 .Classsreen {
+    padding: 10px 40px;
+}
+
+.screenno1511 .Classsreen li {
+    padding-bottom: 0px;
+    display: initial;
+}
+
+.screenno1511 .Classsreen span.trash_can {
+    margin-left: 15px;
+}
+
+.screenno1511 .Classsreen span {
+    cursor: pointer;
+}
+
+.screenno1511 .Classsreen ul {
+    grid-template-columns:15% 14% 15% 16% 14% 11% 10%;
+    padding: 10px 0px;
+}
+
+.screenno1511 ul .view {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.screenno1511 form ul li .allClasses {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+    padding-left: 40px;
+}
+
+.screenno1511 form ul li select {
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
+    color: #0D352D;
+}
+
+.screenno1511 .dateline .Start_Date {
+    width: 23.80%;
+    display: inline-block;
+    margin-right: 16px;
+    padding: 0px;
+}
+
+.screenno1511 .dateline .Start_Date label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.screenno1511 .form-control:focus+.form-control-placeholder {
+    padding: 0px !important;
+}
+
+.screenno1511 .Modify_Class {
+    color: #00352D;
+    font-weight: 700;
+}
+
+.screenno1511 span.groupedimages {
+    position: absolute;
+    left: -190px;
+    top: 15px;
+}
+
+.screenno1511 .buttonsectiosROUTE span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828F8E;
+    padding-left: 25px;
+}
+
+.screenno1511 button.CLONE_ROUTE {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+    background: transparent;
+    border: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+}
+
+.screenno1511 input[type=text].duedate {
+    background-image: url(../images/svg/Combined_Shape.svg) !important;
+}
+
+.screenno1511 .sidebarscreen300 p {
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+
+.screenno1511 input#duedate {
+    margin-top: 14px;
+}
+
+/********************************************************/
+
+
+/******************** 618_popup ************************/
+ .screen_popup_618 {
+    padding: 14px 0;
+    width: 770px;
+}
+.screen_popup_618 {
+    padding: 14px 0;
+    width: 500px !important;
+    min-height: 400px;
+}
+.screen_popup_618 .popup-sectionfirtst {
+    position: unset;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.screen_popup_618 .full-width {
+    margin-top: 25px;
+}
+
+.screen_popup_618 .full-width .header {
+    background: #E0F2F1;
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+}
+
+.screen_popup_618 .full-width .header label {
+    padding: 10px;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen_popup_618 .full-width .body .rowData {
+    display: grid;
+    grid-template-columns: 40% 23% 23% 14%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.screen_popup_618 .full-width .body .rowData.margin-top-35px {
+    margin-top: 35px;
+}
+
+.screen_popup_618 .full-width .body .rowData::after {
+    content: '';
+    border-bottom: 0.5px solid #B2DFDB;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen_popup_618 .full-width .body .rowData:last-child::after {
+    content: '';
+    border-bottom: none;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 98px;
+}
+
+.screen_popup_618 .full-width .body .rowData .checkbox-section {
+    position: relative;
+    margin-left: 35px;
+}
+
+.screen_popup_618 .full-width .body .rowData .input {
+    display: flex;
+    justify-content: center;
+}
+
+.screen_popup_618 .full-width .body .rowData .input input {
+    background: none;
+    margin-bottom: 0;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 8px;
+    width: 75%;
+}
+
+.screen_popup_618 .full-width .addAssesment {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.screen_popup_618 .full-width .addAssesment img {
+    cursor: pointer;
+}
+
+.screen_popup_618 .full-width .addAssesment span {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.screen_popup_618 .CREATE {
+    margin-bottom: 10px;
+}
+
+/******************** 618_popup ************************/
+
+/******************** 1514_popup ************************/
+.screen1514 .Start_Date img.Dropdown {
+    top: 26px;
+    left: 200px;
+    position: absolute;
+}
 /********************************************************/
 
 /************ media screen *****************/

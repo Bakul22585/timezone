@@ -13002,11 +13002,363 @@ li.redcolor1 {
 
 /******************** 1514_popup ************************/
 .screen1514 .Start_Date img.Dropdown {
-    top: 26px;
-    left: 200px;
+       top: 12px;
+       left: 234px;
+       position: absolute;
+}
+.screen1514 .createNewClass {
+    padding: 0px;
+    width: 1000px;
+    height: calc(100vh - 566px);
+    text-align: center;
+    min-height: 475px !important;
+    max-height: 900px;
+}
+.screen1514 input {
+    background-image: url(../images/svg/SearchForChats.svg) !important;
+}
+.screen1514 h3.Search_results {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009688;
+    text-align: left;
+    padding: 0px 15px;
+}
+.screen1514 .inputboxsection {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.screen1514 .dateline .Start_Date {
+    width: 45%;
+    display: inline-block;
+    margin-right: 0px;
+}
+.dateline .Start_Date1 {
+    margin-right: 0px;
+    margin-left: 50px;
+}
+.screen1514 .ornewsetones {
+    position: relative;
+}
+.screen1514 p.ornewset {
+    visibility: hidden;
+}
+.screen1514 .lasttest {
+    margin: 0px;
+    border-right: 1px solid #B2DFDB;
+}
+.foursonescreentwo .Add_Students {
+    font-size: 24px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+.screen1514 input {
+    width: 280px;
+}
+.screen1514 select {
+    width: 100%;
+}
+.screen1514 p.ornewsetoentest {
     position: absolute;
+    left: auto;
+    right: -32px;
+    top: -45px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00352D;
+}
+.screen1514 form {
+    margin: 30px 30px 10px;
+    border-bottom: 1px solid #B2DFDB;
+    padding-bottom: 10px;
+}
+.screen1514 .inputboxsection {
+    border-top: 1px solid #C5E7E4;
+}
+.screen1514 p.Students_Selected {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #828F8E !important;
+    margin: 0px 30px;
+    padding: 0px;
+}
+.screen1514 button.button.CREATE.button-outer {
+    position: relative;
+    left: 120px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.screen1514 .Search_resultsmein {
+    display: grid;
+    grid-template-columns: 70% auto;
+    
+}
+.screen1514 .checkboxsection .checkbox-section {
+      padding-left: 15px;
+}
+.screen1514 .checkboxsection span.Class_10 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    padding-left: 10px;
+}
+.screen1514 .checkboxsection {
+    height: 42vh;
+    overflow-y: auto;
+}
+.screen1514 .checkboxsection .checkbox-group {
+    position: relative;
+    flex: 1;
+    min-width: 170px;
+    height: 35px;
+}
+.screen1514 .checkboxsection .checkbox-group .control label {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    padding: 0px;
+}
+.screen1514 .checkboxsection .checkbox-group .control label::before {
+    top: calc(50% - 8px);
+    left: -29px;
+    width: 15px;
+    height: 15px;
+}
+.screen1514 .checkboxsection .checkbox-group .control label::after {
+    top: calc(50% - 0.5625rem);
+    left: -30px;
+    width: 20px;
+    height: 20px;
+}
+.screen1514 .checkboxsection label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
 }
 /********************************************************/
+
+/**************** 1509 ******************/
+.screen1509 .screen1500 .sidebarscreen300 .Academic_years {
+    margin-top: 20px;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .Periodsection .Period123 .yearfirstsection .Academic_years ul li .add-question-section1 span {
+    margin-left: 0px;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .fee-payment-section {
+    margin-top: 30px;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 40%;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label {
+    padding-left: 20px;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label::after,
+.screen1509 .screen1500 .Mein_Fee_Components .Fee_Components .radio-group .radiobutton label::before {
+    top: 10px;
+}
+
+/**************** 1509 ******************/
+/**************** 1510 ******************/
+.screenno1510 .RouteTableDetails {
+    background: #FFFFFF;
+    border: 1px solid #B2DFDB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgb(0 150 136 / 10%);
+    border-radius: 10px;
+    width: 591px;
+    height: 390px;
+    position: absolute;
+    top: 200px;
+    left: 605px;
+    overflow-y: auto;
+}
+
+.screenno1510 .RouteTableDetails table {
+    width: 100%;
+    padding: 15px;
+}
+
+.screenno1510 .RouteTableDetails table tr th {
+    text-align: left;
+}
+
+.screenno1510 .RouteTableDetails table tr td {
+    padding: 15px;
+    padding-left: 0;
+}
+
+.screenno1510 .RouteTableDetails table tr td .btn-transparant {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+/**************** 1510 ******************/
+/**************** 1518 ******************/
+.screenno1518 .buttonsectiosROUTE button {
+    display: flex;
+}
+
+.screenno1518 .buttonsectiosROUTE button img {
+    margin-right: 25px;
+}
+
+.screenno1518 .All_Classes .Subject_name {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.screenno1518 .Routessection .Classsreen ul {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) {
+    display: flex;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) .navigationIntigator {
+    border-left: 1px solid #B2DFDB;
+    margin-right: 15px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(1) .navigationIntigator img {
+    margin-left: -12px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) span {
+    display: flex;
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .studentName {
+    margin-left: 15px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .studentName img {
+    margin-left: 15px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) .addStudentSection .viewAll {
+    margin-top: 20px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:nth-child(2) span img {
+    display: flex;
+    margin-right: 15px;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:last-child span {
+    color: #F47E16;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.screenno1518 .Routessection .Classsreen ul li:last-child span img {
+    margin-left: 15px;
+}
+
+/**************** 1518 ******************/
+/**************** 1516 ******************/
+.screen1516 .Routessection .Classsreen ul li:nth-child(3) .addStudentSection {
+    margin-top: 50px;
+}
+
+.screen1516 .Routessection .Classsreen ul li:nth-child(3) .addStudentSection .studentName {
+    display: flex;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0;
+}
+
+/**************** 1516 ******************/
+
+.screen1520 .confirm_section button {
+    margin-top: 20px;
+}
+
+.screen1520 .createNewClass .fees {
+    margin-bottom: 16px;
+}
+.screen1520 .dateline .Start_Date1 {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+/* screen1519 */
+
+.screen1519 .confirm_section button {
+    margin-top: 0px;
+}
+
+.screen1519 .createNewClass .fees {
+    margin-bottom: 16px;
+}
+
+.screen1519 .Start_Date1 {
+    margin-right: 16px;
+    margin-left: 10px;
+}
+.screen1519 ul.dateline {
+    display: flex;
+}
+
+.screen1519 .acadamic {
+    width: 47%;
+}
+
+.screen1519 .button {
+    margin: 20px;
+}
+
+/* screen1519 */
 
 /************ media screen *****************/
 

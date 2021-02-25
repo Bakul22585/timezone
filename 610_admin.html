@@ -45,7 +45,7 @@
                         </ul>
                     </header>    
                 </header>
-                <div class=" sidebarscreen412 sidebarscreen608">
+                <div class=" sidebarscreen412 sidebarscreen610">
                     <div class="indicatorsectionmein">
                         <div class="Communication">
                             <p class="indicator">Communication> Survey Form ><span class="Modify_Class"> Create New Form<span></p>
@@ -55,46 +55,29 @@
                                 <button class="Post_Form">Post Form <img src="images/svg/Send.svg" class="Send"></button>
                             </div>
                         </div>
-                        <form>
-                            <div class="row justifycontent Infosectopnones">
-                                <div class="input-div">
-                                    <input class="form-control without-icon-fullbox" type="date" id="dob" value="23/12/2020 02:12 PM">
-                                    <label class="form-control-placeholder" for="dob">Form Start Date and Time</label>
-                                </div>
-                                <div class="input-div">
-                                    <input class="form-control without-icon-fullbox" type="date" id="dob" value="23/12/2020 02:12 PM">
-                                    <label class="form-control-placeholder" for="dob">Form Close Date and Time</label>
-                                </div>
-                                <div class="input-div">
-                                    <p class="Infosectopn">
-                                        <span><img src="images/svg/Info.svg" class="Info"></span>
-                                        <span>Form will be open to recipients<br/>within this duration only.</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row threecheckobesone">
-                                <div class="checkbox-section threecheckobes">
-                                    <div class="checkbox-group">
-                                        <div class="control">
-                                            <input type="checkbox" id="StaffChild" checked="true">
-                                            <label for="StaffChild">Staff Child</label>
-                                        </div>
-                                    </div>
-                                    <div class="checkbox-group">
-                                        <div class="control">
-                                            <input type="checkbox" id="ScholarshipEligible" checked="true">
-                                            <label for="ScholarshipEligible">Scholarship Eligible</label>
-                                        </div>
-                                    </div>
-                                    <div class="checkbox-group">
-                                        <div class="control">
-                                            <input type="checkbox" id="Students">
-                                            <label for="Students">Section Wise Students</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                        <div class="mein_radiobutton_section">
+                        <div class="radiobutton">
+                            <ul>
+                                <li>
+                                    <input type="radio" id="Option 1" name="Option 1" value="Option 1">
+                                    <label for="Option 1">Option 1</label>
+                                </li>
+                                
+                                <li>
+                                    <input type="radio" id="Option 2" name="Option 1" value="Option 2">
+                                    <label for="Option 2">Option 2</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Option 3" name="Option 1" value="Option 3">
+                                    <label for="Option 3">Option 3</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Option 4" name="Option 1" value="Option 4">
+                                    <label for="Option 4">Option 4</label>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
                         <div class="Option_sectionthree">
                             <div class="Question_section">
                                 <img src="./images/svg/delete_new.svg" class="delete-icon">
@@ -102,13 +85,13 @@
                                     <ul>    
                                         <li class="row teal">
                                             <div class="col-sm-8 position-relative">
-                                                <span class="one">1.</span><input class="form-control Describe" type="text" id="testname" placeholder="Question" required="">
-                                                <label class="form-control-placeholder file2" for="testname">Question</label>
+                                                <span class="one">3.</span><input class="form-control Describe" type="text" id="testname" placeholder="Answer in short about..." required="">
+                                                <label class="form-control-placeholder file2" for="testname">Answer in short about...</label>
                                                 <img src="images/svg/Attach.svg" class="Attach">
                                             </div>
                                             <div class="col-sm-4">
                                                 <select name="" id="" class="Marks">
-                                                    <option value="">Multi Correct</option>
+                                                    <option value="">Single Correct</option>
                                                 </select>
                                             </div>
                                         </li>
@@ -117,21 +100,12 @@
                                 
                                 <div class="Option_section">
                                     <ul>
-                                        <li class="row">
+                                        <li class="row col-md-12">
                                             <div class="control12">
-                                                <input type="text" id="vehicle" name="vehicle" placeholder="Option 1">
+                                                <input type="text" id="vehicle" name="vehicle" placeholder="Short Answer">
                                             </div>
                                         </li>
-                                        <li class="row">
-                                            <div class="control12">
-                                                <input type="text" id="vehicle" name="vehicle" placeholder="Option 2">
-                                            </div>
-                                        </li>
-                                        <li class="row">
-                                            <div class="col-sm-6 add_option">
-                                                <span>Add option</span>
-                                            </div>
-                                        </li>
+                                    
                                     </ul> 
                                 </div>
                                 
@@ -140,8 +114,8 @@
                                         <div class="checkbox-section threecheckobes">
                                             <div class="checkbox-group">
                                                 <div class="control">
-                                                    <input type="checkbox" id="Required">
-                                                    <label for="Required">Required</label>
+                                                    <input type="checkbox" id="Mandatory">
+                                                    <label for="Mandatory">Mandatory</label>
                                                 </div>
                                             </div>
                                         </div>

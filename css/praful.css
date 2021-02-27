@@ -1,0 +1,35 @@
+.screen1805 .input-div{
+   position: relative;
+}
+.screen1805 p{
+    font-size: 15px;
+    margin-left: -16px;
+    margin-right: 28px;
+}
+.screen1805 p span{
+  float: right;
+}
+/* *********  screen 1806  *********** */
+.screen1806 .input-div{
+  position: relative;
+}
+.screen1806 .notification{
+  color: red;
+}
+.screen1806 .notification p{
+  display: flex;
+  justify-content: center;
+}
+.screen1806 p{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.screen1806 .createNewClass .lasttest button.disabledButton:disabled {
+  background-color: #eaeaea !important;
+}
+/* *********  screen 1810 *********** */
+
+.screen1810 .graycolor:disabled{
+
+  background-color:gray;  
+}

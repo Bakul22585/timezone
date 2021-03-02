@@ -53,3 +53,21 @@
 .screen1812 .float span{
   color:red;
 }
+/* ************* newscreen*************** */
+.newscreen .bookid{
+  width: 335%;
+}
+.newscreen .barcode{
+  width: 30%;
+ float: right;
+}
+.newscreen .author{
+  width: 70%;
+  float: left;
+}
+.newscreen .center li{
+  width: 31%;
+  display: inline-block;
+}
+  
+}

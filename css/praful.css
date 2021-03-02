@@ -33,3 +33,23 @@
 
   background-color:gray;  
 }
+/* ************screen 1812 ************ */
+.screen1812 .fine{
+  border-bottom: 1px aquamarine solid;
+  
+ 
+}
+.screen1812 .fine p{
+  display: flex;
+  margin-bottom: 5px;
+}
+.screen1812 .fine img{
+  display: inline-block;  
+}
+.screen1812 .fine span{
+  color: orange;
+  margin-left: 10PX;
+}
+.screen1812 .float span{
+  color:red;
+}

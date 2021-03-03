@@ -1,0 +1,290 @@
+/*********************** 1802 ****************************/
+.screen1802 .createNewClass {
+    padding: 14px 0px 40px 0px;
+}
+.screen1802 .container {
+    padding: 15px 50px;
+    height: 350px;
+    display: flex;
+}
+.screen1802 .container .addBook {
+    margin-bottom: 0;
+    align-self: flex-end;
+    margin-left: -20%;
+}
+.screen1802 .container .bookSection {
+    display: flex;
+    text-align: left;
+}
+.screen1802 .container .bookSection .bookId {
+    width: 250px;
+}
+.screen1802 .container .bookSection .bookId p {
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 15px;
+}
+.screen1802 .container .bookSection .bookId input {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url('../images/svg/Go_aerrow.svg');
+    background-position: 215px center;
+}
+/*********************** 1802 ****************************/
+/*********************** 1803 ****************************/
+.screen1803 .createNewClass {
+    padding: 14px 0px 40px 0px;
+}
+.screen1803 .container {
+    padding: 20px 50px;
+}
+.screen1803 .container .bookId,
+.screen1803 .container .bookTitle {
+    text-align: left;
+}
+.screen1803 .container .bookId p,
+.screen1803 .container .bookTitle p {
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.screen1803 .container .bookId span,
+.screen1803 .container .bookTitle span {
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screen1803 .container .bookTitle {
+    margin-top: 20px;
+    display: flex;
+}
+.screen1803 .container .bookId.Authors {
+    margin-top: 20px;
+}
+.screen1803 .container .bookTitle .edtiDetails {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.screen1803 .container .bookTitle .edtiDetails img {
+    height: 20px;
+    margin-right: 13px;
+}
+.screen1803 .container .bookTitle .edtiDetails span,
+.screen1803 .container .bookSection .addNewCopies span {
+    color: #F47E16;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screen1803 .container .edtionSection {
+    display: grid;
+    grid-template-columns: 27% 22% auto;
+    margin-top: 20px;
+}
+.screen1803 .container .bookSection {
+    display: grid;
+    grid-template-columns: 27% 22% 21% 31%;
+    margin-top: 20px;
+}
+.screen1803 .container .bookSection .addNewCopies {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.screen1803 .container .bookSection .addNewCopies img {
+    height: 20px;
+    margin-right: 10px;
+}
+.screen1803 .container .librarySection {
+    display: grid;
+    grid-template-columns: 27% 22%;
+    margin-top: 20px;
+}
+/*********************** 1803 ****************************/
+/*********************** 2002 ****************************/
+.screen2002 .createNewClass {
+    padding: 20px 15px 20px 30px;
+}
+.screen2002 .createNewClass .container {
+    margin-top: 30px;
+}
+.screen2002 .createNewClass .container .classsOrSection {
+    display: grid;
+    grid-template-columns: 35% 35% 25%;
+    grid-gap: 15px;
+}
+.screen2002 .createNewClass .container .classsOrSection .input-div.select.prefix {
+    position: relative;
+}
+.screen2002 .createNewClass .container .classsOrSection .input-div.select.prefix label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    text-align: left;
+    padding: 5px 8px;
+}
+.screen2002 .createNewClass .container .classsOrSection .input-div.select.prefix select {
+    padding-left: 40px;
+    background: url(../images/svg/Dropdown.svg) 92% center no-repeat;
+    margin-bottom: 0;
+}
+.screen2002 .createNewClass .container .classsOrSection .input-div.select.prefix span {
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.screen2002 .createNewClass .container .classsOrSection .addClass {
+    margin-bottom: 0;
+    border: 1px solid #FF7700;
+    border-radius: 15px;
+    margin: 0px;
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.screen2002 .createNewClass .container .ClassiesSection {
+    display: flex;
+    justify-content: space-between;
+}
+.screen2002 .createNewClass .container .ClassiesSection .validDate {
+    position: relative;
+}
+.screen2002 .createNewClass .container .ClassiesSection .validDate label {
+    position: absolute;
+    top: 0;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    visibility: hidden;
+}
+.screen2002 .createNewClass .container .ClassiesSection .validDate {
+    width: 195px;
+    margin-top: 50px;
+}
+.screen2002 .createNewClass .container .ClassiesSection .validDate input {
+    background-image: url('../images/svg/bag.svg');
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+.screen2002 .createNewClass .container .ClassiesSection .validDate label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    visibility: visible;
+}
+.screen2002 .createNewClass .container .ClassiesSection .SelectedClassesSection {
+    width: 256px;
+    height: 262px;
+    background: #EFF8F8;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.screen2002 .createNewClass .container .ClassiesSection .SelectedClassesSection ul {
+    display: grid;
+    grid-template-columns: 105px 105px auto;
+    border-bottom: 0.5px solid #80CBC4;
+}
+.screen2002 .createNewClass .container .ClassiesSection .SelectedClassesSection ul li {
+    padding: 8px 0px;
+}
+/*********************** 2002 ****************************/
+/*********************** 2004 ****************************/
+.screen2004 .createNewClass {
+    padding: 20px 40px;
+}
+.screen2004 .createNewClass .container {
+    margin-top: 20px;
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission,
+.screen2004 .createNewClass .container .validDate {
+    position: relative;
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission label,
+.screen2004 .createNewClass .container .validDate label {
+    position: absolute;
+    top: 0;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    visibility: hidden;
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission input {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: url('../images/svg/SearchForChats.svg');
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission input::placeholder {
+    color: #4DB6AC;
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission input:focus::placeholder {
+    color: transparent;
+}
+.screen2004 .createNewClass .container .searchStudentOrAdmission input:focus + label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    visibility: visible;
+}
+.screen2004 .createNewClass .container .detailsSection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    margin-top: 40px;
+}
+.screen2004 .createNewClass .container .detailsSection p {
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.screen2004 .createNewClass .container .detailsSection span {
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screen2004 .createNewClass .container .validDate {
+    width: 224px;
+    margin-top: 60px;
+}
+.screen2004 .createNewClass .container .validDate input {
+    background-image: url('../images/svg/bag.svg');
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+.screen2004 .createNewClass .container .validDate label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    visibility: visible;
+}
+.screen2004 .createNewClass .container .iCard {
+    margin-top: 90px;
+}
+/*********************** 2004 ****************************/

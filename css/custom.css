@@ -6003,6 +6003,510 @@ li.redcolor1 {
 
 /************************************************/
 
+/******************612****************************/
+.sidebarscreen612 {
+    padding: 0px !important;
+}
+
+.sidebarscreen612 .indicatorsectionmein,
+.sidebarscreen612 .row {
+    padding-left: 30px;
+}
+
+.sidebarscreen612 .checkbox-section.threecheckobes {
+    width: 600px;
+}
+
+.sidebarscreen612 .Infosectopn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sidebarscreen612 .Infosectopnones {
+    width: 880px;
+}
+
+.sidebarscreen612 .Infosectopnones .input-div {
+    width: 230px;
+}
+
+.sidebarscreen612 .row.Add_606 button.button.CREATE.button-outer.questions_form {
+    background: #FEF2E8 !important;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16 !important;
+    display: flex;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    text-transform: capitalize;
+}
+
+.sidebarscreen612 .add_option1 span:after {
+    left: -30px;
+    top: 57%;
+}
+
+.sidebarscreen612 .Add_606 img.Info {
+    margin-right: 15px;
+}
+
+.sidebarscreen612 .Add_606 {
+    border-top: 1px solid #B2DFDB;
+    padding-top: 15px;
+}
+
+.sidebarscreen612 .indicatorsectionmein .Communicationone {
+    flex: 1;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.sidebarscreen612 .indicatorsectionmein .Communication {
+    flex: 1;
+}
+
+.sidebarscreen612 .indicatorsectionmein {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarscreen612 .indicatorsectionmein button.saveasdraft {
+    text-align: right;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: unset;
+    border: 0px;
+}
+
+.sidebarscreen612 .indicatorsectionmein button.Post_Form img.Send {
+    margin-left: 10px;
+}
+
+.sidebarscreen612 .indicatorsectionmein button.Post_Form {
+    display: inline-flex;
+}
+
+.sidebarscreen612 {
+    padding-left: 30px;
+    height: calc(100vh - 6rem);
+}
+
+.sidebarscreen612 .row .checkbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+}
+
+.sidebarscreen612 .threecheckobesone {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen612 .Question_section {
+    height: auto;
+    position: relative;
+    padding: 30px 0px 0px !important;
+    background: #EFF8F8;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    max-width: 100% !important;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sidebarscreen612 .add_option span:after {
+    left: -27px;
+    top: 60%;
+}
+
+.sidebarscreen612 .Question_section form {
+    padding: 0px 20px !important;
+}
+
+.sidebarscreen612 .Question_section ul li {
+    position: relative;
+}
+
+.sidebarscreen612 .Question_section .teal {
+    padding: 0px;
+}
+
+.sidebarscreen612 .Question_section .teal .form-control-placeholder {
+    opacity: 0;
+    display: none !important;
+}
+
+.sidebarscreen612 .Question_section .teal .form-control:focus+.form-control-placeholder {
+    opacity: 1;
+    display: block !important;
+}
+
+.sidebarscreen612 .Option_section .control label::before {
+    display: none;
+}
+
+.sidebarscreen612 .radiobutton ul li {
+    width: auto;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sidebarscreen612 .radiobutton .agree_section {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    padding-bottom: 15px;
+}
+
+.sidebarscreen612 .Option_section .control label::after {
+    display: none;
+}
+
+.sidebarscreen612 .Option_section #vehicle {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen612 .Option_section {
+    padding-left: 50px;
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen612 .control12 {
+    padding: 0px !important;
+    width: 64%;
+}
+
+.sidebarscreen612 .radiobutton label {
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #009688;
+}
+
+.sidebarscreen612 .Option_section .radiobutton {
+    background: transparent;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.sidebarscreen612 .Option_section li.row {
+    padding-bottom: 0px;
+}
+
+.sidebarscreen612 .lastcheckbox label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00695C;
+}
+
+.sidebarscreen612 .lastcheckbox .threecheckobesonesection {
+    margin: 0px;
+}
+
+.sidebarscreen612 .Modify_Class {
+    color: #009688 !important;
+    font-weight: bold;
+}
+
+.sidebarscreen612 .add_option span {
+    color: #F47E16;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebarscreen612 .lastcheckbox {
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+.sidebarscreen612 .lastcheckbox .checkbox-group {
+    height: 40px !important;
+}
+
+.sidebarscreen612 .Add_questionsection .add_option1 {
+    position: unset;
+}
+
+.sidebarscreen612 .Add_questionsection {
+    position: relative;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.sidebarscreen612 .Option_section ul li:nth-child(2) #vehicle {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen612 .mein_radiobutton_section .radiobutton {
+    width: 95% !important;
+    min-width: 95%;
+}
+
+/************************************************/
+
+/******************613****************************/
+.sidebarscreen613 {
+    padding: 0px !important;
+}
+
+.sidebarscreen613 .indicatorsectionmein,
+.sidebarscreen613 .row {
+    padding-left: 30px;
+}
+
+.sidebarscreen613 .checkbox-section.threecheckobes {
+    width: 600px;
+}
+
+.sidebarscreen613 .Infosectopn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sidebarscreen613 .radiobutton h3.experiencetest {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+
+.sidebarscreen613 .Infosectopnones {
+    width: 880px;
+}
+
+.sidebarscreen613 .Infosectopnones .input-div {
+    width: 230px;
+}
+
+.sidebarscreen613 .row.Add_606 button.button.CREATE.button-outer.questions_form {
+    background: #FEF2E8 !important;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16 !important;
+    display: flex;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    text-transform: capitalize;
+}
+
+.sidebarscreen613 .add_option1 span:after {
+    left: -30px;
+    top: 57%;
+}
+
+.sidebarscreen613 .Add_606 img.Info {
+    margin-right: 15px;
+}
+
+.sidebarscreen613 .Add_606 {
+    border-top: 1px solid #B2DFDB;
+    padding-top: 15px;
+}
+
+.sidebarscreen613 .indicatorsectionmein .Communicationone {
+    flex: 1;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.sidebarscreen613 .indicatorsectionmein .Communication {
+    flex: 1;
+}
+
+.sidebarscreen613 .indicatorsectionmein {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarscreen613 .indicatorsectionmein button.saveasdraft {
+    text-align: right;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16;
+    background: transparent;
+    box-shadow: unset;
+    border: 0px;
+}
+
+.sidebarscreen613 .indicatorsectionmein button.Post_Form img.Send {
+    margin-left: 10px;
+}
+
+.sidebarscreen613 .indicatorsectionmein button.Post_Form {
+    display: inline-flex;
+}
+
+.sidebarscreen613 {
+    padding-left: 30px;
+    height: calc(100vh - 6rem);
+}
+
+.sidebarscreen613 .row .checkbox-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+}
+
+.sidebarscreen613 .threecheckobesone {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen613 .Question_section {
+    height: auto;
+    position: relative;
+    padding: 30px 0px 0px !important;
+    background: #EFF8F8;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    max-width: 100% !important;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sidebarscreen613 .add_option span:after {
+    left: -27px;
+    top: 60%;
+}
+
+.sidebarscreen613 .Question_section form {
+    padding: 0px 20px !important;
+}
+
+.sidebarscreen613 .Question_section ul li {
+    position: relative;
+}
+
+.sidebarscreen613 .Question_section .teal {
+    padding: 0px;
+}
+
+.sidebarscreen613 .Question_section .teal .form-control-placeholder {
+    opacity: 0;
+    display: none !important;
+}
+
+.sidebarscreen613 .Question_section .teal .form-control:focus+.form-control-placeholder {
+    opacity: 1;
+    display: block !important;
+}
+
+.sidebarscreen613 .Option_section .control label::before {
+    display: none;
+}
+
+.sidebarscreen613 .Option_section .control label::after {
+    display: none;
+}
+
+.sidebarscreen613 .Option_section #vehicle {
+    border-bottom: 1px solid #00352D;
+}
+
+.sidebarscreen613 .Option_section {
+    padding-left: 50px;
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen613 .Option_section li.row {
+    padding-bottom: 0px;
+}
+
+.sidebarscreen613 .lastcheckbox label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #00695C;
+}
+
+.sidebarscreen613 .lastcheckbox .threecheckobesonesection {
+    margin: 0px;
+}
+
+.sidebarscreen613 .add_option span {
+    color: #F47E16;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebarscreen613 .lastcheckbox {
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+.sidebarscreen613 .radiobutton label {
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    padding-right: 15px;
+}
+
+.sidebarscreen613 .radiobutton ul li {
+    width: auto;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.sidebarscreen613 .radiobutton label::before,
+.sidebarscreen613 .radiobutton label::after {
+    top: calc(50% - 0.7rem);
+}
+
+.sidebarscreen613 .lastcheckbox .checkbox-group {
+    height: 40px !important;
+}
+
+.sidebarscreen613 .Add_questionsection .add_option1 {
+    position: unset;
+}
+
+.sidebarscreen613 .Add_questionsection {
+    position: relative;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.sidebarscreen613 .Option_section ul li:nth-child(2) #vehicle {
+    border-bottom: 1px solid #B2DFDB;
+}
+
+.sidebarscreen613 .mein_radiobutton_section .radiobutton {
+    width: 95% !important;
+    min-width: 95%;
+}
+
+/************************************************/
 
 
 /******************1500****************************/
@@ -6754,6 +7258,50 @@ img.dollersinge {
 }
 
 .screen556 .Period123 ul li {
+
+    font-weight: 400;
+
+}
+
+/**************************************/
+
+
+
+/************ screen1800 css *****************/
+.screen1800 ul li .add-question-section1 span {
+    padding-left: 0px;
+    font-weight: 700;
+}
+
+.screen1800 ul li .perday,
+.screen1800 ul li .perdayones {
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.screen1800 .Period123 img.Dropdownones {
+    top: 6px;
+    left: 31px;
+    position: absolute;
+}
+
+.screen1800 .persantage {
+    font-weight: bold !important;
+}
+
+.screen1800 img.dollersinge {
+    position: absolute;
+    top: 22px;
+    left: 4px;
+}
+
+.screen1800 .struture {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.screen1800 .Period123 ul li {
 
     font-weight: 400;
 
@@ -13844,6 +14392,143 @@ img.dollersinge {
 
 /********************************************************/
 
+/*************** screen1701  ********************/
+.screen1701 .createNewClass {
+    width: 650px;
+    min-height: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    max-height: 740px;
+}
+
+.screen1701 .Bachelor_Technology .meinsectionthreechecko {
+    overflow-y: auto;
+    height: calc(100vh - 610px);
+    overflow-x: hidden;
+}
+
+.screen1701 .createNewClass .header-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+
+.screen1701 .type {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #009688;
+}
+
+.screen1701 .Add_Course {
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.screen1701 .schools_section .radiobutton {
+    background: transparent;
+    margin: 0px 20px;
+    padding: 10px 10px 0px;
+}
+
+.screen1701 .row .checkbox-section:last-child {
+    border: 0px;
+}
+
+.screen1701 .schools_section .radiobutton ul {
+    display: grid;
+    grid-template-columns: 100px 180px;
+}
+
+.screen1701 .schools_section .radiobutton label {
+    padding-left: 26px;
+}
+
+.screen1701 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.screen1701 .row .checkbox-section {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 0.5px solid #80CBC4;
+    margin-left: 30px;
+    padding-left: 40px;
+    width: 296px;
+}
+
+.screen1701 .row .checkbox-section .checkbox-group .control label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00352D;
+
+}
+
+.screen1701 .row .checkbox-section .checkbox-group {
+    position: relative;
+    flex: 1;
+    min-width: 170px;
+    height: 25px;
+}
+
+.screen1701 .Science_section {
+    border-top: 0px solid #80CBC4;
+    margin-left: 30px;
+}
+
+.screen1701 .Science_section .row .checkbox-section {
+    margin-left: 0px;
+    border-bottom: 0px;
+}
+
+.screen1701 .Science_section .row.threecheckobesone {
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    width: 615px !important;
+    border-top: 0.5px solid #80CBC4;
+    width: 575px !important;
+}
+
+.screen1701 .row .checkbox-section .checkbox-group .control label::before {
+    top: calc(50% - 8px);
+    left: -35px;
+    width: 15px;
+    height: 15px;
+}
+
+.screen1701 .row .checkbox-section .checkbox-group .control label::after {
+    top: calc(50% - 0.5625rem);
+    left: -35px;
+    width: 20px;
+    height: 20px;
+}
+
+.screen1701 .Bachelor_Technology {
+    border-top: 1px solid #B2DFDB;
+    padding: 20px 0px;
+}
+
+.screen1701 .Electronics_Communication ul {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 40px 0px 70px;
+    border-bottom: 0.5px solid #80CBC4;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+/************************************************************************/
+
 
 /******************1705 screen****************************/
 .screenno1705 .Subject_name {
@@ -14055,6 +14740,180 @@ span.Payment_Pending {
     float: right;
 }
 
+
+/******************screenno1801 screen****************************/
+
+.screenno1801 span.Payment_Pending {
+    font-size: 12px;
+    color: #828F8E;
+}
+
+.screenno1801 .Subject_name {
+    grid-template-columns: auto 20% 18% auto auto auto auto;
+}
+
+.screenno1801 .Classsreen ul {
+    grid-template-columns: 14% 22% 18% 12% 13% 10% 10%;
+}
+
+.screenno1801 .Search_Student {
+    position: relative;
+    width: 320px;
+}
+
+.screenno1801 .All_Classes h4.Copies {
+    display: unset;
+}
+
+.screenno1801 p.Available_section {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #009688;
+}
+
+.screenno1801 .Search_Student label.form-control-placeholder {
+    font-size: 0px;
+    visibility: hidden;
+}
+
+.screenno1801 .Search_Student img.Dropdown {
+    top: 11px;
+    left: auto;
+    position: absolute;
+    right: 15px;
+}
+
+.screenno1801 .Enquirysection {
+    width: 100%;
+    display: flex;
+}
+
+.screenno1801 .Enquiry {
+    flex: 1;
+    text-align: right;
+}
+
+.screenno1801 .Enquiry button {
+    margin: 0px;
+}
+
+.screenno1801 .All_Classes h4,
+.screenno1801 .Subject_name {
+    height: 50px;
+}
+
+.screenno1801 .Classsreen ul li.fifty {
+    color: #EB5757 !important;
+}
+
+.screenno1801 .Search_Student input#duedate {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.screenno1801 .from_section {
+    float: right;
+}
+
+.screenno1801 .sidebarscreen300 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/******************screenno1804 screen****************************/
+
+.screenno1804 span.Payment_Pending {
+    font-size: 12px;
+    color: #828F8E;
+}
+
+.screenno1804 .Subject_name {
+    grid-template-columns: 15% 12% 15% 20% 18% 10% 7%;
+}
+
+.screenno1804 .Classsreen ul {
+    grid-template-columns: 16% 12% 15% 21% 20% 7% 7%;
+}
+
+.screenno1804 .Issue_Book_section button.button.CREATE.button-outer {
+    background-color: transparent !important;
+    border: 2px solid #FF7700 !important;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F47E16 !important;
+    box-shadow: none;
+    margin-right: 15px;
+}
+
+.screenno1804 .Search_Student {
+    position: relative;
+    width: 320px;
+}
+
+.screenno1804 .All_Classes h4.Copies {
+    display: unset;
+}
+
+.screenno1804 p.Available_section {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #009688;
+}
+
+.screenno1804 .Search_Student label.form-control-placeholder {
+    font-size: 0px;
+    visibility: hidden;
+}
+
+.screenno1804 .Search_Student img.Dropdown {
+    top: 11px;
+    left: auto;
+    position: absolute;
+    right: 15px;
+}
+
+.screenno1804 .Enquirysection {
+    width: 100%;
+    display: flex;
+}
+
+.screenno1804 .Enquiry {
+    flex: 1;
+    text-align: left;
+}
+
+.screenno1804 .Enquiry button {
+    margin: 0px;
+}
+
+.screenno1804 .All_Classes h4,
+.screenno1804 .Subject_name {
+    height: 50px;
+}
+
+.screenno1804 .Classsreen ul li.fifty {
+    color: #EB5757 !important;
+}
+
+.screenno1804 .Search_Student input#duedate {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.screenno1804 .from_section {
+    float: right;
+}
+
+.screenno1804 .sidebarscreen300 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 /******************1724 screen****************************/
 .screenno1724 .Subject_name {
@@ -14523,6 +15382,7 @@ span.Payment_Pending {
     position: relative;
     margin-right: 30px;
 }
+
 .popup-sectionfirtst .filter-form .buttonsscreens button {
     min-width: 8rem !important;
 }
@@ -15388,24 +16248,29 @@ span.Payment_Pending {
     line-height: 24px;
     cursor: pointer;
 }
+
 .screenno1511 .All_Classes {
     padding: 20px 60px;
     width: 100%;
 }
+
 .screenno1511 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 .screenno1511 table th {
     background-color: #E0F2F1;
     padding-bottom: 15px;
 }
+
 .screenno1511 table tr td {
     text-align: center;
     background: #EFF8F8;
     border-bottom: 0.5px solid #80CBC4;
     padding: 10px 0px;
 }
+
 .screenno1511 form ul li .allClasses {
     background: url(../images/svg/Dropdown.svg) 92% center no-repeat !important;
     color: #0D352D;
@@ -15491,10 +16356,12 @@ span.Payment_Pending {
     padding-bottom: 10px;
     margin-right: 30px;
 }
+
 .screenno615 .Modify_Class {
     color: #00352D;
     font-weight: 700;
 }
+
 /******************** 618_popup ************************/
 .screen_popup_618 {
     padding: 14px 0;
@@ -18101,7 +18968,586 @@ span.Payment_Pending {
 
 }
 
+/*****************1807 screen**************************/
+
+.screen1807 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    margin-bottom: 25px;
+}
+
+.screen1807 .Introduction h5 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+}
+
+.screen1807 .Introduction p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.screen1807 .Introduction p span {
+    float: right;
+}
+
+.screen1807 .box_mein_section {
+    padding: 0px 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.screen1807 .box_mein_section h6 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+}
+
+.screen1807 .Student_section {
+    padding: 15px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 150, 136, 0.05);
+    border-radius: 15px;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.screen1807 .Student_section h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid #B2DFDB;
+}
+
+.screen1807 .Student_section .Student_sectionone ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    border-bottom: 0.5px solid #B2DFDB;
+    max-width: 230px;
+}
+
+.screen1807 .Student_section .Student_sectionone ul li {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0D352D;
+    padding: 15px 0px;
+}
+
+.screen1807 .Candidate_section {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.screen1807 .Candidate_section p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+    display: flex;
+    justify-content: center;
+}
+
+.screen1807 .Candidate_section p span {
+    padding-right: 10px;
+}
+
+.screen1807 .lasttest button {
+    background: #EAEAEA !important;
+    border-radius: 15px;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #C6CFCE !important;
+    margin: 0px;
+}
+
 /*******************************************/
+
+
+/*****************1811 screen**************************/
+
+.screen1811 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    margin-bottom: 25px;
+}
+
+.screen1811 .Introduction h5 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+}
+
+.screen1811 .Introduction p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.screen1811 .Issued_tosection {
+    border-top: 0.5px solid #B2DFDB;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 350px 130px 90px;
+    text-align: left;
+}
+
+.screen1811 .Issued_tosection .Issued_tosectionone h4 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+}
+
+.screen1811 .Issued_tosection .Issued_tosectionone p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00352D;
+}
+
+.screen1811 .Introduction p span {
+    float: right;
+}
+
+.screen1811 .box_mein_section {
+    padding: 0px 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.screen1811 .box_mein_section h6 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4DB6AC;
+    mix-blend-mode: normal;
+}
+
+.screen1811 .lasttest button {
+    background: #EAEAEA !important;
+    border-radius: 15px;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #C6CFCE !important;
+    margin: 0px;
+}
+
+.screen1811 .remarksection .checkboxsection {
+    padding: 0px 0px 0px 30px;
+    text-align: left;
+    position: relative;
+}
+
+.screen1811 .remark_onessection {
+    display: grid;
+    grid-template-columns: 500px auto;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #80CBC4;
+    padding-top: 10px;
+}
+
+.screen1811 .remark_onessection .price p {
+    margin: 0px;
+}
+
+.screen1811 .remarksection .checkboxsection label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+
+.screen1811 .remarksection h4 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.screen1811 .Active_sectotion .radio-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.screen1811 .radio-group .radiobutton {
+    background: #ffffff !important;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 100% !important;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+}
+
+.screen1811 .radio-group .radiobutton label {
+    padding-left: 0;
+    color: #333;
+    margin-left: 10px;
+}
+
+.screen1811 .radio-group .radiobutton label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen1811 .radio-group .radiobutton label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.6rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0;
+    transition: background-size 0.2s ease;
+    border-radius: 100px !important;
+}
+
+.screen1811 .secoundremores .checkboxsection,
+.screen1811 .secoundremoresmore .checkboxsection {
+    padding: 0px !important;
+}
+
+.screen1811 .secoundremoresmore {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.screen1811 .lasttest1811 button.button.CREATE.button-outer {
+    margin: 0px;
+}
+
+.screen1811 .createNewClass {
+    padding: 14px 25px 20px 25px;
+}
+
+/*******************************************/
+
+/*****************1809 screen**************************/
+.screen1809 .createNewClass {
+    background-color: #fff;
+    padding: 24px 40px 0px 40px;
+    width: 1000px;
+    position: relative;
+    border-radius: 0.9375rem;
+    overflow: auto;
+    overflow-y: auto;
+    height: calc(100vh - 296px);
+    text-align: center;
+}
+
+.screen1809 .Student_Details_section .Studentdetilssection h4 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+}
+
+.screen1809 .Student_Details_section .Studentdetilssection p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00352D;
+}
+
+.screen1809 .Student_Details_section .Studentdetilssection p.Generate {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #F47E16 !important;
+}
+
+.screen1809 .Student_Details_section {
+    display: grid;
+    grid-template-columns: 40% auto auto auto;
+    border-bottom: 0.5px solid #B2DFDB;
+}
+
+.screen1809 .Student_Details_section .Studentdetilssection .Studentlast {
+    visibility: hidden;
+}
+
+.screen1809 .Student_Details_section .Studentdetilssection .number {
+    font-weight: bold;
+    font-size: 24px !important;
+    line-height: 24px;
+    color: #00352D;
+}
+
+.screen1809 .Studentdetilssection {
+    text-align: left;
+}
+
+.screen1809 .BooksIssued {
+    text-align: center;
+}
+
+.screen1809 .Transaction_History h5 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.screen1809 .Subject_name {
+    background: #E0F2F1;
+    display: grid;
+    grid-template-columns: 12% 16% 12% 12% 12% 12% 12% 12%;
+    padding: 15px;
+    text-align: left;
+}
+
+.screen1809 .Subject_name h4 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00352D;
+}
+
+.screen1809 .lastsectionprocess ul li:nth-child(4),
+.Subject_name h4:nth-child(4),
+.screen1809 .lastsectionprocess ul li:nth-child(6),
+.Subject_name h4:nth-child(6),
+.screen1809 .lastsectionprocess ul li:nth-child(7),
+.Subject_name h4:nth-child(7) {
+    text-align: center;
+}
+
+.screen1809 .lastsectionprocess ul li {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0D352D;
+    padding: 0px;
+}
+
+.screen1809 .lastsectionprocess ul {
+    display: grid;
+    grid-template-columns: 12% 16% 12% 12% 12% 12% 12% 12%;
+    text-align: left;
+    padding: 15px;
+}
+
+.screen1809 .lastsectionprocess ul li.Renew {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F47E16;
+}
+
+.screen1809 .lastsectionprocess ul li.Pending {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+}
+
+.screen1809 .lastsectionprocess {
+    background: #EFF8F8;
+    overflow-y: auto;
+    height: calc(50vh - 99px);
+}
+
+.screen1809 .lastsectionprocess ul li.Lost {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #EB5757;
+}
+
+/*****************************************************/
+
+.screen1805 .input-div {
+    position: relative;
+}
+
+.screen1805 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+
+.screen1805 h6 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+}
+
+.screen1805 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.screen1805 p span {
+    float: right;
+}
+
+/* *********  screen 1806  *********** */
+.screen1806 .input-div {
+    position: relative;
+}
+
+.screen1806 .notification {
+    color: red;
+}
+
+.screen1806 h6 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D352D;
+}
+
+.screen1806 .notification p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+}
+
+.screen1806 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #009688;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.screen1806 p span {
+    float: right;
+}
+
+.screen1806 .createNewClass .lasttest button.disabledButton:disabled {
+    background-color: #eaeaea !important;
+}
+
+.screen1812 .Total_Fine_section p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #00352D;
+    border-bottom: 1px solid #B2DFDB;
+    padding-bottom: 15px;
+}
+
+.screen1812 .Total_Fine_section span.Fine {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #EB5757;
+    float: unset;
+    padding-left: 15px;
+}
+
+.screen1812 .createNewClass {
+    padding: 14px 25px 20px 25px;
+}
+
+.screen1812 .lasttest button.button.CREATE.button-outer {
+    margin: 0px;
+}
+
+/* *********  screen 1810 *********** */
+
+.screen1810 .graycolor:disabled {
+    background: #EAEAEA;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+.screen1810 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+    padding-bottom: 30px;
+}
+
+.screen1810 .Enter_Book_Id img.Dropdown {
+    top: 11px;
+    left: auto;
+    position: absolute;
+    right: 30px;
+}
+
+.screen1810 .Enter_Book_Id_section {
+    border-bottom: 0.5px solid #B2DFDB;
+    margin-bottom: 200px;
+}
+
+.screen1810 .createNewClass {
+    padding: 14px 25px 20px 25px;
+}
 
 /************ media screen *****************/
 

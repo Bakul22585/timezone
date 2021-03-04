@@ -83,6 +83,7 @@
     line-height: 15px;
 }
 /***************** screenFrame50 *****************/
+
 /***************** 2012 *****************/
 .screen2012 .createNewClass {
     padding: 15px 40px;
@@ -107,7 +108,11 @@
     top: 0;
     padding: 0.75rem 0 0 2.5rem;
     transition: all 200ms;
-    visibility: hidden;
+    visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    font-size: 12px;
+    line-height: 16px;
 }
 .screen2012 .container .event input:focus + label {
     font-weight: normal;
@@ -115,6 +120,8 @@
     line-height: 16px;
     background-image: none;
     visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
 }
 .screen2012 .container .attachPhotoSection {
     display: flex;
@@ -175,5 +182,57 @@
     height: 1.125rem;
     opacity: 1;
     transition: background-size 0.2s ease;
+}
+.screen2012 .container .checkboxSection.borderNone {
+    border-bottom: none;
+}
+.screen2012 .container .sliderSection .box {
+    background: #EFF8F8;
+    width: 200px;
+    height: 125px;
+    position: relative;
+}
+.screen2012 .container .sliderSection .box .deleteImg {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+}
+.screen2012 .container .sliderSection .box .deleteImg img {
+    cursor: pointer;
+}
+.screen2012 .container .sliderSection .box .imgIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 0;
+}
+.screen2012 .container .sliderSection {
+    display: flex;
+    margin-top: 20px;
+}
+.screen2012 .container .sliderSection .mainBox {
+    margin-right: 15px;
+}
+.screen2012 .container .sliderSection .mainBox p {
+    text-align: left;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #B2DFDB;
+    color: #4DB6AC;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.screen2012 .container .postEvent {
+    margin-top: 30px;
 }
 /***************** 2012 *****************/

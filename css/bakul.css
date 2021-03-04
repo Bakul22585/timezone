@@ -1,0 +1,179 @@
+/***************** screenFrame50 *****************/
+.screenFrame50.container {
+    width: 100%;
+    max-width: 100%;
+}
+.screenFrame50 .headerSection {
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-gap: 25px;
+    padding: 15px;
+}
+.screenFrame50 .headerSection .schoolDetails label {
+    color: #00352D;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+}
+.screenFrame50 .headerSection .schoolDetails span {
+    color: #00352D;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+}
+.screenFrame50 .studentIdCardSection {
+    background-color: #009688;
+    padding: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+}
+.screenFrame50 .studentDetailsSection {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 110px auto;
+    grid-gap: 30px;
+}
+.screenFrame50 .studentDetailsSection .studenrImageSection p {
+    color: #00695C;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.screenFrame50 .studentDetailsSection .studenrImageSection p:nth-child(2) {
+    margin-top: 10px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .details {
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-gap: 15px;
+    margin-bottom: 10px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .details:last-child {
+    margin-top: 20px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .details .signedSection {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .details .signedSection {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .details .signedSection p {
+    margin-bottom: 5px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .key {
+    color: #828F8E;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .value {
+    color: #00352D;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+}
+.screenFrame50 .studentDetailsSection .studentInformationSection .value.address {
+    line-height: 15px;
+}
+/***************** screenFrame50 *****************/
+/***************** 2012 *****************/
+.screen2012 .createNewClass {
+    padding: 15px 40px;
+}
+.screen2012 .container {
+    margin-top: 15px;
+}
+.screen2012 .container .event {
+    position: relative;
+}
+.screen2012 .container .event:nth-child(2) input {
+    margin-bottom: 0;
+}
+.screen2012 .container .event input {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+}
+.screen2012 .container .event label {
+    position: absolute;
+    top: 0;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    visibility: hidden;
+}
+.screen2012 .container .event input:focus + label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+    visibility: visible;
+}
+.screen2012 .container .attachPhotoSection {
+    display: flex;
+    justify-content: flex-end;
+    color: #F47E16;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.screen2012 .container .attachPhotoSection span {
+    display: flex;
+    cursor: pointer;
+}
+.screen2012 .container .attachPhotoSection img {
+    margin-right: 10px;
+}
+.screen2012 .container .recipients {
+    text-align: left;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.screen2012 .container .checkboxSection {
+    display: flex;
+    border-bottom: 0.5px solid #4DB6AC;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width: 415px;
+}
+.screen2012 .container .checkboxSection .checkbox {
+    position: relative;
+    margin-right: 15px;
+}
+.screen2012 .container .checkboxSection .checkbox label {
+    cursor: pointer;
+    padding-left: 30px;
+}
+.screen2012 .container .checkboxSection .checkbox label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+.screen2012 .container .checkboxSection .checkbox label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 1;
+    transition: background-size 0.2s ease;
+}
+/***************** 2012 *****************/

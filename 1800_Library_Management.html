@@ -47,7 +47,6 @@
                     <div class="sidebarscreen300 ">
                         <div class="SAve">
                             <p> Library > <span class="Modify_Class Fee_Structure"> Library Basics<span></p>
-                                <p>  <button class="button CREATE button-outer">EDIT</button></p>
                             </div>
                         </div>
                         <div class="Mein_Fee_Components">
@@ -60,41 +59,39 @@
                                         <ul>
                                             <li>Borrow Period</li>
                                             <li class="Dropdowninputbox"> 
-                                                <img src="images/svg/dollersinge.svg" class="dollersinge">
+                                                
                                                 <input class="form-control duedate5" type="text" id="duedate5" required>
                                                 <label class="form-control-placeholder" for="duedate5">5</label>
-                                                <span class="perday">Days</span>
+                                                <span class="perdayones">Days</span>
                                             </li>
                                             
                                             <li>Maximum Books Allowed per student</li>
                                             <li class="Dropdowninputbox"> 
                                                 <input class="form-control duedate6" type="text" id="duedate6" required>
                                                 <label class="form-control-placeholder" for="duedate6">5</label>
-                                                <img src="images/svg/Dropdown.svg" class="Dropdown">
                                                 <span class="perdayones">Books</span>
                                             </li>
                                             
                                             <li>Late Fine</li>
                                             <li class="Dropdowninputbox"> 
+                                                <img src="images/svg/dollersinge.svg" class="dollersinge">
                                                 <input class="form-control duedate7" type="text" id="duedate7" required>
                                                 <label class="form-control-placeholder" for="duedate7">10</label>
-                                                <img src="images/svg/Dropdown.svg" class="Dropdown">
-                                                <span class="perdayones">per day</span>
+                                                <span class="perday">per day <img src="images/svg/Dropdown_down.svg" class="Dropdown_down"></span>
                                             </li>
-
+                                            
                                             <li>Lost Book Fine</li>
                                             <li class="Dropdowninputbox"> 
                                                 <input class="form-control duedate7" type="text" id="duedate7" required>
                                                 <label class="form-control-placeholder" for="duedate7">10</label>
-                                                <img src="images/svg/Dropdown.svg" class="Dropdown">
-                                                <span class="perdayones">% of book Price</span>
+                                                <span class="perday">% of book Price <img src="images/svg/Dropdown_down.svg" class="Dropdown_down"></span>
                                             </li>
                                             <li>Damaged Book Fine</li>
                                             <li class="Dropdowninputbox"> 
+                                                <img src="images/svg/dollersinge.svg" class="dollersinge">
                                                 <input class="form-control duedate7" type="text" id="duedate7" required>
                                                 <label class="form-control-placeholder" for="duedate7">10</label>
-                                                <img src="images/svg/Dropdown.svg" class="Dropdown">
-                                                <span class="perdayones">fixed</span>
+                                                <span class="perday">fixed <img src="images/svg/Dropdown_down.svg" class="Dropdown_down"></span>
                                             </li>
                                         </ul>
                                     </div>
@@ -102,52 +99,80 @@
                             </div>
                             
                             <div class="Fee_Components">
-                                <h4>Fee Components</h4>
+                                <h4>Library Sections</h4>
                                 
                                 <div class="Periodsection">
                                     <div class="Period123">
                                         <ul>
-                                            <li>Fee Type</li>
-                                            <li>Period</li>
+                                            <li>Section Name</li>
+                                            <li>Material</li>
                                         </ul>
                                         <ul class="subsectionsPeriod">
-                                            <li><span>Tution Fee</span></li>
-                                            <li class="Period"><span>Monthly</span></li>
-                                            <li><span>Admission Charges</span></li>
-                                            <li class="Period"><span>Yearly</span></li>
-                                            <li><span>Transport</span></li>
-                                            <li class="Period"><span>Quarterly</span></li>
-                                            <li><span>Library</span></li>
-                                            <li class="Period"><span>Semesterly</span></li>
+                                            <li><span>Periodicals</span></li>
+                                            <li class="Period"><span>Can be issued</span> 
+                                                <span class="switch">
+                                                    <input type="checkbox" id="11" checked>
+                                                    <label for="11"></label>
+                                                </span>
+                                            </li>
+                                            <li><span>Circulation</span></li>
+                                            <li class="Period"><span>Can be issued</span>
+                                                <span class="switch">
+                                                    <input type="checkbox" id="1" checked>
+                                                    <label for="1"></label>
+                                                </span>
+                                            </li>
+                                            <li><span>Reference</span></li>
+                                            <li class="Period"><span>Can be issued</span>
+                                                <span class="switch">
+                                                    <input type="checkbox" id="2">
+                                                    <label for="2"></label>
+                                                </span>
+                                            </li>
+                                            <li><span>Other</span></li>
+                                            <li class="Period"><span>Can be issued</span>
+                                                <span class="switch">
+                                                    <input type="checkbox" id="3" checked>
+                                                    <label for="3"></label>
+                                                </span>
+                                            </li>
                                         </ul>
+                                        <div class="Add_Stopsection">
+                                            <div class="Add_questionsection">
+                                                <div class="add_option1">
+                                                    <span>Add Stop</span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     
                                 </div>
                             </div>
-                            
-                            <div class="Fee_Components1">
-                                <h4>Discounts</h4>
-                                
-                                <div class="Periodsection">
-                                    <div class="Period123">
-                                        
-                                        <ul class="subsectionsPeriod">
-                                            <li><span>EWS</span></li>
-                                            <li class="Period"><span class="persantage">10 <img src="images/svg/persantage.svg" class="Dropdownones"></span></li>
-                                            <li><span>Scholarship</span></li>
-                                            <li class="Period"><span class="persantage">20  <img src="images/svg/persantage.svg" class="Dropdownones"></span></li>
-                                            <li><span>Gender Discount</span></li>
-                                            <li class="Period"><span class="persantage">5  <img src="images/svg/persantage.svg" class="Dropdownones"></span></li>
-                                            <li><span>Staff Discount</span></li>
-                                            <li class="Period"><span class="persantage">50  <img src="images/svg/persantage.svg" class="Dropdownones"></span></li>
-                                        </ul>
+                            <div class="bookmerticalsection">
+                                <div class="Fee_Components">
+                                    <h4>Book/Material Types</h4>
+                                    <div class="Periodsection">
+                                        <div class="Period123">
+                                           <p>Type</p>
+                                            <ul>
+                                                <li><span>Textbook</span></li>
+                                                <li><span>Periodical</span></li>
+                                                <li><span>Magazine</span></li>
+                                                <li><span>Journal</span></li>
+                                                <li><span>Comic</span></li>
+                                                <li><span>VCD/DVD</span></li>
+                                            </ul>
+                                            <div class="Add_Stopsection">
+                                                <div class="Add_questionsection">
+                                                    <div class="add_option1">
+                                                        <span>Add Book Type</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                        <div class="struture">
-                            <p>** this struture will be replicated for all classes. You can change the structure of specfic classes from Fee Structure if you want to chnge for a particualr class.</p>
                         </div>
                     </div>
                 </div>

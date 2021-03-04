@@ -1,2 +1,83 @@
+.screen2014 .container .information {
+    text-align: left;
+ }
+ .screen2014 .container .information p{
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+ } 
+ .screen2014 .container .eventdescription{
+    text-align: left;
+}
+.screen2014 .container .eventdescription p{
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px; 
+    margin-top: 20px;
+}
+.screen2014 .container .recipients{
+    text-align: initial;
+    margin-top: 20px;
+}
+.screen2014 .container .box{
+    
+   height: 124px;
+   width: 200px;
+   background-color: #EFF8F8;
+   margin-right: 15px;
+}
+.screen2014 .container .box img{
+    display: inline-block;
+    height: 125px;
+    width: 200px
+}
+.screen2014 .container .menu{
+    display: flex;
+    margin-top: 15px;
 
-
+    width: 100%;
+    overflow-x: auto;
+}
+.screen2014 .container  .menu .slider p{
+    text-align: start;
+    font-size: 15px;
+    color: #4DB6AC;
+   margin-top: 8px;
+}
+.screen2014 .container .recipients .checkboxsection{
+    display: flex;
+}
+.screen2014 .container .recipients .checkboxsection .checkbox{
+    position: relative;
+    margin-right: 15px;
+}
+.screen2014 .container .recipients .checkboxsection .checkbox label{
+    padding-left: 40px;
+}
+.screen2014 .container .recipients .checkboxsection .checkbox label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+ 
+}
+.screen2014 .container .recipients .checkboxsection .checkbox label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 1;
+    transition: background-size 0.2s ease;
+    
+}

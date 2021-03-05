@@ -20402,15 +20402,730 @@ span.Payment_Pending {
     font-weight: 700;
 }
 .screen1818 .createNewClass {
-       padding: 14px 25px 0px 25px;
-       width: 450px;
-       height: calc(100vh - 796px);
-       text-align: center;
-       min-height: 240px !important;
-       max-height: 830px;
+    padding: 14px 25px 0px 25px;
+    width: 450px;
+    height: calc(100vh - 796px);
+    text-align: center;
+    min-height: 240px !important;
+    max-height: 830px;
 }
 
 /***********************************/
+
+
+/******************** 1001 ************************/
+.screen2010 .exam-btn-section {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.screen2010 .StatusSectionHeader {
+    background: #E0F2F1;
+    padding: 15px 40px;
+}
+
+.screen2010 .StatusSectionHeader span {
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00352D;
+}
+
+.screen2010 .endsection button.withIcon {
+    font-size: 0px;
+    background: transparent;
+    border: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 0rem rgb(237 108 13 / 30%);
+    padding: 0px;
+    min-width: 3rem;
+}
+
+.screen2010 .StatusSectionHeader span.active {
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00352D;
+}
+
+.screen2010 .StatusSectionHeader span.active::after {
+    content: '';
+    width: 120%;
+    position: absolute;
+    border-bottom: 4px solid #F47E16;
+    top: 40px;
+    left: -12px;
+    border-radius: 2px;
+}
+
+.screen2010 .StatusSectionHeader span.active:last-child::after {
+    width: 105%;
+    left: -10px;
+}
+
+.screen2010 .contain-area {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}
+.screen2010 .Scheduled_set {
+    background: #FFFFFF;
+    border: 1px solid #80CBC4;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px 20px;
+    width: calc(80vw - 10rem);
+}
+.screen2010 .Independence_section {
+    flex: 2;
+}
+.screen2010 .Independenceone_section {
+    flex: 0.5;
+}
+.screen2010 .Independencetwo_section p span.DELETE {
+    flex: 1;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #F47E16;
+    display: flex;
+    cursor: pointer;
+}
+.screen2010 .Independencetwo_section p .DELETE img.Reply {
+    padding-left: 15px;
+}
+
+.screen2010 .Independencetwo_section p {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen2010 .Independencetwo_section {
+    flex: 0.5;
+}
+.screen2010 .contain-area .Scheduled_sectionmein {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen2010 .Independenceone_section p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #009688;
+}
+.screen2010 .Independence_section p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #00352D;
+}
+.screen2010 .contain-area .box .exam-section {
+    flex: 1;
+}
+
+.screen2010 .contain-area .box .time-section {
+    flex: 0.5;
+}
+
+.screen2010 .contain-area .box .action-section {
+    flex: 2;
+    margin-top: 20px;
+}
+
+.screen2010 .contain-area .box .exam-section p {
+    color: #009688;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.screen2010 .contain-area .box .exam-section span {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.screen2010 .contain-area .box .time-section p {
+    color: #0D352D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.screen2010 .contain-area .box .time-section p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.screen2010 .contain-area .box .action-section button {
+    background-color: transparent;
+    outline: none;
+    color: #FF7700;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    min-width: auto;
+    margin-right: 25px;
+    background: transparent;
+}
+
+.screen2010 .contain-area .box .action-section button.withIcon {
+    display: inline-flex;
+}
+
+.screen2010 .contain-area .box .action-section button.withIcon img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.screen2010 .onetwosection .numbersection span {
+    background: #E0F2F1;
+    padding: 4px 7px;
+    border-radius: 25px;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 3 !important;
+    letter-spacing: 0.5px !important;
+    color: #00352D !important;
+    margin: 5px;
+    cursor: pointer;
+}
+.screen2010 .SAve span.Modify_Class.Fee_Structure {
+    color: #009688 !important;
+}
+.screen2010 img.Add {
+    position: absolute;
+    left: auto;
+    right: 15px;
+}
+.screen2010 .exam-btn-section button {
+    position: relative;
+    padding: 15px 55px 15px 20px;
+}
+.screen2010 .boxesimages_section ul li {
+    padding: 0px 5px;
+}
+.screen2010 .boxesimages_section ul li p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #4DB6AC;
+    cursor: pointer;
+}
+.screen2010 .boxesimages_section ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/******************** 1001 ************************/
+
+/***************** 2012 *****************/
+.screen2012 .createNewClass {
+    padding: 15px 40px;
+}
+.screen2012 .createNewClass {
+    max-height: 700px;
+}
+
+.screen2012 .container {
+    margin-top: 15px;
+}
+
+.screen2012 .container .event {
+    position: relative;
+}
+
+.screen2012 .container .event:nth-child(2) input {
+    margin-bottom: 0;
+}
+
+.screen2012 .container .event input {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+}
+
+.screen2012 .container .event label {
+    position: absolute;
+    top: 0;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.screen2012 .container .event input:focus+label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+    visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+}
+
+.screen2012 .container .attachPhotoSection {
+    display: flex;
+    justify-content: flex-end;
+    color: #F47E16;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.screen2012 .container .attachPhotoSection span {
+    display: flex;
+    cursor: pointer;
+}
+
+.screen2012 .container .attachPhotoSection img {
+    margin-right: 10px;
+}
+
+.screen2012 .container .recipients {
+    text-align: left;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen2012 .container .checkboxSection {
+    display: flex;
+    border-bottom: 0.5px solid #4DB6AC;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width: 415px;
+}
+
+.screen2012 .container .checkboxSection .checkbox {
+    position: relative;
+    margin-right: 15px;
+}
+
+.screen2012 .container .checkboxSection .checkbox label {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.screen2012 .container .checkboxSection .checkbox label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+
+.screen2012 .container .checkboxSection .checkbox label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 1;
+    transition: background-size 0.2s ease;
+}
+
+.screen2012 .container .checkboxSection.borderNone {
+    border-bottom: none;
+}
+
+.screen2012 .container .sliderSection .box {
+    background: #EFF8F8;
+    width: 200px;
+    height: 125px;
+    position: relative;
+}
+
+.screen2012 .container .sliderSection .box .deleteImg {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+}
+
+.screen2012 .container .sliderSection .box .deleteImg img {
+    cursor: pointer;
+}
+
+.screen2012 .container .sliderSection .box .imgIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 0;
+}
+
+.screen2012 .container .sliderSection {
+    display: flex;
+    margin-top: 20px;
+}
+
+.screen2012 .container .sliderSection .mainBox {
+    margin-right: 15px;
+}
+
+.screen2012 .container .sliderSection .mainBox p {
+    text-align: left;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #B2DFDB;
+    color: #4DB6AC;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.screen2012 .container .postEvent {
+    margin-top: 30px;
+}
+
+/***************** 2012 *****************/
+
+
+/***************** 2013 *****************/
+.screen2013 .createNewClass {
+    padding: 15px 40px;
+}
+
+.screen2013 .createNewClass {
+    max-height: 700px;
+}
+
+.screen2013 .container {
+    margin-top: 15px;
+}
+
+.screen2013 .container .event {
+    position: relative;
+}
+
+.screen2013 .container .event:nth-child(2) input {
+    margin-bottom: 0;
+}
+
+.screen2013 .container .event input {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+}
+
+.screen2013 .container .event label {
+    position: absolute;
+    top: 0;
+    padding: 0.75rem 0 0 2.5rem;
+    transition: all 200ms;
+    visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.screen2013 .container .event input:focus+label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: none;
+    visibility: visible;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+}
+
+.screen2013 .container .attachPhotoSection {
+    display: flex;
+    justify-content: flex-end;
+    color: #F47E16;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.screen2013 .container .attachPhotoSection span {
+    display: flex;
+    cursor: pointer;
+}
+
+.screen2013 .container .attachPhotoSection img {
+    margin-right: 10px;
+}
+
+.screen2013 .container .recipients {
+    text-align: left;
+    color: #00352D;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.screen2013 .container .checkboxSection {
+    display: flex;
+    border-bottom: 0.5px solid #4DB6AC;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width: 440px;
+}
+
+.screen2013 .container .checkboxSection .checkbox {
+    position: relative;
+    margin-right: 15px;
+}
+
+.screen2013 .container .checkboxSection .checkbox label {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.screen2013 .container .checkboxSection .checkbox label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+
+.screen2013 .container .checkboxSection .checkbox label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 0.5625rem);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 1;
+    transition: background-size 0.2s ease;
+}
+
+.screen2013 .container .checkboxSection.borderNone {
+    border-bottom: none;
+}
+
+.screen2013 .container .sliderSection .box {
+    background: #EFF8F8;
+    width: 200px;
+    height: 125px;
+    position: relative;
+}
+
+.screen2013 .container .sliderSection .box .deleteImg {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+}
+
+.screen2013 .container .sliderSection .box .deleteImg img {
+    cursor: pointer;
+}
+
+.screen2013 .container .sliderSection .box .imgIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 0;
+}
+
+.screen2013 .container .sliderSection {
+    display: flex;
+    margin-top: 20px;
+}
+
+.screen2013 .container .sliderSection .mainBox {
+    margin-right: 15px;
+}
+
+.screen2013 .container .sliderSection .mainBox p {
+    text-align: left;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #B2DFDB;
+    color: #4DB6AC;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.screen2013 .container .postEvent {
+    margin-top: 30px;
+}
+.screen2013 .validDate_section2013 .validDate {
+    position: relative;
+}
+.screen2013 .validDate_section2013 .validDate input {
+    background-image: url(../images/svg/bag.svg);
+    background-repeat: no-repeat;
+    background-position: 7px center;
+}
+.screen2013 .validDate_section2013 .validDate label {
+    font-size: 75% !important;
+    transform: translate(0.8rem, -100%);
+    padding: 0 0.3rem;
+    color: #4DB6AC;
+    visibility: visible;
+    text-align: left;
+    margin-top: 15px;
+    position: absolute;
+    top: -15px;
+}
+.screen2013 .validDate_section2013 ul li .event label {
+    color: #4DB6AC;
+}
+.screen2013 .container .validDate_section2013 ul li input {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #0D352D;
+}
+.screen2013 .validDate_section2013 ul {
+    display: flex;
+    align-items: center;
+}
+.screen2013 .validDate_section2013 ul li {
+    margin: 15px 15px 0px 0px;
+    padding: 0px;
+}
+/***************** 2013 *****************/
+
+
+/***************** screen2014 *****************/
+
+.screen2014 .container .information {
+    text-align: left;
+}
+
+.screen2014 .container .information p {
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.screen2014 .container .eventdescription {
+    text-align: left;
+}
+
+.screen2014 .container .eventdescription p {
+    margin-bottom: 5px;
+    color: #4DB6AC;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.screen2014 .container .recipients {
+    text-align: initial;
+    margin-top: 20px;
+}
+
+.screen2014 .container .box {
+    height: 124px;
+    width: 200px;
+    background-color: #EFF8F8;
+    margin-right: 15px;
+}
+
+.screen2014 .container .box img {
+    display: inline-block;
+    height: 125px;
+    width: 200px
+}
+
+.screen2014 .container .menu {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.screen2014 .container .menu .slider p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #4DB6AC;
+    margin-top: 8px;
+}
+
+.screen2014 .container .recipients .checkboxsection {
+    display: flex;
+}
+
+.screen2014 .container .recipients .checkboxsection .checkbox {
+    position: relative;
+    margin-right: 15px;
+}
+
+.screen2014 .container .recipients .checkboxsection .checkbox label {
+    padding-left: 40px;
+}
+
+.screen2014 .container .recipients .checkboxsection .checkbox label::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0px;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 0.063rem solid #DDE5EB;
+    transition: background-size 0.2s ease;
+}
+
+.screen2014 .container .recipients .checkboxsection .checkbox label::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 0;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 1;
+    transition: background-size 0.2s ease;
+}
 /************ media screen *****************/
 
 @media only screen and (max-width: 1099px) {

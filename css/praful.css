@@ -1,0 +1,20 @@
+.screen2014 .createNewClass .container .recipients .checkboxsection .checkbox input:disabled:checked+label::after {
+    background: url('../images/svg/disabledCheckbox.svg') center no-repeat;   
+}
+.screen2014 .createNewClass .container .menu .slider .box {
+    position: relative;
+}
+.screen2014 .createNewClass .container .menu .slider .box .img {
+    position: absolute;
+    height: 124px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen2014 .createNewClass .container .menu .slider .box .img img {
+    height: 30px;
+}
+.screen2014 .createNewClass .container .menu .slider p {
+    text-align: left;
+}

@@ -217,6 +217,7 @@
 .screen2012 .container .sliderSection {
     display: flex;
     margin-top: 20px;
+    overflow-x: auto;
 }
 .screen2012 .container .sliderSection .mainBox {
     margin-right: 15px;

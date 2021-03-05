@@ -25,7 +25,6 @@
     margin-top: 20px;
 }
 .screen2014 .container .box{
-    
    height: 124px;
    width: 200px;
    background-color: #EFF8F8;
@@ -39,7 +38,6 @@
 .screen2014 .container .menu{
     display: flex;
     margin-top: 15px;
-
     width: 100%;
     overflow-x: auto;
 }
@@ -68,7 +66,6 @@
     height: 1.125rem;
     border: 0.063rem solid #DDE5EB;
     transition: background-size 0.2s ease;
- 
 }
 .screen2014 .container .recipients .checkboxsection .checkbox label::after {
     content: "";
@@ -79,5 +76,4 @@
     height: 1.125rem;
     opacity: 1;
     transition: background-size 0.2s ease;
-    
 }
